@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		806C182C1DD1556300B1236D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806C182B1DD1556300B1236D /* AppDelegate.swift */; };
+		806C182E1DD1556300B1236D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806C182D1DD1556300B1236D /* ViewController.swift */; };
+		806C18311DD1556300B1236D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806C182F1DD1556300B1236D /* Main.storyboard */; };
+		806C18331DD1556300B1236D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806C18321DD1556300B1236D /* Assets.xcassets */; };
+		806C18361DD1556300B1236D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806C18341DD1556300B1236D /* LaunchScreen.storyboard */; };
+		806C18411DD1556300B1236D /* Fenway_Gardens_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806C18401DD1556300B1236D /* Fenway_Gardens_AppTests.swift */; };
+		806C184C1DD1556300B1236D /* Fenway_Gardens_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806C184B1DD1556300B1236D /* Fenway_Gardens_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		806C183D1DD1556300B1236D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 806C18201DD1556300B1236D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806C18271DD1556300B1236D;
+			remoteInfo = "Fenway Gardens App";
+		};
+		806C18481DD1556300B1236D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 806C18201DD1556300B1236D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806C18271DD1556300B1236D;
+			remoteInfo = "Fenway Gardens App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		806C18281DD1556300B1236D /* Fenway Gardens App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fenway Gardens App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806C182B1DD1556300B1236D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		806C182D1DD1556300B1236D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		806C18301DD1556300B1236D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		806C18321DD1556300B1236D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		806C18351DD1556300B1236D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		806C18371DD1556300B1236D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806C183C1DD1556300B1236D /* Fenway Gardens AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fenway Gardens AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806C18401DD1556300B1236D /* Fenway_Gardens_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fenway_Gardens_AppTests.swift; sourceTree = "<group>"; };
+		806C18421DD1556300B1236D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806C18471DD1556300B1236D /* Fenway Gardens AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fenway Gardens AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806C184B1DD1556300B1236D /* Fenway_Gardens_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fenway_Gardens_AppUITests.swift; sourceTree = "<group>"; };
+		806C184D1DD1556300B1236D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806C18251DD1556300B1236D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806C18391DD1556300B1236D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806C18441DD1556300B1236D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		806C181F1DD1556300B1236D = {
+			isa = PBXGroup;
+			children = (
+				806C182A1DD1556300B1236D /* Fenway Gardens App */,
+				806C183F1DD1556300B1236D /* Fenway Gardens AppTests */,
+				806C184A1DD1556300B1236D /* Fenway Gardens AppUITests */,
+				806C18291DD1556300B1236D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		806C18291DD1556300B1236D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806C18281DD1556300B1236D /* Fenway Gardens App.app */,
+				806C183C1DD1556300B1236D /* Fenway Gardens AppTests.xctest */,
+				806C18471DD1556300B1236D /* Fenway Gardens AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806C182A1DD1556300B1236D /* Fenway Gardens App */ = {
+			isa = PBXGroup;
+			children = (
+				806C182B1DD1556300B1236D /* AppDelegate.swift */,
+				806C182D1DD1556300B1236D /* ViewController.swift */,
+				806C182F1DD1556300B1236D /* Main.storyboard */,
+				806C18321DD1556300B1236D /* Assets.xcassets */,
+				806C18341DD1556300B1236D /* LaunchScreen.storyboard */,
+				806C18371DD1556300B1236D /* Info.plist */,
+			);
+			path = "Fenway Gardens App";
+			sourceTree = "<group>";
+		};
+		806C183F1DD1556300B1236D /* Fenway Gardens AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				806C18401DD1556300B1236D /* Fenway_Gardens_AppTests.swift */,
+				806C18421DD1556300B1236D /* Info.plist */,
+			);
+			path = "Fenway Gardens AppTests";
+			sourceTree = "<group>";
+		};
+		806C184A1DD1556300B1236D /* Fenway Gardens AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				806C184B1DD1556300B1236D /* Fenway_Gardens_AppUITests.swift */,
+				806C184D1DD1556300B1236D /* Info.plist */,
+			);
+			path = "Fenway Gardens AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806C18271DD1556300B1236D /* Fenway Gardens App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806C18501DD1556300B1236D /* Build configuration list for PBXNativeTarget "Fenway Gardens App" */;
+			buildPhases = (
+				806C18241DD1556300B1236D /* Sources */,
+				806C18251DD1556300B1236D /* Frameworks */,
+				806C18261DD1556300B1236D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fenway Gardens App";
+			productName = "Fenway Gardens App";
+			productReference = 806C18281DD1556300B1236D /* Fenway Gardens App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		806C183B1DD1556300B1236D /* Fenway Gardens AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806C18531DD1556300B1236D /* Build configuration list for PBXNativeTarget "Fenway Gardens AppTests" */;
+			buildPhases = (
+				806C18381DD1556300B1236D /* Sources */,
+				806C18391DD1556300B1236D /* Frameworks */,
+				806C183A1DD1556300B1236D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806C183E1DD1556300B1236D /* PBXTargetDependency */,
+			);
+			name = "Fenway Gardens AppTests";
+			productName = "Fenway Gardens AppTests";
+			productReference = 806C183C1DD1556300B1236D /* Fenway Gardens AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		806C18461DD1556300B1236D /* Fenway Gardens AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806C18561DD1556300B1236D /* Build configuration list for PBXNativeTarget "Fenway Gardens AppUITests" */;
+			buildPhases = (
+				806C18431DD1556300B1236D /* Sources */,
+				806C18441DD1556300B1236D /* Frameworks */,
+				806C18451DD1556300B1236D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806C18491DD1556300B1236D /* PBXTargetDependency */,
+			);
+			name = "Fenway Gardens AppUITests";
+			productName = "Fenway Gardens AppUITests";
+			productReference = 806C18471DD1556300B1236D /* Fenway Gardens AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		806C18201DD1556300B1236D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "BU Global App Initiative";
+				TargetAttributes = {
+					806C18271DD1556300B1236D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					806C183B1DD1556300B1236D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 806C18271DD1556300B1236D;
+					};
+					806C18461DD1556300B1236D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 806C18271DD1556300B1236D;
+					};
+				};
+			};
+			buildConfigurationList = 806C18231DD1556300B1236D /* Build configuration list for PBXProject "Fenway Gardens App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 806C181F1DD1556300B1236D;
+			productRefGroup = 806C18291DD1556300B1236D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806C18271DD1556300B1236D /* Fenway Gardens App */,
+				806C183B1DD1556300B1236D /* Fenway Gardens AppTests */,
+				806C18461DD1556300B1236D /* Fenway Gardens AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806C18261DD1556300B1236D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806C18361DD1556300B1236D /* LaunchScreen.storyboard in Resources */,
+				806C18331DD1556300B1236D /* Assets.xcassets in Resources */,
+				806C18311DD1556300B1236D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806C183A1DD1556300B1236D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806C18451DD1556300B1236D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806C18241DD1556300B1236D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806C182E1DD1556300B1236D /* ViewController.swift in Sources */,
+				806C182C1DD1556300B1236D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806C18381DD1556300B1236D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806C18411DD1556300B1236D /* Fenway_Gardens_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806C18431DD1556300B1236D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806C184C1DD1556300B1236D /* Fenway_Gardens_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		806C183E1DD1556300B1236D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806C18271DD1556300B1236D /* Fenway Gardens App */;
+			targetProxy = 806C183D1DD1556300B1236D /* PBXContainerItemProxy */;
+		};
+		806C18491DD1556300B1236D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806C18271DD1556300B1236D /* Fenway Gardens App */;
+			targetProxy = 806C18481DD1556300B1236D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		806C182F1DD1556300B1236D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806C18301DD1556300B1236D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		806C18341DD1556300B1236D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				806C18351DD1556300B1236D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		806C184E1DD1556300B1236D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		806C184F1DD1556300B1236D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		806C18511DD1556300B1236D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fenway Gardens App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BU-GAI.Fenway-Gardens-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		806C18521DD1556300B1236D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fenway Gardens App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BU-GAI.Fenway-Gardens-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		806C18541DD1556300B1236D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fenway Gardens AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BU-GAI.Fenway-Gardens-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fenway Gardens App.app/Fenway Gardens App";
+			};
+			name = Debug;
+		};
+		806C18551DD1556300B1236D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fenway Gardens AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BU-GAI.Fenway-Gardens-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fenway Gardens App.app/Fenway Gardens App";
+			};
+			name = Release;
+		};
+		806C18571DD1556300B1236D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Fenway Gardens AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BU-GAI.Fenway-Gardens-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Fenway Gardens App";
+			};
+			name = Debug;
+		};
+		806C18581DD1556300B1236D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Fenway Gardens AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BU-GAI.Fenway-Gardens-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Fenway Gardens App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		806C18231DD1556300B1236D /* Build configuration list for PBXProject "Fenway Gardens App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806C184E1DD1556300B1236D /* Debug */,
+				806C184F1DD1556300B1236D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806C18501DD1556300B1236D /* Build configuration list for PBXNativeTarget "Fenway Gardens App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806C18511DD1556300B1236D /* Debug */,
+				806C18521DD1556300B1236D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		806C18531DD1556300B1236D /* Build configuration list for PBXNativeTarget "Fenway Gardens AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806C18541DD1556300B1236D /* Debug */,
+				806C18551DD1556300B1236D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		806C18561DD1556300B1236D /* Build configuration list for PBXNativeTarget "Fenway Gardens AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806C18571DD1556300B1236D /* Debug */,
+				806C18581DD1556300B1236D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 806C18201DD1556300B1236D /* Project object */;
+}
