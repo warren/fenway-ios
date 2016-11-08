@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Fenway_Gardens_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Welcome View Controller" id="BYZ-38-t0r" customClass="ViewController" customModule="Fenway_Gardens_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -28,16 +28,87 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CQ0-R5-pea">
-                                <rect key="frame" x="67" y="313" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="potted plant" translatesAutoresizingMaskIntoConstraints="NO" id="CQ0-R5-pea">
+                                <rect key="frame" x="67" y="313" width="240" height="260"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <segue destination="hYo-x7-Tev" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="qwh-5M-rH5"/>
+                        <segue destination="fpc-Dz-NGv" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="w7Z-id-Lk4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="36" y="38.23088455772114"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="Xqs-5H-RhF">
+            <objects>
+                <tableViewController id="hYo-x7-Tev" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="TON-vp-l6C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Uk3-Tf-GXu">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Uk3-Tf-GXu" id="pL1-NA-5UH">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="hYo-x7-Tev" id="HjF-fi-Xqx"/>
+                            <outlet property="delegate" destination="hYo-x7-Tev" id="93a-2U-G35"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pnF-0F-0eo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911" y="-341"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5Yt-7W-FwM">
+            <objects>
+                <navigationController id="fpc-Dz-NGv" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tTh-vI-mzd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="YB9-xp-qtC" kind="relationship" relationship="rootViewController" id="3OT-CW-1tH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ysc-6O-mJ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="911" y="357"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vQd-Oc-UPu">
+            <objects>
+                <viewController id="YB9-xp-qtC" customClass="ViewController" customModule="Fenway_Gardens_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LYi-ue-WbP"/>
+                        <viewControllerLayoutGuide type="bottom" id="RGp-op-jmu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="90Z-tY-qA7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Np4-EH-qFY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aOy-hU-qhq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1887" y="360"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="potted plant" width="550" height="596"/>
+    </resources>
 </document>
