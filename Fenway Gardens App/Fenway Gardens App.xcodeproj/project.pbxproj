@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801909A11DD225D200DF6176 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801909A01DD225D200DF6176 /* SWRevealViewController.m */; };
 		806C182C1DD1556300B1236D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806C182B1DD1556300B1236D /* AppDelegate.swift */; };
 		806C182E1DD1556300B1236D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806C182D1DD1556300B1236D /* ViewController.swift */; };
 		806C18311DD1556300B1236D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806C182F1DD1556300B1236D /* Main.storyboard */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8019099E1DD225D200DF6176 /* Fenway Gardens App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fenway Gardens App-Bridging-Header.h"; sourceTree = "<group>"; };
+		8019099F1DD225D200DF6176 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		801909A01DD225D200DF6176 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		806C18281DD1556300B1236D /* Fenway Gardens App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fenway Gardens App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		806C182B1DD1556300B1236D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		806C182D1DD1556300B1236D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8019099D1DD2256100DF6176 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8019099F1DD225D200DF6176 /* SWRevealViewController.h */,
+				801909A01DD225D200DF6176 /* SWRevealViewController.m */,
+				806C18371DD1556300B1236D /* Info.plist */,
+				8019099E1DD225D200DF6176 /* Fenway Gardens App-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		806C181F1DD1556300B1236D = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +117,7 @@
 				806C182F1DD1556300B1236D /* Main.storyboard */,
 				806C18321DD1556300B1236D /* Assets.xcassets */,
 				806C18341DD1556300B1236D /* LaunchScreen.storyboard */,
-				806C18371DD1556300B1236D /* Info.plist */,
+				8019099D1DD2256100DF6176 /* Supporting Files */,
 			);
 			path = "Fenway Gardens App";
 			sourceTree = "<group>";
@@ -193,6 +208,7 @@
 				TargetAttributes = {
 					806C18271DD1556300B1236D = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					806C183B1DD1556300B1236D = {
@@ -261,6 +277,7 @@
 			files = (
 				806C182E1DD1556300B1236D /* ViewController.swift in Sources */,
 				806C182C1DD1556300B1236D /* AppDelegate.swift in Sources */,
+				801909A11DD225D200DF6176 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +429,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Fenway Gardens App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BU-GAI.Fenway-Gardens-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fenway Gardens App/Fenway Gardens App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +444,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Fenway Gardens App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BU-GAI.Fenway-Gardens-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Fenway Gardens App/Fenway Gardens App-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +527,7 @@
 				806C18521DD1556300B1236D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		806C18531DD1556300B1236D /* Build configuration list for PBXNativeTarget "Fenway Gardens AppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +536,7 @@
 				806C18551DD1556300B1236D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		806C18561DD1556300B1236D /* Build configuration list for PBXNativeTarget "Fenway Gardens AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +545,7 @@
 				806C18581DD1556300B1236D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
