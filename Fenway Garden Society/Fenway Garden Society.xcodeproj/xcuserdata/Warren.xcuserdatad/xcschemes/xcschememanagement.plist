@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Fenway Gardens App.xcscheme</key>
+		<key>Fenway Garden Society.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>806C18271DD1556300B1236D</key>
+		<key>8092A3021DE0C11C00A51954</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>806C183B1DD1556300B1236D</key>
+		<key>8092A3161DE0C11D00A51954</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>806C18461DD1556300B1236D</key>
+		<key>8092A3211DE0C11D00A51954</key>
 		<dict>
 			<key>primary</key>
 			<true/>

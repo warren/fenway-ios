@@ -1,15 +1,15 @@
 //
-//  Fenway_Gardens_AppTests.swift
-//  Fenway Gardens AppTests
+//  Fenway_Garden_SocietyTests.swift
+//  Fenway Garden SocietyTests
 //
-//  Created by Warren Partridge on 11/7/16.
+//  Created by Warren Partridge on 11/19/16.
 //  Copyright © 2016 BU Global App Initiative. All rights reserved.
 //
 
 import XCTest
-@testable import Fenway_Gardens_App
+@testable import Fenway_Garden_Society
 
-class Fenway_Gardens_AppTests: XCTestCase {
+class Fenway_Garden_SocietyTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
