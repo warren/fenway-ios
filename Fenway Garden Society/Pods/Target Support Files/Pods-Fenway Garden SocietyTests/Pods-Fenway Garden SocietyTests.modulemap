@@ -1,0 +1,6 @@
+framework module Pods_Fenway_Garden_SocietyTests {
+  umbrella header "Pods-Fenway Garden SocietyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
