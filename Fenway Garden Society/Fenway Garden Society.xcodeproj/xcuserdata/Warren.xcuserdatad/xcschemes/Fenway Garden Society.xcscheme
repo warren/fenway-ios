@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "806C18271DD1556300B1236D"
-               BuildableName = "Fenway Gardens App.app"
-               BlueprintName = "Fenway Gardens App"
-               ReferencedContainer = "container:Fenway Gardens App.xcodeproj">
+               BlueprintIdentifier = "8092A3021DE0C11C00A51954"
+               BuildableName = "Fenway Garden Society.app"
+               BlueprintName = "Fenway Garden Society"
+               ReferencedContainer = "container:Fenway Garden Society.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "806C183B1DD1556300B1236D"
-               BuildableName = "Fenway Gardens AppTests.xctest"
-               BlueprintName = "Fenway Gardens AppTests"
-               ReferencedContainer = "container:Fenway Gardens App.xcodeproj">
+               BlueprintIdentifier = "8092A3161DE0C11D00A51954"
+               BuildableName = "Fenway Garden SocietyTests.xctest"
+               BlueprintName = "Fenway Garden SocietyTests"
+               ReferencedContainer = "container:Fenway Garden Society.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "806C18461DD1556300B1236D"
-               BuildableName = "Fenway Gardens AppUITests.xctest"
-               BlueprintName = "Fenway Gardens AppUITests"
-               ReferencedContainer = "container:Fenway Gardens App.xcodeproj">
+               BlueprintIdentifier = "8092A3211DE0C11D00A51954"
+               BuildableName = "Fenway Garden SocietyUITests.xctest"
+               BlueprintName = "Fenway Garden SocietyUITests"
+               ReferencedContainer = "container:Fenway Garden Society.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "806C18271DD1556300B1236D"
-            BuildableName = "Fenway Gardens App.app"
-            BlueprintName = "Fenway Gardens App"
-            ReferencedContainer = "container:Fenway Gardens App.xcodeproj">
+            BlueprintIdentifier = "8092A3021DE0C11C00A51954"
+            BuildableName = "Fenway Garden Society.app"
+            BlueprintName = "Fenway Garden Society"
+            ReferencedContainer = "container:Fenway Garden Society.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "806C18271DD1556300B1236D"
-            BuildableName = "Fenway Gardens App.app"
-            BlueprintName = "Fenway Gardens App"
-            ReferencedContainer = "container:Fenway Gardens App.xcodeproj">
+            BlueprintIdentifier = "8092A3021DE0C11C00A51954"
+            BuildableName = "Fenway Garden Society.app"
+            BlueprintName = "Fenway Garden Society"
+            ReferencedContainer = "container:Fenway Garden Society.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "806C18271DD1556300B1236D"
-            BuildableName = "Fenway Gardens App.app"
-            BlueprintName = "Fenway Gardens App"
-            ReferencedContainer = "container:Fenway Gardens App.xcodeproj">
+            BlueprintIdentifier = "8092A3021DE0C11C00A51954"
+            BuildableName = "Fenway Garden Society.app"
+            BlueprintName = "Fenway Garden Society"
+            ReferencedContainer = "container:Fenway Garden Society.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

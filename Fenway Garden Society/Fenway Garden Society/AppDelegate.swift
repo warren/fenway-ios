@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Fenway Gardens App
+//  Fenway Garden Society
 //
-//  Created by Warren Partridge on 11/7/16.
+//  Created by Warren Partridge on 11/19/16.
 //  Copyright © 2016 BU Global App Initiative. All rights reserved.
 //
 
