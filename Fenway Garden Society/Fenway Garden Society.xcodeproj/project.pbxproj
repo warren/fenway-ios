@@ -14,6 +14,7 @@
 		8092A3111DE0C11D00A51954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8092A30F1DE0C11D00A51954 /* LaunchScreen.storyboard */; };
 		8092A31C1DE0C11D00A51954 /* Fenway_Garden_SocietyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092A31B1DE0C11D00A51954 /* Fenway_Garden_SocietyTests.swift */; };
 		8092A3271DE0C11D00A51954 /* Fenway_Garden_SocietyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092A3261DE0C11D00A51954 /* Fenway_Garden_SocietyUITests.swift */; };
+		852D88351DE3CCC500E6AD01 /* UISideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852D88341DE3CCC500E6AD01 /* UISideMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8092A3221DE0C11D00A51954 /* Fenway Garden SocietyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fenway Garden SocietyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8092A3261DE0C11D00A51954 /* Fenway_Garden_SocietyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fenway_Garden_SocietyUITests.swift; sourceTree = "<group>"; };
 		8092A3281DE0C11D00A51954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		852D88341DE3CCC500E6AD01 /* UISideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISideMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				8092A3061DE0C11D00A51954 /* AppDelegate.swift */,
 				8092A3081DE0C11D00A51954 /* ViewController.swift */,
 				8092A30A1DE0C11D00A51954 /* Main.storyboard */,
+				852D88341DE3CCC500E6AD01 /* UISideMenuViewController.swift */,
 				8092A30D1DE0C11D00A51954 /* Assets.xcassets */,
 				8092A30F1DE0C11D00A51954 /* LaunchScreen.storyboard */,
 				8092A3121DE0C11D00A51954 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852D88351DE3CCC500E6AD01 /* UISideMenuViewController.swift in Sources */,
 				8092A3091DE0C11D00A51954 /* ViewController.swift in Sources */,
 				8092A3071DE0C11D00A51954 /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +509,7 @@
 				8092A32D1DE0C11D00A51954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8092A32E1DE0C11D00A51954 /* Build configuration list for PBXNativeTarget "Fenway Garden SocietyTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				8092A3301DE0C11D00A51954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8092A3311DE0C11D00A51954 /* Build configuration list for PBXNativeTarget "Fenway Garden SocietyUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				8092A3331DE0C11D00A51954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
