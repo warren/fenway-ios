@@ -67,7 +67,10 @@
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfq-Ue-13y">
                                             <rect key="frame" x="148" y="6" width="46" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Button"/>
+                                            <state key="normal" title="Map"/>
+                                            <connections>
+                                                <segue destination="Taa-qA-RfJ" kind="show" id="EpN-m1-alW"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -118,6 +121,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SSz-Wh-tsF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2000.8" y="134.48275862068968"/>
+        </scene>
+        <!--New View Controller-->
+        <scene sceneID="Uul-vX-Wr5">
+            <objects>
+                <viewController id="Taa-qA-RfJ" customClass="NewViewController" customModule="Fenway_Garden_Society" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s92-io-gun"/>
+                        <viewControllerLayoutGuide type="bottom" id="cRH-aA-V1m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RSv-TI-VLX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Pretend I am a map)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggf-TO-1IH">
+                                <rect key="frame" x="108" y="323" width="159" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="ggf-TO-1IH" id="cMY-hw-R4f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EZu-q3-Xb7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2918" y="134"/>
         </scene>
         <!--Side Menu Navigation Controller-->
         <scene sceneID="BtX-ya-qOg">
