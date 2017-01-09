@@ -40,10 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		094012E77F0BD3BB07A51D81 /* Pods-Fenway Garden SocietyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyTests/Pods-Fenway Garden SocietyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		12623BF1E46FF3171ADA1BF3 /* Pods-Fenway Garden Society.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden Society.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden Society/Pods-Fenway Garden Society.debug.xcconfig"; sourceTree = "<group>"; };
+		1C28F01A33AE169EBA965704 /* Pods-Fenway Garden SocietyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyUITests/Pods-Fenway Garden SocietyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C526E7C57F9FADB03D966E7 /* Pods_Fenway_Garden_SocietyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fenway_Garden_SocietyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AAFF8E45E938E08CD5B84D /* Pods_Fenway_Garden_SocietyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fenway_Garden_SocietyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		758DB2EC56EDF69FC726D024 /* Pods-Fenway Garden SocietyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyUITests/Pods-Fenway Garden SocietyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		768ACB380813AD10D3148E1C /* Pods-Fenway Garden SocietyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyUITests/Pods-Fenway Garden SocietyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8001B3D31DE4EF0A00DFC6AF /* potted_plant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potted_plant.jpg; sourceTree = "<group>"; };
 		8092A3031DE0C11D00A51954 /* Fenway Garden Society.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fenway Garden Society.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8092A3061DE0C11D00A51954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,11 +61,10 @@
 		8092A3281DE0C11D00A51954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80980C7F1DED04D70040957D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		80980C811DED075D0040957D /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
-		8E370BF4E72BE3E798A71F3F /* Pods-Fenway Garden SocietyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyTests/Pods-Fenway Garden SocietyTests.release.xcconfig"; sourceTree = "<group>"; };
-		9ACA74C56A470C6D7F860E57 /* Pods-Fenway Garden Society.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden Society.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden Society/Pods-Fenway Garden Society.release.xcconfig"; sourceTree = "<group>"; };
+		8346902DA0D038A7709177EA /* Pods-Fenway Garden Society.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden Society.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden Society/Pods-Fenway Garden Society.release.xcconfig"; sourceTree = "<group>"; };
 		BCC012F996C247DA2260EFC4 /* Pods_Fenway_Garden_Society.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fenway_Garden_Society.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9B71DC10C157009DD9B42C0 /* Pods-Fenway Garden SocietyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyUITests/Pods-Fenway Garden SocietyUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F94D575D7F78E3069281169F /* Pods-Fenway Garden Society.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden Society.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden Society/Pods-Fenway Garden Society.debug.xcconfig"; sourceTree = "<group>"; };
+		E8420C726B9EE98DAE897CB5 /* Pods-Fenway Garden SocietyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyTests/Pods-Fenway Garden SocietyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC0D200232FE4BF98A603914 /* Pods-Fenway Garden SocietyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyTests/Pods-Fenway Garden SocietyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,12 +162,12 @@
 		9B55F605244644BD3AF33726 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F94D575D7F78E3069281169F /* Pods-Fenway Garden Society.debug.xcconfig */,
-				9ACA74C56A470C6D7F860E57 /* Pods-Fenway Garden Society.release.xcconfig */,
-				094012E77F0BD3BB07A51D81 /* Pods-Fenway Garden SocietyTests.debug.xcconfig */,
-				8E370BF4E72BE3E798A71F3F /* Pods-Fenway Garden SocietyTests.release.xcconfig */,
-				758DB2EC56EDF69FC726D024 /* Pods-Fenway Garden SocietyUITests.debug.xcconfig */,
-				C9B71DC10C157009DD9B42C0 /* Pods-Fenway Garden SocietyUITests.release.xcconfig */,
+				12623BF1E46FF3171ADA1BF3 /* Pods-Fenway Garden Society.debug.xcconfig */,
+				8346902DA0D038A7709177EA /* Pods-Fenway Garden Society.release.xcconfig */,
+				E8420C726B9EE98DAE897CB5 /* Pods-Fenway Garden SocietyTests.debug.xcconfig */,
+				FC0D200232FE4BF98A603914 /* Pods-Fenway Garden SocietyTests.release.xcconfig */,
+				1C28F01A33AE169EBA965704 /* Pods-Fenway Garden SocietyUITests.debug.xcconfig */,
+				768ACB380813AD10D3148E1C /* Pods-Fenway Garden SocietyUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -617,7 +617,7 @@
 		};
 		8092A32C1DE0C11D00A51954 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F94D575D7F78E3069281169F /* Pods-Fenway Garden Society.debug.xcconfig */;
+			baseConfigurationReference = 12623BF1E46FF3171ADA1BF3 /* Pods-Fenway Garden Society.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Fenway Garden Society/Info.plist";
@@ -630,7 +630,7 @@
 		};
 		8092A32D1DE0C11D00A51954 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9ACA74C56A470C6D7F860E57 /* Pods-Fenway Garden Society.release.xcconfig */;
+			baseConfigurationReference = 8346902DA0D038A7709177EA /* Pods-Fenway Garden Society.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Fenway Garden Society/Info.plist";
@@ -643,7 +643,7 @@
 		};
 		8092A32F1DE0C11D00A51954 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 094012E77F0BD3BB07A51D81 /* Pods-Fenway Garden SocietyTests.debug.xcconfig */;
+			baseConfigurationReference = E8420C726B9EE98DAE897CB5 /* Pods-Fenway Garden SocietyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -658,7 +658,7 @@
 		};
 		8092A3301DE0C11D00A51954 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E370BF4E72BE3E798A71F3F /* Pods-Fenway Garden SocietyTests.release.xcconfig */;
+			baseConfigurationReference = FC0D200232FE4BF98A603914 /* Pods-Fenway Garden SocietyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -673,7 +673,7 @@
 		};
 		8092A3321DE0C11D00A51954 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 758DB2EC56EDF69FC726D024 /* Pods-Fenway Garden SocietyUITests.debug.xcconfig */;
+			baseConfigurationReference = 1C28F01A33AE169EBA965704 /* Pods-Fenway Garden SocietyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Fenway Garden SocietyUITests/Info.plist";
@@ -687,7 +687,7 @@
 		};
 		8092A3331DE0C11D00A51954 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9B71DC10C157009DD9B42C0 /* Pods-Fenway Garden SocietyUITests.release.xcconfig */;
+			baseConfigurationReference = 768ACB380813AD10D3148E1C /* Pods-Fenway Garden SocietyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Fenway Garden SocietyUITests/Info.plist";

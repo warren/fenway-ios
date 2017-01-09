@@ -6,6 +6,8 @@
 
 ### If you like SideMenu, give it a ★ at the top right of its [GitHub](https://github.com/jonkykong/SideMenu) page.
 
+My name is Jon Kent and I'm a freelance iOS designer, developer, and mobile strategist. I love coffee and play the drums. [**Hire me**](mailto:contact@jonkent.me?subject=Let's build something amazing.) to help you make cool stuff. I also have a [website](http://jonkent.me). *Note: If you're having a problem with SideMenu, please open an [issue](https://github.com/jonkykong/SideMenu/issues/new) and do not email me.*
+
 ## Overview
 
 SideMenu is a simple and versatile side menu control written in Swift.
@@ -68,7 +70,7 @@ $ brew install carthage
 To integrate SideMenu into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "jonkykong/SideMenu"
+github "jonkykong/SideMenu" "master"
 ```
 
 ## Usage
@@ -108,7 +110,10 @@ SideMenuManager.menuAddScreenEdgePanGesturesToPresent(toView: self.navigationCon
 ```
 Then from a button, do something like this:
 ``` swift
-presentViewController(SideMenuManager.menuLeftNavigationController!, animated: true, completion: nil)
+present(SideMenuManager.menuLeftNavigationController!, animated: true, completion: nil)
+
+// For Swift 2.3, use:
+// presentViewController(SideMenuManager.menuLeftNavigationController!, animated: true, completion: nil)
 ```
 That's it.
 ### Customization
@@ -179,6 +184,9 @@ open static var menuFadeStatusBar = true
 /// When true, pushViewController called within the menu it will push the new view controller inside of the menu. Otherwise, it is pushed on the menu's presentingViewController. Default is false.
 open static var menuAllowSubmenus: Bool = false
 
+/// When true, pushViewController will replace the last view controller in the navigation controller's viewController stack instead of appending to it. This makes menus similar to tab bar controller behavior.
+open static var menuReplaceOnPush: Bool = false
+
 /**
  The blur effect style of the menu if the menu's root view controller is a UITableViewController or UICollectionViewController.
 
@@ -217,13 +225,6 @@ Don't try to change the status bar appearance when presenting a menu. When used 
 
 ## Thank You
 A special thank you to everyone that has [contributed](https://github.com/jonkykong/SideMenu/graphs/contributors) to this library to make it better. Your support is appreciated!
-
-## About Me
-My name is Jon Kent and I'm a freelance iOS designer, developer, and mobile strategist. I love coffee and play the drums. **Hire me!**
-
-🌎 Web: [http://jonkent.me](http://jonkent.me)
-
-✉️ Email: [contact@jonkent.me](mailto:contact@jonkent.me) **IMPORTANT: Before emailing me, please read [this](https://github.com/jonkykong/SideMenu/issues/58).**
 
 ## License
 

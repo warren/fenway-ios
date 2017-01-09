@@ -122,12 +122,13 @@ open class UISideMenuNavigationController: UINavigationController {
         guard viewControllers.count > 0 && !SideMenuManager.menuAllowSubmenus else {
             // NOTE: pushViewController is called by init(rootViewController: UIViewController)
             // so we must perform the normal super method in this case.
-            super.pushViewController(viewController, animated: true)
+            super.pushViewController(viewController, animated: animated)
             return
         }
-        
-        guard let presentingViewController = presentingViewController as? UINavigationController else {
-            print("SideMenu Warning: attempt to push a View Controller from \(self.presentingViewController.self) where its navigationController == nil. It must be embedded in a Navigation Controller for this to work.")
+
+        let tabBarController = presentingViewController as? UITabBarController
+        guard let navigationController = (tabBarController?.selectedViewController ?? presentingViewController) as? UINavigationController else {
+            print("SideMenu Warning: attempt to push a View Controller from \(presentingViewController.self) where its navigationController == nil. It must be embedded in a Navigation Controller for this to work.")
             return
         }
         
@@ -144,22 +145,30 @@ open class UISideMenuNavigationController: UINavigationController {
         })
         
         if SideMenuManager.menuAllowPopIfPossible {
-            for subViewController in presentingViewController.viewControllers {
+            for subViewController in navigationController.viewControllers {
                 if type(of: subViewController) == type(of: viewController) {
-                    presentingViewController.popToViewController(subViewController, animated: animated)
+                    navigationController.popToViewController(subViewController, animated: animated)
                     CATransaction.commit()
                     return
                 }
             }
         }
-        if let lastViewController = presentingViewController.viewControllers.last, SideMenuManager.menuAllowPushOfSameClassTwice {
-            if type(of: lastViewController) == type(of: viewController) {
-                CATransaction.commit()
-                return
-            }
+        
+        if SideMenuManager.menuReplaceOnPush {
+            var viewControllers = navigationController.viewControllers
+            viewControllers.removeLast()
+            viewControllers.append(viewController)
+            navigationController.setViewControllers(viewControllers, animated: animated)
+            CATransaction.commit()
+            return
         }
         
-        presentingViewController.pushViewController(viewController, animated: animated)
+        if let lastViewController = navigationController.viewControllers.last, !SideMenuManager.menuAllowPushOfSameClassTwice && type(of: lastViewController) == type(of: viewController) {
+            CATransaction.commit()
+            return
+        }
+        
+        navigationController.pushViewController(viewController, animated: animated)
         CATransaction.commit()
     }
 }

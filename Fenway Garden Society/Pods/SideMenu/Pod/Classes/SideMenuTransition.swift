@@ -17,8 +17,35 @@ open class SideMenuTransition: UIPercentDrivenInteractiveTransition, UIViewContr
     
     internal static let singleton = SideMenuTransition()
     internal static var presentDirection: UIRectEdge = .left;
-    internal static weak var tapView: UIView?
-    internal static weak var statusBarView: UIView?
+    internal static weak var tapView: UIView? {
+        didSet {
+            guard let tapView = tapView else {
+                return
+            }
+            
+            tapView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+            let exitPanGesture = UIPanGestureRecognizer()
+            exitPanGesture.addTarget(SideMenuTransition.self, action:#selector(SideMenuTransition.handleHideMenuPan(_:)))
+            let exitTapGesture = UITapGestureRecognizer()
+            exitTapGesture.addTarget(SideMenuTransition.self, action: #selector(SideMenuTransition.handleHideMenuTap(_:)))
+            tapView.addGestureRecognizer(exitPanGesture)
+            tapView.addGestureRecognizer(exitTapGesture)
+        }
+    }
+    internal static weak var statusBarView: UIView? {
+        didSet {
+            guard let statusBarView = statusBarView else {
+                return
+            }
+            
+            if let menuShrinkBackgroundColor = SideMenuManager.menuAnimationBackgroundColor {
+                statusBarView.backgroundColor = menuShrinkBackgroundColor
+            } else {
+                statusBarView.backgroundColor = UIColor.black
+            }
+            statusBarView.isUserInteractionEnabled = false
+        }
+    }
     
     // prevent instantiation
     fileprivate override init() {}
@@ -58,10 +85,6 @@ open class SideMenuTransition: UIPercentDrivenInteractiveTransition, UIViewContr
     }
     
     internal class func handlePresentMenuPan(_ pan: UIPanGestureRecognizer) {
-        guard SideMenuManager.menuEnableSwipeGestures else {
-            return
-        }
-        
         // how much distance have we panned in reference to the parent view?
         guard let view = viewControllerForPresentedMenu != nil ? viewControllerForPresentedMenu?.view : pan.view else {
             return
@@ -125,10 +148,6 @@ open class SideMenuTransition: UIPercentDrivenInteractiveTransition, UIViewContr
     }
     
     internal class func handleHideMenuPan(_ pan: UIPanGestureRecognizer) {
-        if !SideMenuManager.menuEnableSwipeGestures {
-            return
-        }
-        
         let translation = pan.translation(in: pan.view!)
         let direction:CGFloat = SideMenuTransition.presentDirection == .left ? -1 : 1
         let distance = translation.x / SideMenuManager.menuWidth * direction
@@ -162,7 +181,9 @@ open class SideMenuTransition: UIPercentDrivenInteractiveTransition, UIViewContr
     internal class func hideMenuStart() {
         NotificationCenter.default.removeObserver(SideMenuTransition.singleton)
         guard let mainViewController = SideMenuTransition.viewControllerForPresentedMenu,
-            let menuView = SideMenuTransition.presentDirection == .left ? SideMenuManager.menuLeftNavigationController?.view : SideMenuManager.menuRightNavigationController?.view else {return}
+            let menuView = SideMenuTransition.presentDirection == .left ? SideMenuManager.menuLeftNavigationController?.view : SideMenuManager.menuRightNavigationController?.view else {
+                return
+        }
       
         menuView.transform = CGAffineTransform.identity
         mainViewController.view.transform = CGAffineTransform.identity
@@ -312,55 +333,52 @@ open class SideMenuTransition: UIPercentDrivenInteractiveTransition, UIViewContr
         let menuViewController = (!presenting ? screens.from : screens.to)
         let topViewController = !presenting ? screens.to : screens.from
         
-        let menuView = menuViewController.view
-        let topView = topViewController.view
+        let menuView = menuViewController.view!
+        let topView = topViewController.view!
         
         // prepare menu items to slide in
         if presenting {
             var tapView: UIView?
             if !SideMenuManager.menuPresentingViewControllerUserInteractionEnabled {
                 tapView = UIView()
-                tapView!.autoresizingMask = [.flexibleHeight, .flexibleWidth]
-                let exitPanGesture = UIPanGestureRecognizer()
-                exitPanGesture.addTarget(SideMenuTransition.self, action:#selector(SideMenuTransition.handleHideMenuPan(_:)))
-                let exitTapGesture = UITapGestureRecognizer()
-                exitTapGesture.addTarget(SideMenuTransition.self, action: #selector(SideMenuTransition.handleHideMenuTap(_:)))
-                tapView!.addGestureRecognizer(exitPanGesture)
-                tapView!.addGestureRecognizer(exitTapGesture)
                 SideMenuTransition.tapView = tapView
             }
             
-            SideMenuTransition.originalSuperview = topView?.superview
+            SideMenuTransition.originalSuperview = topView.superview
             
             // add the both views to our view controller
             switch SideMenuManager.menuPresentMode {
             case .viewSlideOut, .viewSlideInOut:
-                container.addSubview(menuView!)
-                container.addSubview(topView!)
+                container.addSubview(menuView)
+                container.addSubview(topView)
                 if let tapView = tapView {
-                    topView?.addSubview(tapView)
+                    topView.addSubview(tapView)
                 }
             case .menuSlideIn, .menuDissolveIn:
-                container.addSubview(topView!)
+                container.addSubview(topView)
                 if let tapView = tapView {
                     container.addSubview(tapView)
                 }
-                container.addSubview(menuView!)
+                container.addSubview(menuView)
             }
             
             if SideMenuManager.menuFadeStatusBar {
-                let blackBar = UIView()
-                if let menuShrinkBackgroundColor = SideMenuManager.menuAnimationBackgroundColor {
-                    blackBar.backgroundColor = menuShrinkBackgroundColor
-                } else {
-                    blackBar.backgroundColor = UIColor.black
-                }
-                blackBar.isUserInteractionEnabled = false
-                container.addSubview(blackBar)
-                SideMenuTransition.statusBarView = blackBar
+                let statusBarView = UIView()
+                SideMenuTransition.statusBarView = statusBarView
+                container.addSubview(statusBarView)
             }
             
-            SideMenuTransition.hideMenuStart() // offstage for interactive
+            SideMenuTransition.hideMenuStart()
+        }
+        
+        let enableTapViewGestures = { (enable: Bool) in
+            guard let gestures = SideMenuTransition.tapView?.gestureRecognizers else {
+                return
+            }
+            
+            for gesture in gestures {
+                gesture.isEnabled = enable
+            }
         }
         
         // perform the animation!
@@ -368,53 +386,57 @@ open class SideMenuTransition: UIPercentDrivenInteractiveTransition, UIViewContr
         let options: UIViewAnimationOptions = interactive ? .curveLinear : UIViewAnimationOptions()
         UIView.animate(withDuration: duration, delay: 0, options: options, animations: { () -> Void in
             if self.presenting {
-                SideMenuTransition.presentMenuStart() // onstage items: slide in
+                SideMenuTransition.presentMenuStart()
             } else {
                 SideMenuTransition.hideMenuStart()
             }
-            menuView?.isUserInteractionEnabled = false
-            }) { (finished) -> Void in
-                // tell our transitionContext object that we've finished animating
-                if transitionContext.transitionWasCancelled {
-                    let viewControllerForPresentedMenu = SideMenuTransition.viewControllerForPresentedMenu
-                    
-                    if self.presenting {
-                        SideMenuTransition.hideMenuComplete()
-                    } else {
-                        SideMenuTransition.presentMenuComplete()
-                    }
-                    menuView?.isUserInteractionEnabled = true
-                    
-                    transitionContext.completeTransition(false)
-                    
-                    if SideMenuTransition.switchMenus {
-                        SideMenuTransition.switchMenus = false
-                        viewControllerForPresentedMenu?.present(SideMenuTransition.presentDirection == .left ? SideMenuManager.menuLeftNavigationController! : SideMenuManager.menuRightNavigationController!, animated: true, completion: nil)
-                    }
-                    
-                    return
-                }
+            menuView.isUserInteractionEnabled = false
+            enableTapViewGestures(false)
+        }) { (finished) -> Void in
+            
+            // tell our transitionContext object that we've finished animating
+            if transitionContext.transitionWasCancelled {
+                let viewControllerForPresentedMenu = SideMenuTransition.viewControllerForPresentedMenu
                 
                 if self.presenting {
+                    SideMenuTransition.hideMenuComplete()
+                } else {
                     SideMenuTransition.presentMenuComplete()
-                    menuView?.isUserInteractionEnabled = true
-                    transitionContext.completeTransition(true)
-                    switch SideMenuManager.menuPresentMode {
-                    case .viewSlideOut, .viewSlideInOut:
-                        container.addSubview(topView!)
-                    case .menuSlideIn, .menuDissolveIn:
-                        container.insertSubview(topView!, at: 0)
-                    }
-                    if let statusBarView = SideMenuTransition.statusBarView {
-                        container.bringSubview(toFront: statusBarView)
-                    }
-                    
-                    return
+                }
+                menuView.isUserInteractionEnabled = true
+                enableTapViewGestures(true)
+                
+                transitionContext.completeTransition(false)
+                
+                if SideMenuTransition.switchMenus {
+                    SideMenuTransition.switchMenus = false
+                    viewControllerForPresentedMenu?.present(SideMenuTransition.presentDirection == .left ? SideMenuManager.menuLeftNavigationController! : SideMenuManager.menuRightNavigationController!, animated: true, completion: nil)
                 }
                 
-                SideMenuTransition.hideMenuComplete()
+                return
+            }
+            
+            if self.presenting {
+                SideMenuTransition.presentMenuComplete()
+                menuView.isUserInteractionEnabled = true
+                enableTapViewGestures(true)
                 transitionContext.completeTransition(true)
-                menuView?.removeFromSuperview()
+                switch SideMenuManager.menuPresentMode {
+                case .viewSlideOut, .viewSlideInOut:
+                    container.addSubview(topView)
+                case .menuSlideIn, .menuDissolveIn:
+                    container.insertSubview(topView, at: 0)
+                }
+                if let statusBarView = SideMenuTransition.statusBarView {
+                    container.bringSubview(toFront: statusBarView)
+                }
+                
+                return
+            }
+            
+            SideMenuTransition.hideMenuComplete()
+            transitionContext.completeTransition(true)
+            menuView.removeFromSuperview()
         }
     }
     
@@ -450,7 +472,8 @@ open class SideMenuTransition: UIPercentDrivenInteractiveTransition, UIViewContr
     }
     
     internal func applicationDidEnterBackgroundNotification() {
-        if let menuViewController: UINavigationController = SideMenuTransition.presentDirection == .left ? SideMenuManager.menuLeftNavigationController : SideMenuManager.menuRightNavigationController {
+        if let menuViewController: UINavigationController = SideMenuTransition.presentDirection == .left ? SideMenuManager.menuLeftNavigationController : SideMenuManager.menuRightNavigationController,
+            menuViewController.presentedViewController == nil {
             SideMenuTransition.hideMenuStart()
             SideMenuTransition.hideMenuComplete()
             menuViewController.dismiss(animated: false, completion: nil)
