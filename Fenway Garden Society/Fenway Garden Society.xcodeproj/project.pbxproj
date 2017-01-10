@@ -17,7 +17,7 @@
 		8092A31C1DE0C11D00A51954 /* Fenway_Garden_SocietyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092A31B1DE0C11D00A51954 /* Fenway_Garden_SocietyTests.swift */; };
 		8092A3271DE0C11D00A51954 /* Fenway_Garden_SocietyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092A3261DE0C11D00A51954 /* Fenway_Garden_SocietyUITests.swift */; };
 		80980C801DED04D70040957D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80980C7F1DED04D70040957D /* TableViewCell.swift */; };
-		80980C821DED075D0040957D /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80980C811DED075D0040957D /* NewViewController.swift */; };
+		80E592F91E25916400ADFE38 /* HamburgerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E592F81E25916400ADFE38 /* HamburgerTableViewController.swift */; };
 		D060E801B5FA74F31120BA8B /* Pods_Fenway_Garden_Society.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC012F996C247DA2260EFC4 /* Pods_Fenway_Garden_Society.framework */; };
 		EC53D376F8F3243B4DCC47ED /* Pods_Fenway_Garden_SocietyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C526E7C57F9FADB03D966E7 /* Pods_Fenway_Garden_SocietyTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,7 +60,7 @@
 		8092A3261DE0C11D00A51954 /* Fenway_Garden_SocietyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fenway_Garden_SocietyUITests.swift; sourceTree = "<group>"; };
 		8092A3281DE0C11D00A51954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80980C7F1DED04D70040957D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		80980C811DED075D0040957D /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		80E592F81E25916400ADFE38 /* HamburgerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerTableViewController.swift; sourceTree = "<group>"; };
 		8346902DA0D038A7709177EA /* Pods-Fenway Garden Society.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden Society.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden Society/Pods-Fenway Garden Society.release.xcconfig"; sourceTree = "<group>"; };
 		BCC012F996C247DA2260EFC4 /* Pods_Fenway_Garden_Society.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fenway_Garden_Society.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8420C726B9EE98DAE897CB5 /* Pods-Fenway Garden SocietyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyTests/Pods-Fenway Garden SocietyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 				8092A3061DE0C11D00A51954 /* AppDelegate.swift */,
 				8092A3081DE0C11D00A51954 /* ViewController.swift */,
 				80980C7F1DED04D70040957D /* TableViewCell.swift */,
-				80980C811DED075D0040957D /* NewViewController.swift */,
+				80E592F81E25916400ADFE38 /* HamburgerTableViewController.swift */,
 				8092A30A1DE0C11D00A51954 /* Main.storyboard */,
 				8092A30D1DE0C11D00A51954 /* Assets.xcassets */,
 				8092A30F1DE0C11D00A51954 /* LaunchScreen.storyboard */,
@@ -465,9 +465,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				80980C801DED04D70040957D /* TableViewCell.swift in Sources */,
+				80E592F91E25916400ADFE38 /* HamburgerTableViewController.swift in Sources */,
 				8092A3091DE0C11D00A51954 /* ViewController.swift in Sources */,
 				8092A3071DE0C11D00A51954 /* AppDelegate.swift in Sources */,
-				80980C821DED075D0040957D /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
