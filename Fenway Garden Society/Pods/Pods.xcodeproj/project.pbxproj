@@ -7,84 +7,379 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02FA31F96FCC6391C2BCAA5FF422F1CB /* GTLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9F2DB8A7B6C0DCB598F646E81CCB70 /* GTLObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		066F3C2FA65F4EEB38640DE967999DBE /* Pods-Fenway Garden SocietyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A8264FDAF503B832EDB311C1D416F9 /* Pods-Fenway Garden SocietyTests-dummy.m */; };
+		06C8A31C5D353429570AD1E2ABD8389F /* GTLFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBA659A66B3976AFB3F7629DADD4956 /* GTLFramework.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		07019630D9D56FE8729EA29004DEB562 /* GTLService.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CB4928EF51785015CAA5D816C682525 /* GTLService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09FE89AF2489893ECEEB548B22E044FA /* GTLCalendarEventDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBE5C26CAC0E84F40C562CD68B13F9D /* GTLCalendarEventDateTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A7FB0F0EF646487C6D81441B77DB609 /* Pods-Fenway Garden SocietyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB591ADB2BD6C6B956A68C26870D0DB0 /* Pods-Fenway Garden SocietyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		275709CE13224C9C818D9265B0379D9E /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F5E4E267C03BAC23C64C2DEC825B6 /* UISideMenuNavigationController.swift */; };
-		61478118E5DF941E46E9D630F0FF740C /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E72E3ED37D9B76098CC2B9BB49D386DF /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		691BE20CA265E5503B55D03691ED2476 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF13F0BB1AB42B2F1C6A72A59BD82F /* UITableViewVibrantCell.swift */; };
-		6B8A66AE31A8845315571CE63EF7FC3E /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049F4BA49D06E8F4C1A0DF192A1FB11 /* SideMenuManager.swift */; };
-		6E2432B6A2A29E0A98945DD8147A6B34 /* Pods-Fenway Garden Society-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 401D6B29D0F0DFEA66BCF65CD6AA1D18 /* Pods-Fenway Garden Society-dummy.m */; };
-		741ABB8E81697E601F41FEDA35A4AD0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		7C7B9A31149B8EF169637ECFCA886FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		850B2DB1C77D14D312B30FB2EFF87BFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0C5AB624EEC8AE64A37F21A873D8E820 /* GTLCalendarChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBD5410E7B2B9A7ED9FBCD8DCA071B /* GTLCalendarChannel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0CE1893C64400DE4063D02C587AE9E1D /* GTMReadMonitorInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 394CA3758D5E65CB905E4F180A377CA5 /* GTMReadMonitorInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D2CE228AD40EB876E3DA8C9952A78A5 /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BB03CDE16E46B0F1EAE304810E848272 /* GTMMIMEDocument.m */; };
+		12FBEE8067A61F5B7DB057D14912A5B0 /* GTLRuntimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEB8673CE9BAB4CDCBB09620485F952 /* GTLRuntimeCommon.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1351C79BE5DA3A3D43D42036A647C262 /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5922E034F0B71CDC273A0BBDB8F5B1CF /* GTMOAuth2SignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		163C0EF81EC1E897BB1DF2D603A546C8 /* GTLBatchQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = B345ADF9EECC1C74CD10A4B4567582DA /* GTLBatchQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1702F5233505B436AB26F61D9078E363 /* GTLCalendarFreeBusyRequestItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E69DC6E3C7AE50E8F9DB1553904BF847 /* GTLCalendarFreeBusyRequestItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		180FD9D0506B94B2729776BB604C57A8 /* GTLCalendarEventAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354C3C6D6EF1E0477D115C9A1C2F3C7 /* GTLCalendarEventAttachment.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18AEB6F01302E06C0593A2200ED2FA7F /* GTLCalendarFreeBusyGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 854F7C34669BD8DC2DAFF0411C7BDB0B /* GTLCalendarFreeBusyGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19DB9DFFC15BA51C4948F3145174A85D /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9D251EB28D12DAE2D7B10A88A1DDE2 /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9024AF78C2E73D446ABC2FFDAD103B /* GTLCalendarCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 207C87467BD7161BEE5E4558B4BD8B09 /* GTLCalendarCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C29FCE92C3D451E1AE6128E1CB4D9DC /* GTLCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA589404DC6A80AE062B9D653DC7734 /* GTLCalendarConstants.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1D9C169218A6CB825A61A6D1E25DE618 /* GTLCalendarAcl.h in Headers */ = {isa = PBXBuildFile; fileRef = 17D241253BCA1F01C4A793294D2D2227 /* GTLCalendarAcl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24E7045FE00566A3B8E7F56BC5EC3F0B /* GTLCalendarEventDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB0BC15C85FC23305CCD676A46B97C /* GTLCalendarEventDateTime.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		266EE6DC55074B9E275222CB5FE75EDD /* GTLCalendarFreeBusyCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EB0254F7325D5CD1C28C2EA44938FC /* GTLCalendarFreeBusyCalendar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		273D9921AB19FA582B63771DF0BD65CE /* GTLBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A87C668ED3BB4BD5B954F5C8B4A059 /* GTLBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27FC403577150B55B7B71D22CF6BD10B /* GTLBatchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A4204280AD8093886E96AB6E2C051095 /* GTLBatchQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2B92FD7EE192DEFC0CE59AA0F255665A /* GTLCalendarEventReminder.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E12851D4A860FF5583964D0A68D61D /* GTLCalendarEventReminder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2D50DF613B7655DCD2327EEB23C00DDC /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E76E2DE65A0AA8C9F1EA65994B6C91 /* SideMenuManager.swift */; };
+		30BA2589D9BF930953D01FCF684B0EAF /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C045D37A68A84C2E0575E94DDCB136C /* GTMGatherInputStream.m */; };
+		3196F9F6FB61968AE545D21489869C56 /* GTLCalendarTimePeriod.h in Headers */ = {isa = PBXBuildFile; fileRef = 932CC4D39B791DE5E609A45EDFA17E7E /* GTLCalendarTimePeriod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31A17D8E7663090166267CB950E5DB45 /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7CB92D494795FF01716EF2CF65D085 /* GTMOAuth2Authentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		333726D18E7D4FC18D95792999A41B80 /* GTMOAuth2SignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 5106A69782196ECFC12401A3BCCC925A /* GTMOAuth2SignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33D711B4B32C5251EAB79C1D9C1F6A48 /* GTLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E36FB2CD1B67317E8E24936029F3CA8 /* GTLUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3754FFEC766A3281EC44472E99037ACE /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE696652174BDF9AE9F2271310325A8 /* GTMSessionFetcherLogging.m */; };
+		37E689AD880E764311AFFC44E35B6A8A /* GoogleAPIClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D51E93001307FE63216DB5257F25B5 /* GoogleAPIClient-dummy.m */; };
+		3837CC4201B5AE6743A26FF524016916 /* GTMGatherInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8850498E6DE9057FBA0E0FC72DD1DDFE /* GTMGatherInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AD3CA3683E666E5A41E5BE81664863E /* GTLErrorObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A24F80AB60CB7D3171ECBD09B94420 /* GTLErrorObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF723DB61315404273562ED7ADBF6DE /* GTLCalendarFreeBusyRequestItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FA737EFC3BB8A3B39CF84B6BCD361752 /* GTLCalendarFreeBusyRequestItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3BF2CBA7E2FBD47B9BCA0194FE394621 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6BC1BDB2A22C6FAEC41A08340EE715 /* SystemConfiguration.framework */; };
+		3EA5EB74DECDECA27E6505BD395A6BB9 /* GTMOAuth2ViewControllerTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 89BCA56E88BF238A34640509C4289F9A /* GTMOAuth2ViewControllerTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ECDCB84E23B801890112FEE397D259C /* GTLRuntimeCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 00ED168DF90B31995CE617E14CBB7CA1 /* GTLRuntimeCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42809C46E0F55790D4CCBE3D960121B1 /* GTLCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A075983B9BE543505DBFCFFDDA531DE2 /* GTLCalendarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44D31C80E31BEEC0D5E7926AAF0885EE /* GTLServiceCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B869DD0DB7F183D8DC15995D37CD79A /* GTLServiceCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46148308E02825C7F5D8C026E6EEBE0A /* GTLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EC1DAF50AD02CD1CB618274EB6339A /* GTLUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4AD435DD4D7A3CFB15C5B25CC1250841 /* GTLBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = B4611D1D13E997D2D30F64AD31B7C7A6 /* GTLBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4BA262A5B0E51523B71A926AB5B2333F /* GTMOAuth2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D866956FC91D65D070E7F76E306D6416 /* GTMOAuth2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FAEBEF65A34C50E0CBD2366EE5EE140 /* GTLCalendarEventAttendee.m in Sources */ = {isa = PBXBuildFile; fileRef = BC73839D54468B2CBD0DDE868DA8E661 /* GTLCalendarEventAttendee.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		508519EB00AF57E65F87551D07D1CAA6 /* GoogleAPIClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3CE1F929BA8800F0116CF5CAE0F0BA8 /* GoogleAPIClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		519B71AF94C65AD1E29E59B4535B7F85 /* GTLQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 6473163BA1F2695633DAE14932A635A3 /* GTLQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		522140CFDE060877C110C7C872F3C332 /* GTLJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 48501E2C8EC338306B9FAB949D0E2004 /* GTLJSONParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		52EB7F2237393D9F18F148A85B9844AA /* GTLCalendarCalendarListEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D30A6B3BDF19EE107B9D4BB92A606BC /* GTLCalendarCalendarListEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569A4D18677A0D7F70357F4B92266AB6 /* GTLCalendarEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FE5E09035282ACE9FF130058D699AC /* GTLCalendarEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56F2B5B1FF2B92C592B98F7BE5AD5F45 /* GTLCalendarFreeBusyCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9706898756E8B838FF1CDB040383E7B0 /* GTLCalendarFreeBusyCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5866D8BB1018AE92CED4AC88B3D55A46 /* GTLCalendarEventAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 62CCBE456C3FD7962833280FA8F027B9 /* GTLCalendarEventAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B1AF8B6D07FA01316058C49151CF53A /* GTMOAuth2Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = E773517E352E30934BBBD4F8F6A69374 /* GTMOAuth2Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D86AA2D603FBB50AED88D88B2C2D5B9 /* GTMSessionFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB866A4B9BEFAFB1598D6470A53DDAAC /* GTMSessionFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E292EB27B32D8C4E226DACC00210757 /* Pods-Fenway Garden Society-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 401D6B29D0F0DFEA66BCF65CD6AA1D18 /* Pods-Fenway Garden Society-dummy.m */; };
+		5F1F7F896BCAC46BC7F0B3520F365DDB /* GTLCalendarColorDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 437B6EF80891230449005375554254FD /* GTLCalendarColorDefinition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5FE23FAFE62428F53D74FDF857C94329 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E66DCCAF49F09A8C4D6C6AD4899E219 /* SideMenuTransition.swift */; };
+		605F805A15DDD757C8B8F7B4A15A1BCC /* GTLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E7101833F1E57D4186AA4FF0B1675C /* GTLObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		609E7F886B8765AE9675589D93E15867 /* GTLCalendarSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 516E85B6815F9AFF1F12448BD18FBD98 /* GTLCalendarSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62BD5B902E90607E96479AF02CAF08A4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7198B1FF4F9F7E14584A3EFA3030C657 /* Security.framework */; };
+		649652D9A1F02AFB17209D5ED9ABB360 /* GTLBatchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = F080B4E39F02FBD51FF63C73E9695838 /* GTLBatchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67400DBF0C2D0B58A9AF84954E48FDD0 /* GTLCalendarEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F016BB1CACF60937C1C5A259FDDF82 /* GTLCalendarEvents.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		697B556D4CF4B571370FC97A5D821A47 /* GTLServiceCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D52F32E98AA894122A0CF20BE2A92986 /* GTLServiceCalendar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		69F2D1FBB8F8E27CD5400276D3FA38FF /* GTLCalendarChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = B41BC3AAE5937056FD08D67E122E062F /* GTLCalendarChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AED36D064B9E559BFFD7A0A7B0C3969 /* GTMMIMEDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = BF816FB289903EEF317718F39E8FC486 /* GTMMIMEDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BCE9802080CAE732A479FAF31F0D92E /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0B03A344A7665B986564975D9F3372 /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C98D0083AE2CE92315D9E4FC90AAFC2 /* GTLDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 400578485E57CF936A547E0D12B06B06 /* GTLDateTime.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6D6F933DC9237DB1AA36846823FAF8DF /* GTLQueryCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C94844EB5CE8DCA3826551A7BBF9E03 /* GTLQueryCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FDB86B36BC42559870F9C2542EEDDB0 /* GTLDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = EA2E1CF1C0AC0166B384AEA2DE80C762 /* GTLDateTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		702F17AE1DA87A7F21EA719B387994B3 /* GTLCalendarEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 006CB6158C2DE0D82AABAF5A9E84D690 /* GTLCalendarEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		751242161D0780B5FD0173D4F484F7A3 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B93CAAF52AFC0A805EB57127C50380B /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7552CA0F55DE408542E2FEA43E601B5A /* GTLErrorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FA0C2AB04DEDC9F04BED429C556145 /* GTLErrorObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		777F3793F20B7609CD5420A71654E25A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0949102B7EF80E79E4CBA5CF7CB62D13 /* Foundation.framework */; };
+		7EB35F3D1A034DE5293759F8EAFB18D8 /* GTLDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 386330820B084452F00BC771D6093724 /* GTLDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		850B2DB1C77D14D312B30FB2EFF87BFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0949102B7EF80E79E4CBA5CF7CB62D13 /* Foundation.framework */; };
+		8559AF39777CF27FD8BBAE9E713E8287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0949102B7EF80E79E4CBA5CF7CB62D13 /* Foundation.framework */; };
 		86C094907F7D49F6848A6DA73CD7E30A /* Pods-Fenway Garden SocietyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E807BAADF680F31F0F47B61BB6830E /* Pods-Fenway Garden SocietyUITests-dummy.m */; };
+		8904FDC2498CBFE9085CD49463EB770C /* GTLCalendarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = B2433E953BD2BB9AFC195CC961834534 /* GTLCalendarNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8996811E94D5B51670D162EFDFE44573 /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59AB2640F8245C8AB186D8FC61021341 /* GTMSessionFetcher-dummy.m */; };
 		89F7AB57F80807E2ED196D478FA82BF2 /* Pods-Fenway Garden SocietyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F676C4A61383CCF387BB0D25DC0155 /* Pods-Fenway Garden SocietyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B152B3FC562BE9F428A0EA98636CDFF5 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35093DD994A172D53932151A6DBAEBC3 /* SideMenu-dummy.m */; };
-		E06794AC0D90C4F96E3D9778246E957D /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DB323BB3B2B0A52D555C01DBCD0305 /* SideMenuTransition.swift */; };
-		F367B1BA3E927CE25DB4CE904974F1E7 /* Pods-Fenway Garden Society-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77523D305E115D48104656C3F7FA05BC /* Pods-Fenway Garden Society-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC81F9D84618CF64D97E9D5B168CB7B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8F6D66800C81931396DAFE392721BCB2 /* GTLCalendarTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E231CC400D91E2FB78A3279C1923151 /* GTLCalendarTimePeriod.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		909AE50D05D014F330B8C3E8E59C9D94 /* GTLCalendarAcl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7843748B3D8182CE99E9A2421B313DED /* GTLCalendarAcl.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9112C19F87FA05C14697093181FB7D4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0949102B7EF80E79E4CBA5CF7CB62D13 /* Foundation.framework */; };
+		93126C36B76BA73DB8AB5D1486113F93 /* GTLCalendarCalendarList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5385FB779D4F133882263242DE7B89F2 /* GTLCalendarCalendarList.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		96ACDA4D360DF9B9C30420A889E4416C /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = B66680321890600FC725BBF01DB56118 /* GTMOAuth2ViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		96C540D0518ECBED4A368BD22679649C /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = A72767DBC113A1D16438BAE2F87BB4B0 /* GTMReadMonitorInputStream.m */; };
+		97E575125A04EFDD5ED352FCF8A57C9A /* Pods-Fenway Garden Society-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77523D305E115D48104656C3F7FA05BC /* Pods-Fenway Garden Society-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C1546ABC2078575C674FC82B99C9C2F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7198B1FF4F9F7E14584A3EFA3030C657 /* Security.framework */; };
+		A054470DCC45CD1B099BB7BB158F1EB5 /* GTLCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9419765B33E1A446D88B185A6738C7BC /* GTLCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3F64B91ABDE74DC6E44075BA168E1FA /* GTLFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CC40D4797049B1BD46FFE68361B9DC93 /* GTLFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A47C45C1B0C22FF92C9BB94993B14577 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0949102B7EF80E79E4CBA5CF7CB62D13 /* Foundation.framework */; };
+		A5E7073B1D9A7F0D46B78F208025A3C5 /* GTLCalendarAclRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B3E2B90CB0B96910D85FDC1125A396 /* GTLCalendarAclRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5F9D486D46FDA1D8FDF22E085FC8622 /* GTLCalendarSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = F4CEE35002771EE7CBE1CE626597515F /* GTLCalendarSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61DAA78C771D3702E98C3A3D7084BD0 /* GTLCalendarSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 345CF192A5E09279435F1FBC8BE63DB8 /* GTLCalendarSettings.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A8FAEBB261806DC980C45917B14CEBD9 /* GTLCalendarEventAttendee.h in Headers */ = {isa = PBXBuildFile; fileRef = 92ED3BD268BC82A4BEBA2E672E856C60 /* GTLCalendarEventAttendee.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2F7322FF62032D39232EEEE557B84BD /* GTLCalendarAclRule.m in Sources */ = {isa = PBXBuildFile; fileRef = AB07BEDAA79BC977E11199BC67AAC482 /* GTLCalendarAclRule.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B4C04EB3392C09EF9270261648F7D0B5 /* GTLQueryCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC2D9643A11BEEEC3981ED199545355 /* GTLQueryCalendar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BB106E530723B56FC949518BFDC8B6C1 /* GTLCalendarCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2527417523D09E041D5C99D7B2D70647 /* GTLCalendarCalendar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1B197883F6C6835B9CB0F1E874D1E40 /* GTLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E2F8A585F94DABCFDD065DF1CAE6D5 /* GTLQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C5F5F4CE7DA5DC97F304CFC39D4DCF8C /* GTLCalendarError.h in Headers */ = {isa = PBXBuildFile; fileRef = C7900353246981BA0C3705DB3647B140 /* GTLCalendarError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C882DBA620C0DA1E326E0E2F0861ADC3 /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804CB26555FDD2581B4A78C11068D79A /* UISideMenuNavigationController.swift */; };
+		CAFCDD9848EA88A0A2852C8AFEC16203 /* GTLCalendarFreeBusyResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D2406084F1610DFB7CC313121036BA /* GTLCalendarFreeBusyResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB0EA7F608139F2072E77758E0C52E8F /* GTLCalendarFreeBusyGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA5D712A960BF4C40EAC3ADAB284E26 /* GTLCalendarFreeBusyGroup.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CB8DEAB39CEA8CBFA79C0EE66C0B119A /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3414CF46D8D5C228D0749BFA5433D8D9 /* GTMSessionFetcher.framework */; };
+		CD02EFF91211DCC1DE607F885831F891 /* GTMOAuth2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E7FD3BF1499F377378D7DA5A35B75D /* GTMOAuth2-dummy.m */; };
+		CEE799CFD958BF9197BB152419112B66 /* GTLCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1FAD35FFCF6DB0DD80AD280F4122A0 /* GTLCalendarEvent.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CF1EB136F4A1090A4F47695DA3F64AF1 /* GTLCalendarFreeBusyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A2A22F42B8046C3D5565B81093FDBC /* GTLCalendarFreeBusyResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFBB4922A19D0556D19381C17AF26834 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3414CF46D8D5C228D0749BFA5433D8D9 /* GTMSessionFetcher.framework */; };
+		D080F430C60C9E9701AD44EDC8595B7C /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6839FC1FACA68FDEE5458B624564C91A /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0B86B3B308C6BFE700969BC201C4A19 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D59260FB618350191A573A360F9F904 /* SideMenu-dummy.m */; };
+		D46D5440CB4A191D69D652F29DB95039 /* GTLService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A18ED71A9E2595C6C1CE3396D351D /* GTLService.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6855F74E4866446B37327DB76C3591D /* GTLUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EDC3D82DE0EA97E9DFC6AC9796E1C15 /* GTLUploadParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB53555189A464A411ADC0206B2BB3B /* GTLCalendarError.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FE3CD5CEC5011756B4B280E87CD4C9 /* GTLCalendarError.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E1D44AA8128820F4FB05E157C180C325 /* GTLTargetNamespace.h in Headers */ = {isa = PBXBuildFile; fileRef = B68546DA0D4842224111B5A40724E94B /* GTLTargetNamespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E251CB4C07E615F0CA5E2F838313BC04 /* GTLCalendarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E378EE3953B8916DFAD082205460BE5 /* GTLCalendarNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2950525D28A03EDC151445A6289330A /* GTLBatchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D79F58333706AC407B6E9BC826B45532 /* GTLBatchResult.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E474FA0CD3CBE84656B16433808F15AB /* GTLCalendarSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = E07E66643328C42AF31076017830FF71 /* GTLCalendarSetting.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E47AC73138E8649E1D27E9BADD8D707E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0949102B7EF80E79E4CBA5CF7CB62D13 /* Foundation.framework */; };
+		E8BC0D2F4CC032A117FE93DE8FE9F907 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9FF49BDD21BCEDA67B58D734E5EBCE /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA813C235FB9F33654E1687B7CBE38D /* GTLCalendarColors.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B91CB55B7944F5D3698CE6F34298E4 /* GTLCalendarColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC03AC492E8E76F5424F01C5CF609A58 /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD280D244243337CCF698A5DB635110 /* GTMSessionFetcher.m */; };
+		ED12452DD8F2A6CC5A226C592C35AF7F /* GTLCalendarCalendarList.h in Headers */ = {isa = PBXBuildFile; fileRef = 81ACD622E86EC614ABE828FBEDE841F8 /* GTLCalendarCalendarList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFB97C3A5D75903C7306193A457D3D08 /* GTLCalendarEventReminder.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC4A191056FA3E15DA24ADB3D518808 /* GTLCalendarEventReminder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F04D2DA276E4B7C6C2DFBE35121095FC /* GTLCalendarColorDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = AB22E42B85FB9736EA8EBDEFC87AE564 /* GTLCalendarColorDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1C81B38FACF0A2377BAF19506DCD243 /* GTLCalendarColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E4B3FC478ABBB7BB1E0C207870A159 /* GTLCalendarColors.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F2CB8E7BCA95A334174AE4416442F476 /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCFFDB0E3D84BDB5C7A77A444466F5D /* GTMSessionFetcherService.m */; };
+		F3D2E2DE4A84C5F64CC158581E33586B /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E742B0D735E0A0E991A5C642A156D /* UITableViewVibrantCell.swift */; };
+		F5531F9DDD1D852322A97C682A5AFC15 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC90CCE02553294B93D2BF8F490081B6 /* GTMOAuth2ViewTouch.xib */; };
+		F5FC7F628ACDBCC28E52AD9A1B7F0CC4 /* GTLCalendarCalendarListEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F677474119701A6447F544410B4E1607 /* GTLCalendarCalendarListEntry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FA0E99DD52A86CA3847661DB29621EAB /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD739F4674CA4CF84F298567A851E32 /* GTLUploadParameters.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FB51501A3C7C464A4C7C094D612F5685 /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B9962642C7B3A88077F8BC76C77272D6 /* GTMSessionUploadFetcher.m */; };
+		FC81F9D84618CF64D97E9D5B168CB7B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0949102B7EF80E79E4CBA5CF7CB62D13 /* Foundation.framework */; };
+		FDA12608A5372030D47125E98C80DFE4 /* GTLJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12EE5EA626CE3D38536171717BE305 /* GTLJSONParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A499D3CD681247C6C76ED3030F6C49F7 /* PBXContainerItemProxy */ = {
+		170F5BE3B9815D61BA81BCBD97BCE075 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3E8DFA80AB9552C3F8FC220AA9BDDC3D;
+			remoteGlobalIDString = 20C101155E9F5E994103381E67EB0313;
+			remoteInfo = GTMSessionFetcher;
+		};
+		1BA4A7FF56473660C67198D3391E1B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C4AAFAF49036C7007633DAA3C806AD;
+			remoteInfo = GTMOAuth2;
+		};
+		55C9BFC5CB082CF5DD26115A44D5CE2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C101155E9F5E994103381E67EB0313;
+			remoteInfo = GTMSessionFetcher;
+		};
+		86DE91287515407B603A901198AA209D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C101155E9F5E994103381E67EB0313;
+			remoteInfo = GTMSessionFetcher;
+		};
+		B8A7A88467914A23BFF66D874735A5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C19E36FCB7B0E63C5EA40B6A64DB2DA;
 			remoteInfo = SideMenu;
+		};
+		BFD0D6D45EAA52FCDB16FC80577D3D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C01ACED2978423B67BA2FAC5CC4A99;
+			remoteInfo = GoogleAPIClient;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0049F4BA49D06E8F4C1A0DF192A1FB11 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		006CB6158C2DE0D82AABAF5A9E84D690 /* GTLCalendarEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarEvent.h; path = Source/Services/Calendar/Generated/GTLCalendarEvent.h; sourceTree = "<group>"; };
+		00ED168DF90B31995CE617E14CBB7CA1 /* GTLRuntimeCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLRuntimeCommon.h; path = Source/Objects/GTLRuntimeCommon.h; sourceTree = "<group>"; };
+		05E76E2DE65A0AA8C9F1EA65994B6C91 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		05EB0254F7325D5CD1C28C2EA44938FC /* GTLCalendarFreeBusyCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarFreeBusyCalendar.m; path = Source/Services/Calendar/Generated/GTLCalendarFreeBusyCalendar.m; sourceTree = "<group>"; };
 		0733C06D378BE28042527B316167B90A /* Pods-Fenway Garden SocietyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fenway Garden SocietyTests.release.xcconfig"; sourceTree = "<group>"; };
+		076EA159AF837952CCF52970B729D799 /* GoogleAPIClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAPIClient.xcconfig; sourceTree = "<group>"; };
+		0949102B7EF80E79E4CBA5CF7CB62D13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0C045D37A68A84C2E0575E94DDCB136C /* GTMGatherInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMGatherInputStream.m; path = Source/GTMGatherInputStream.m; sourceTree = "<group>"; };
+		0D30A6B3BDF19EE107B9D4BB92A606BC /* GTLCalendarCalendarListEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarCalendarListEntry.h; path = Source/Services/Calendar/Generated/GTLCalendarCalendarListEntry.h; sourceTree = "<group>"; };
 		0D5DF6A144E1CED64553ED6BECF200E1 /* Pods-Fenway Garden SocietyTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fenway Garden SocietyTests-resources.sh"; sourceTree = "<group>"; };
+		0E231CC400D91E2FB78A3279C1923151 /* GTLCalendarTimePeriod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarTimePeriod.m; path = Source/Services/Calendar/Generated/GTLCalendarTimePeriod.m; sourceTree = "<group>"; };
+		11A87C668ED3BB4BD5B954F5C8B4A059 /* GTLBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLBase64.h; path = Source/Utilities/GTLBase64.h; sourceTree = "<group>"; };
+		15A2A22F42B8046C3D5565B81093FDBC /* GTLCalendarFreeBusyResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarFreeBusyResponse.m; path = Source/Services/Calendar/Generated/GTLCalendarFreeBusyResponse.m; sourceTree = "<group>"; };
+		17D241253BCA1F01C4A793294D2D2227 /* GTLCalendarAcl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarAcl.h; path = Source/Services/Calendar/Generated/GTLCalendarAcl.h; sourceTree = "<group>"; };
+		1B869DD0DB7F183D8DC15995D37CD79A /* GTLServiceCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLServiceCalendar.h; path = Source/Services/Calendar/Generated/GTLServiceCalendar.h; sourceTree = "<group>"; };
+		1B93CAAF52AFC0A805EB57127C50380B /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
+		1DBE5C26CAC0E84F40C562CD68B13F9D /* GTLCalendarEventDateTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarEventDateTime.h; path = Source/Services/Calendar/Generated/GTLCalendarEventDateTime.h; sourceTree = "<group>"; };
+		1E378EE3953B8916DFAD082205460BE5 /* GTLCalendarNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarNotification.m; path = Source/Services/Calendar/Generated/GTLCalendarNotification.m; sourceTree = "<group>"; };
+		1EDC3D82DE0EA97E9DFC6AC9796E1C15 /* GTLUploadParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLUploadParameters.h; path = Source/Objects/GTLUploadParameters.h; sourceTree = "<group>"; };
+		207C87467BD7161BEE5E4558B4BD8B09 /* GTLCalendarCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarCalendar.h; path = Source/Services/Calendar/Generated/GTLCalendarCalendar.h; sourceTree = "<group>"; };
+		22E238C02ED1C12C938C2D4548CC4186 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		2527417523D09E041D5C99D7B2D70647 /* GTLCalendarCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarCalendar.m; path = Source/Services/Calendar/Generated/GTLCalendarCalendar.m; sourceTree = "<group>"; };
 		261ADEFA6CBFEFE690FDDD8A0989B274 /* Pods-Fenway Garden SocietyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fenway Garden SocietyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		26E807BAADF680F31F0F47B61BB6830E /* Pods-Fenway Garden SocietyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fenway Garden SocietyUITests-dummy.m"; sourceTree = "<group>"; };
+		27E2F8A585F94DABCFDD065DF1CAE6D5 /* GTLQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLQuery.m; path = Source/Objects/GTLQuery.m; sourceTree = "<group>"; };
+		2BD60CC5326F61C99858C36F707C2B27 /* GoogleAPIClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleAPIClient-prefix.pch"; sourceTree = "<group>"; };
+		2C94844EB5CE8DCA3826551A7BBF9E03 /* GTLQueryCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLQueryCalendar.h; path = Source/Services/Calendar/Generated/GTLQueryCalendar.h; sourceTree = "<group>"; };
+		2D59260FB618350191A573A360F9F904 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		2E9D251EB28D12DAE2D7B10A88A1DDE2 /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
 		30BDF3D0C11AA21B392F41BEAB8974FB /* Pods-Fenway Garden SocietyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fenway Garden SocietyUITests-frameworks.sh"; sourceTree = "<group>"; };
-		34060C5762583F7D61BF9DC5C4A76154 /* Pods_Fenway_Garden_SocietyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fenway_Garden_SocietyTests.framework; path = "Pods-Fenway Garden SocietyTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35093DD994A172D53932151A6DBAEBC3 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
-		38FF13F0BB1AB42B2F1C6A72A59BD82F /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		334D01B0E1C0D17D53E9567D8BF1FEA7 /* GTMOAuth2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMOAuth2.xcconfig; sourceTree = "<group>"; };
+		3414CF46D8D5C228D0749BFA5433D8D9 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		345CF192A5E09279435F1FBC8BE63DB8 /* GTLCalendarSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarSettings.m; path = Source/Services/Calendar/Generated/GTLCalendarSettings.m; sourceTree = "<group>"; };
+		37FA0C2AB04DEDC9F04BED429C556145 /* GTLErrorObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLErrorObject.m; path = Source/Objects/GTLErrorObject.m; sourceTree = "<group>"; };
+		386330820B084452F00BC771D6093724 /* GTLDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLDefines.h; path = Source/GTLDefines.h; sourceTree = "<group>"; };
+		394CA3758D5E65CB905E4F180A377CA5 /* GTMReadMonitorInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMReadMonitorInputStream.h; path = Source/GTMReadMonitorInputStream.h; sourceTree = "<group>"; };
 		3A1B537CAFE529489BB2BC98FA730E3A /* Pods-Fenway Garden SocietyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Fenway Garden SocietyTests.modulemap"; sourceTree = "<group>"; };
+		3AC2D9643A11BEEEC3981ED199545355 /* GTLQueryCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLQueryCalendar.m; path = Source/Services/Calendar/Generated/GTLQueryCalendar.m; sourceTree = "<group>"; };
+		3BEBD5410E7B2B9A7ED9FBCD8DCA071B /* GTLCalendarChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarChannel.m; path = Source/Services/Calendar/Generated/GTLCalendarChannel.m; sourceTree = "<group>"; };
+		3F6BC1BDB2A22C6FAEC41A08340EE715 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		400578485E57CF936A547E0D12B06B06 /* GTLDateTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLDateTime.m; path = Source/Objects/GTLDateTime.m; sourceTree = "<group>"; };
 		401D6B29D0F0DFEA66BCF65CD6AA1D18 /* Pods-Fenway Garden Society-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fenway Garden Society-dummy.m"; sourceTree = "<group>"; };
-		4CB9D3D24E1C1DC5E9497E119B333D75 /* Pods_Fenway_Garden_Society.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fenway_Garden_Society.framework; path = "Pods-Fenway Garden Society.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437B6EF80891230449005375554254FD /* GTLCalendarColorDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarColorDefinition.m; path = Source/Services/Calendar/Generated/GTLCalendarColorDefinition.m; sourceTree = "<group>"; };
+		448F22817F342740DDA6FEB399CE7A8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48501E2C8EC338306B9FAB949D0E2004 /* GTLJSONParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLJSONParser.m; path = Source/Utilities/GTLJSONParser.m; sourceTree = "<group>"; };
+		49D7F85C743977108ECDD2DF9FD1D301 /* GTMSessionFetcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.xcconfig; sourceTree = "<group>"; };
+		4B1FAD35FFCF6DB0DD80AD280F4122A0 /* GTLCalendarEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarEvent.m; path = Source/Services/Calendar/Generated/GTLCalendarEvent.m; sourceTree = "<group>"; };
+		4E66DCCAF49F09A8C4D6C6AD4899E219 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
+		5106A69782196ECFC12401A3BCCC925A /* GTMOAuth2SignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMOAuth2SignIn.h; path = Source/GTMOAuth2SignIn.h; sourceTree = "<group>"; };
+		516E85B6815F9AFF1F12448BD18FBD98 /* GTLCalendarSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarSettings.h; path = Source/Services/Calendar/Generated/GTLCalendarSettings.h; sourceTree = "<group>"; };
 		51F676C4A61383CCF387BB0D25DC0155 /* Pods-Fenway Garden SocietyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fenway Garden SocietyTests-umbrella.h"; sourceTree = "<group>"; };
+		52441288EF307AC53232406DD152A87D /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
+		52D5080AE117CB5189AEF7F4F9B078D3 /* GTMOAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMOAuth2.framework; path = GTMOAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5354C3C6D6EF1E0477D115C9A1C2F3C7 /* GTLCalendarEventAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarEventAttachment.m; path = Source/Services/Calendar/Generated/GTLCalendarEventAttachment.m; sourceTree = "<group>"; };
+		5385FB779D4F133882263242DE7B89F2 /* GTLCalendarCalendarList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarCalendarList.m; path = Source/Services/Calendar/Generated/GTLCalendarCalendarList.m; sourceTree = "<group>"; };
+		55B3E2B90CB0B96910D85FDC1125A396 /* GTLCalendarAclRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarAclRule.h; path = Source/Services/Calendar/Generated/GTLCalendarAclRule.h; sourceTree = "<group>"; };
+		5922E034F0B71CDC273A0BBDB8F5B1CF /* GTMOAuth2SignIn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMOAuth2SignIn.m; path = Source/GTMOAuth2SignIn.m; sourceTree = "<group>"; };
+		59AB2640F8245C8AB186D8FC61021341 /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
+		59EC1DAF50AD02CD1CB618274EB6339A /* GTLUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLUtilities.m; path = Source/Utilities/GTLUtilities.m; sourceTree = "<group>"; };
+		5A6E83FFDD14D563B368A197F5F9D4AB /* Pods_Fenway_Garden_Society.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fenway_Garden_Society.framework; path = "Pods-Fenway Garden Society.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA1AA6A9BDE673169A8CCD9BC11E1AF /* Pods-Fenway Garden SocietyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fenway Garden SocietyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EDBA901FD8CB78C6C37E378F00C3AEF /* GoogleAPIClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleAPIClient.modulemap; sourceTree = "<group>"; };
+		5F12EE5EA626CE3D38536171717BE305 /* GTLJSONParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLJSONParser.h; path = Source/Utilities/GTLJSONParser.h; sourceTree = "<group>"; };
+		5FA5D712A960BF4C40EAC3ADAB284E26 /* GTLCalendarFreeBusyGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarFreeBusyGroup.m; path = Source/Services/Calendar/Generated/GTLCalendarFreeBusyGroup.m; sourceTree = "<group>"; };
+		62CCBE456C3FD7962833280FA8F027B9 /* GTLCalendarEventAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarEventAttachment.h; path = Source/Services/Calendar/Generated/GTLCalendarEventAttachment.h; sourceTree = "<group>"; };
+		6473163BA1F2695633DAE14932A635A3 /* GTLQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLQuery.h; path = Source/Objects/GTLQuery.h; sourceTree = "<group>"; };
+		66230E5FB9FAA0DFDC734FFAED4C4BDB /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
+		6839FC1FACA68FDEE5458B624564C91A /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Source/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
+		68FF21D5BF3F70286FD34E2013F35136 /* Pods_Fenway_Garden_SocietyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fenway_Garden_SocietyTests.framework; path = "Pods-Fenway Garden SocietyTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C70B8E9760B375CBD9D3F566FAA4821 /* Pods-Fenway Garden SocietyUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fenway Garden SocietyUITests-resources.sh"; sourceTree = "<group>"; };
-		6CF81980B2B851D5ED4718BC47020609 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		7198B1FF4F9F7E14584A3EFA3030C657 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		7289FA0EDB3E2483AB10512C91EFBA1A /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B3B4CF950A2DDADBF2B605E5AE1769 /* Pods-Fenway Garden SocietyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fenway Garden SocietyTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		755E3AB1A7EC56DD1E8EA8E29FFCF187 /* Pods-Fenway Garden SocietyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fenway Garden SocietyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		75E4B3FC478ABBB7BB1E0C207870A159 /* GTLCalendarColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarColors.m; path = Source/Services/Calendar/Generated/GTLCalendarColors.m; sourceTree = "<group>"; };
 		77523D305E115D48104656C3F7FA05BC /* Pods-Fenway Garden Society-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fenway Garden Society-umbrella.h"; sourceTree = "<group>"; };
+		7843748B3D8182CE99E9A2421B313DED /* GTLCalendarAcl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarAcl.m; path = Source/Services/Calendar/Generated/GTLCalendarAcl.m; sourceTree = "<group>"; };
+		7CB4928EF51785015CAA5D816C682525 /* GTLService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLService.h; path = Source/Objects/GTLService.h; sourceTree = "<group>"; };
+		7D0A18ED71A9E2595C6C1CE3396D351D /* GTLService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLService.m; path = Source/Objects/GTLService.m; sourceTree = "<group>"; };
 		7D1276D9ADC5CC52847EF239E1EE8CE8 /* Pods-Fenway Garden SocietyTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fenway Garden SocietyTests-frameworks.sh"; sourceTree = "<group>"; };
+		7E36FB2CD1B67317E8E24936029F3CA8 /* GTLUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLUtilities.h; path = Source/Utilities/GTLUtilities.h; sourceTree = "<group>"; };
+		7EE696652174BDF9AE9F2271310325A8 /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
+		804CB26555FDD2581B4A78C11068D79A /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		81ACD622E86EC614ABE828FBEDE841F8 /* GTLCalendarCalendarList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarCalendarList.h; path = Source/Services/Calendar/Generated/GTLCalendarCalendarList.h; sourceTree = "<group>"; };
+		84FE3CD5CEC5011756B4B280E87CD4C9 /* GTLCalendarError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarError.m; path = Source/Services/Calendar/Generated/GTLCalendarError.m; sourceTree = "<group>"; };
 		852EB2BD10FF54610B7913B76905ED8C /* Pods-Fenway Garden SocietyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fenway Garden SocietyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		854F7C34669BD8DC2DAFF0411C7BDB0B /* GTLCalendarFreeBusyGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarFreeBusyGroup.h; path = Source/Services/Calendar/Generated/GTLCalendarFreeBusyGroup.h; sourceTree = "<group>"; };
+		878E742B0D735E0A0E991A5C642A156D /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		87964F39DCE47E882B4A495CC42C2C47 /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
+		8850498E6DE9057FBA0E0FC72DD1DDFE /* GTMGatherInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMGatherInputStream.h; path = Source/GTMGatherInputStream.h; sourceTree = "<group>"; };
+		89BCA56E88BF238A34640509C4289F9A /* GTMOAuth2ViewControllerTouch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMOAuth2ViewControllerTouch.h; path = Source/Touch/GTMOAuth2ViewControllerTouch.h; sourceTree = "<group>"; };
 		8C92FA22486010B7E639680259E78616 /* Pods-Fenway Garden Society.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Fenway Garden Society.modulemap"; sourceTree = "<group>"; };
 		8EB5E43B2090804ACFE866347BBD4781 /* Pods-Fenway Garden Society-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fenway Garden Society-resources.sh"; sourceTree = "<group>"; };
 		90DD8734F5A1E16962ECFBFEEA21B53E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92ED3BD268BC82A4BEBA2E672E856C60 /* GTLCalendarEventAttendee.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarEventAttendee.h; path = Source/Services/Calendar/Generated/GTLCalendarEventAttendee.h; sourceTree = "<group>"; };
+		932CC4D39B791DE5E609A45EDFA17E7E /* GTLCalendarTimePeriod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarTimePeriod.h; path = Source/Services/Calendar/Generated/GTLCalendarTimePeriod.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9419765B33E1A446D88B185A6738C7BC /* GTLCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendar.h; path = Source/Services/Calendar/Generated/GTLCalendar.h; sourceTree = "<group>"; };
 		9576C3D1EC9485881E94CD5867D1977D /* Pods-Fenway Garden Society.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fenway Garden Society.release.xcconfig"; sourceTree = "<group>"; };
-		995DC884942ED5E9B85C72A343F9AB5D /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SideMenu.modulemap; sourceTree = "<group>"; };
-		A77C5E846542EA6926C72990E7AFADF3 /* Pods_Fenway_Garden_SocietyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fenway_Garden_SocietyUITests.framework; path = "Pods-Fenway Garden SocietyUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9DB323BB3B2B0A52D555C01DBCD0305 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
+		96B95ABA89A1CCB3C21333871B06CFC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9706898756E8B838FF1CDB040383E7B0 /* GTLCalendarFreeBusyCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarFreeBusyCalendar.h; path = Source/Services/Calendar/Generated/GTLCalendarFreeBusyCalendar.h; sourceTree = "<group>"; };
+		97E7101833F1E57D4186AA4FF0B1675C /* GTLObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLObject.h; path = Source/Objects/GTLObject.h; sourceTree = "<group>"; };
+		9CCFFDB0E3D84BDB5C7A77A444466F5D /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
+		A075983B9BE543505DBFCFFDDA531DE2 /* GTLCalendarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarConstants.h; path = Source/Services/Calendar/Generated/GTLCalendarConstants.h; sourceTree = "<group>"; };
+		A4204280AD8093886E96AB6E2C051095 /* GTLBatchQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLBatchQuery.m; path = Source/Objects/GTLBatchQuery.m; sourceTree = "<group>"; };
+		A72767DBC113A1D16438BAE2F87BB4B0 /* GTMReadMonitorInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMReadMonitorInputStream.m; path = Source/GTMReadMonitorInputStream.m; sourceTree = "<group>"; };
+		A78FC14A65A5DAE09B4F6D8B270C64E1 /* Pods_Fenway_Garden_SocietyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fenway_Garden_SocietyUITests.framework; path = "Pods-Fenway Garden SocietyUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98170285D4417E20C71CAA8CC427C35 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		AB07BEDAA79BC977E11199BC67AAC482 /* GTLCalendarAclRule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarAclRule.m; path = Source/Services/Calendar/Generated/GTLCalendarAclRule.m; sourceTree = "<group>"; };
+		AB22E42B85FB9736EA8EBDEFC87AE564 /* GTLCalendarColorDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarColorDefinition.h; path = Source/Services/Calendar/Generated/GTLCalendarColorDefinition.h; sourceTree = "<group>"; };
 		ABE31705BB55167A2F9D97D8AB0D1385 /* Pods-Fenway Garden SocietyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fenway Garden SocietyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD42908F1942DB3B1F9E483F97EC3FF8 /* Pods-Fenway Garden Society-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fenway Garden Society-frameworks.sh"; sourceTree = "<group>"; };
-		BC033AC4767C71DAF0622DAAC5962B72 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AFC4A191056FA3E15DA24ADB3D518808 /* GTLCalendarEventReminder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarEventReminder.h; path = Source/Services/Calendar/Generated/GTLCalendarEventReminder.h; sourceTree = "<group>"; };
+		B2433E953BD2BB9AFC195CC961834534 /* GTLCalendarNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarNotification.h; path = Source/Services/Calendar/Generated/GTLCalendarNotification.h; sourceTree = "<group>"; };
+		B345ADF9EECC1C74CD10A4B4567582DA /* GTLBatchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLBatchQuery.h; path = Source/Objects/GTLBatchQuery.h; sourceTree = "<group>"; };
+		B3CE1F929BA8800F0116CF5CAE0F0BA8 /* GoogleAPIClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleAPIClient-umbrella.h"; sourceTree = "<group>"; };
+		B41BC3AAE5937056FD08D67E122E062F /* GTLCalendarChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarChannel.h; path = Source/Services/Calendar/Generated/GTLCalendarChannel.h; sourceTree = "<group>"; };
+		B4611D1D13E997D2D30F64AD31B7C7A6 /* GTLBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLBase64.m; path = Source/Utilities/GTLBase64.m; sourceTree = "<group>"; };
+		B5D51E93001307FE63216DB5257F25B5 /* GoogleAPIClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleAPIClient-dummy.m"; sourceTree = "<group>"; };
+		B5E12851D4A860FF5583964D0A68D61D /* GTLCalendarEventReminder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarEventReminder.m; path = Source/Services/Calendar/Generated/GTLCalendarEventReminder.m; sourceTree = "<group>"; };
+		B5FE5E09035282ACE9FF130058D699AC /* GTLCalendarEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarEvents.h; path = Source/Services/Calendar/Generated/GTLCalendarEvents.h; sourceTree = "<group>"; };
+		B66680321890600FC725BBF01DB56118 /* GTMOAuth2ViewControllerTouch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMOAuth2ViewControllerTouch.m; path = Source/Touch/GTMOAuth2ViewControllerTouch.m; sourceTree = "<group>"; };
+		B68546DA0D4842224111B5A40724E94B /* GTLTargetNamespace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLTargetNamespace.h; path = Source/Utilities/GTLTargetNamespace.h; sourceTree = "<group>"; };
+		B7E73800F3B849BD93B01D6C894B2A7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9962642C7B3A88077F8BC76C77272D6 /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionUploadFetcher.m; path = Source/GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
+		BB03CDE16E46B0F1EAE304810E848272 /* GTMMIMEDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMMIMEDocument.m; path = Source/GTMMIMEDocument.m; sourceTree = "<group>"; };
+		BC73839D54468B2CBD0DDE868DA8E661 /* GTLCalendarEventAttendee.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarEventAttendee.m; path = Source/Services/Calendar/Generated/GTLCalendarEventAttendee.m; sourceTree = "<group>"; };
+		BDD739F4674CA4CF84F298567A851E32 /* GTLUploadParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLUploadParameters.m; path = Source/Objects/GTLUploadParameters.m; sourceTree = "<group>"; };
+		BF816FB289903EEF317718F39E8FC486 /* GTMMIMEDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMIMEDocument.h; path = Source/GTMMIMEDocument.h; sourceTree = "<group>"; };
+		BFA589404DC6A80AE062B9D653DC7734 /* GTLCalendarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarConstants.m; path = Source/Services/Calendar/Generated/GTLCalendarConstants.m; sourceTree = "<group>"; };
+		C2F016BB1CACF60937C1C5A259FDDF82 /* GTLCalendarEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarEvents.m; path = Source/Services/Calendar/Generated/GTLCalendarEvents.m; sourceTree = "<group>"; };
+		C55AE452D94B73A90C359E273DD8BF40 /* GoogleAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleAPIClient.framework; path = GoogleAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7900353246981BA0C3705DB3647B140 /* GTLCalendarError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarError.h; path = Source/Services/Calendar/Generated/GTLCalendarError.h; sourceTree = "<group>"; };
+		CAAA635DD719BB414F046FD0BD23AAC1 /* GTMOAuth2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GTMOAuth2.modulemap; sourceTree = "<group>"; };
+		CAD280D244243337CCF698A5DB635110 /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Source/GTMSessionFetcher.m; sourceTree = "<group>"; };
+		CBBA659A66B3976AFB3F7629DADD4956 /* GTLFramework.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLFramework.m; path = Source/Utilities/GTLFramework.m; sourceTree = "<group>"; };
+		CC40D4797049B1BD46FFE68361B9DC93 /* GTLFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLFramework.h; path = Source/Utilities/GTLFramework.h; sourceTree = "<group>"; };
+		CC90CCE02553294B93D2BF8F490081B6 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = Source/Touch/GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		CD9FF49BDD21BCEDA67B58D734E5EBCE /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		CF0B03A344A7665B986564975D9F3372 /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
+		D0E7FD3BF1499F377378D7DA5A35B75D /* GTMOAuth2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMOAuth2-dummy.m"; sourceTree = "<group>"; };
+		D2A24F80AB60CB7D3171ECBD09B94420 /* GTLErrorObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLErrorObject.h; path = Source/Objects/GTLErrorObject.h; sourceTree = "<group>"; };
+		D31608631BEB36EF2119A9D7054F36F9 /* GTMOAuth2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMOAuth2-prefix.pch"; sourceTree = "<group>"; };
 		D3A8264FDAF503B832EDB311C1D416F9 /* Pods-Fenway Garden SocietyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fenway Garden SocietyTests-dummy.m"; sourceTree = "<group>"; };
+		D52F32E98AA894122A0CF20BE2A92986 /* GTLServiceCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLServiceCalendar.m; path = Source/Services/Calendar/Generated/GTLServiceCalendar.m; sourceTree = "<group>"; };
+		D79F58333706AC407B6E9BC826B45532 /* GTLBatchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLBatchResult.m; path = Source/Objects/GTLBatchResult.m; sourceTree = "<group>"; };
+		D866956FC91D65D070E7F76E306D6416 /* GTMOAuth2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMOAuth2-umbrella.h"; sourceTree = "<group>"; };
 		D8D54E9EE9ED08B407C237ECCCC8756A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9C2DFF5EFFA6C93B7FF2415B52009EC /* Pods-Fenway Garden SocietyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Fenway Garden SocietyUITests.modulemap"; sourceTree = "<group>"; };
 		DABA2997FE62878F8A0AD07AEA4B44AE /* Pods-Fenway Garden SocietyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fenway Garden SocietyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DB591ADB2BD6C6B956A68C26870D0DB0 /* Pods-Fenway Garden SocietyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fenway Garden SocietyUITests-umbrella.h"; sourceTree = "<group>"; };
+		DB866A4B9BEFAFB1598D6470A53DDAAC /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
+		DCEB8673CE9BAB4CDCBB09620485F952 /* GTLRuntimeCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLRuntimeCommon.m; path = Source/Objects/GTLRuntimeCommon.m; sourceTree = "<group>"; };
+		E07E66643328C42AF31076017830FF71 /* GTLCalendarSetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarSetting.m; path = Source/Services/Calendar/Generated/GTLCalendarSetting.m; sourceTree = "<group>"; };
 		E230BDDDE7B3CF0DF3678C6C0AE7092F /* Pods-Fenway Garden Society.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fenway Garden Society.debug.xcconfig"; sourceTree = "<group>"; };
 		E24E7AEA034CD2CE19B32EEA39BC5FF5 /* Pods-Fenway Garden Society-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fenway Garden Society-acknowledgements.plist"; sourceTree = "<group>"; };
-		E72E3ED37D9B76098CC2B9BB49D386DF /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
-		EA4F5E4E267C03BAC23C64C2DEC825B6 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		E69DC6E3C7AE50E8F9DB1553904BF847 /* GTLCalendarFreeBusyRequestItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarFreeBusyRequestItem.h; path = Source/Services/Calendar/Generated/GTLCalendarFreeBusyRequestItem.h; sourceTree = "<group>"; };
+		E6D2406084F1610DFB7CC313121036BA /* GTLCalendarFreeBusyResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarFreeBusyResponse.h; path = Source/Services/Calendar/Generated/GTLCalendarFreeBusyResponse.h; sourceTree = "<group>"; };
+		E773517E352E30934BBBD4F8F6A69374 /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMOAuth2Authentication.h; path = Source/GTMOAuth2Authentication.h; sourceTree = "<group>"; };
+		E889F5659226D2E1821366BFC5F009EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2E1CF1C0AC0166B384AEA2DE80C762 /* GTLDateTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLDateTime.h; path = Source/Objects/GTLDateTime.h; sourceTree = "<group>"; };
+		F080B4E39F02FBD51FF63C73E9695838 /* GTLBatchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLBatchResult.h; path = Source/Objects/GTLBatchResult.h; sourceTree = "<group>"; };
 		F0B254ED183E12BD16D87691C2BE4631 /* Pods-Fenway Garden Society-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fenway Garden Society-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FBB886EBE499ADAF32629979A36A3169 /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
-		FC0BD2A3E45C40B9C9716812311BF563 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0B91CB55B7944F5D3698CE6F34298E4 /* GTLCalendarColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarColors.h; path = Source/Services/Calendar/Generated/GTLCalendarColors.h; sourceTree = "<group>"; };
+		F47E29C608F9AF4CD4FCD2FE6981C7A1 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CEE35002771EE7CBE1CE626597515F /* GTLCalendarSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTLCalendarSetting.h; path = Source/Services/Calendar/Generated/GTLCalendarSetting.h; sourceTree = "<group>"; };
+		F677474119701A6447F544410B4E1607 /* GTLCalendarCalendarListEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarCalendarListEntry.m; path = Source/Services/Calendar/Generated/GTLCalendarCalendarListEntry.m; sourceTree = "<group>"; };
+		FA737EFC3BB8A3B39CF84B6BCD361752 /* GTLCalendarFreeBusyRequestItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarFreeBusyRequestItem.m; path = Source/Services/Calendar/Generated/GTLCalendarFreeBusyRequestItem.m; sourceTree = "<group>"; };
+		FB9F2DB8A7B6C0DCB598F646E81CCB70 /* GTLObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLObject.m; path = Source/Objects/GTLObject.m; sourceTree = "<group>"; };
+		FEEB0BC15C85FC23305CCD676A46B97C /* GTLCalendarEventDateTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTLCalendarEventDateTime.m; path = Source/Services/Calendar/Generated/GTLCalendarEventDateTime.m; sourceTree = "<group>"; };
 		FF1C80E3A07914A75BDAC553A1F74256 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7CB92D494795FF01716EF2CF65D085 /* GTMOAuth2Authentication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMOAuth2Authentication.m; path = Source/GTMOAuth2Authentication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1D06D270CAAC80D0979D3DDCEB0A5C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9112C19F87FA05C14697093181FB7D4F /* Foundation.framework in Frameworks */,
+				62BD5B902E90607E96479AF02CAF08A4 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D20E1650D915D8A88BB1415617C1E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47C45C1B0C22FF92C9BB94993B14577 /* Foundation.framework in Frameworks */,
+				CFBB4922A19D0556D19381C17AF26834 /* GTMSessionFetcher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		372EDF42A4E7A5D6C0FAD249920420A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,11 +388,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41D16E5738F2D611D90655F900F2731D /* Frameworks */ = {
+		5D5ED5B7CB95DC4BCDBED4664F1A7D5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C7B9A31149B8EF169637ECFCA886FAA /* Foundation.framework in Frameworks */,
+				E47AC73138E8649E1D27E9BADD8D707E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76119BFC3F7D28885FDCC80458A5B292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777F3793F20B7609CD5420A71654E25A /* Foundation.framework in Frameworks */,
+				CB8DEAB39CEA8CBFA79C0EE66C0B119A /* GTMSessionFetcher.framework in Frameworks */,
+				9C1546ABC2078575C674FC82B99C9C2F /* Security.framework in Frameworks */,
+				3BF2CBA7E2FBD47B9BCA0194FE394621 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,36 +415,125 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FED47463F6F445BB43AD9AEB5367C19 /* Frameworks */ = {
+		CB6230E2346C588391DA9FB4CD39A51E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				741ABB8E81697E601F41FEDA35A4AD0E /* Foundation.framework in Frameworks */,
+				8559AF39777CF27FD8BBAE9E713E8287 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C7DECB9505A3661801AB8D77F9249EF /* Pods */ = {
+		07E93A74607F4F7D3052EB0D91CFC90C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6139AD2A3B1702A32298B3F55914EA43 /* SideMenu */,
+				C55AE452D94B73A90C359E273DD8BF40 /* GoogleAPIClient.framework */,
+				52D5080AE117CB5189AEF7F4F9B078D3 /* GTMOAuth2.framework */,
+				F47E29C608F9AF4CD4FCD2FE6981C7A1 /* GTMSessionFetcher.framework */,
+				5A6E83FFDD14D563B368A197F5F9D4AB /* Pods_Fenway_Garden_Society.framework */,
+				68FF21D5BF3F70286FD34E2013F35136 /* Pods_Fenway_Garden_SocietyTests.framework */,
+				A78FC14A65A5DAE09B4F6D8B270C64E1 /* Pods_Fenway_Garden_SocietyUITests.framework */,
+				7289FA0EDB3E2483AB10512C91EFBA1A /* SideMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		106DF349D8B1932FFA3D29835434777C /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				9419765B33E1A446D88B185A6738C7BC /* GTLCalendar.h */,
+				17D241253BCA1F01C4A793294D2D2227 /* GTLCalendarAcl.h */,
+				7843748B3D8182CE99E9A2421B313DED /* GTLCalendarAcl.m */,
+				55B3E2B90CB0B96910D85FDC1125A396 /* GTLCalendarAclRule.h */,
+				AB07BEDAA79BC977E11199BC67AAC482 /* GTLCalendarAclRule.m */,
+				207C87467BD7161BEE5E4558B4BD8B09 /* GTLCalendarCalendar.h */,
+				2527417523D09E041D5C99D7B2D70647 /* GTLCalendarCalendar.m */,
+				81ACD622E86EC614ABE828FBEDE841F8 /* GTLCalendarCalendarList.h */,
+				5385FB779D4F133882263242DE7B89F2 /* GTLCalendarCalendarList.m */,
+				0D30A6B3BDF19EE107B9D4BB92A606BC /* GTLCalendarCalendarListEntry.h */,
+				F677474119701A6447F544410B4E1607 /* GTLCalendarCalendarListEntry.m */,
+				B41BC3AAE5937056FD08D67E122E062F /* GTLCalendarChannel.h */,
+				3BEBD5410E7B2B9A7ED9FBCD8DCA071B /* GTLCalendarChannel.m */,
+				AB22E42B85FB9736EA8EBDEFC87AE564 /* GTLCalendarColorDefinition.h */,
+				437B6EF80891230449005375554254FD /* GTLCalendarColorDefinition.m */,
+				F0B91CB55B7944F5D3698CE6F34298E4 /* GTLCalendarColors.h */,
+				75E4B3FC478ABBB7BB1E0C207870A159 /* GTLCalendarColors.m */,
+				A075983B9BE543505DBFCFFDDA531DE2 /* GTLCalendarConstants.h */,
+				BFA589404DC6A80AE062B9D653DC7734 /* GTLCalendarConstants.m */,
+				C7900353246981BA0C3705DB3647B140 /* GTLCalendarError.h */,
+				84FE3CD5CEC5011756B4B280E87CD4C9 /* GTLCalendarError.m */,
+				006CB6158C2DE0D82AABAF5A9E84D690 /* GTLCalendarEvent.h */,
+				4B1FAD35FFCF6DB0DD80AD280F4122A0 /* GTLCalendarEvent.m */,
+				62CCBE456C3FD7962833280FA8F027B9 /* GTLCalendarEventAttachment.h */,
+				5354C3C6D6EF1E0477D115C9A1C2F3C7 /* GTLCalendarEventAttachment.m */,
+				92ED3BD268BC82A4BEBA2E672E856C60 /* GTLCalendarEventAttendee.h */,
+				BC73839D54468B2CBD0DDE868DA8E661 /* GTLCalendarEventAttendee.m */,
+				1DBE5C26CAC0E84F40C562CD68B13F9D /* GTLCalendarEventDateTime.h */,
+				FEEB0BC15C85FC23305CCD676A46B97C /* GTLCalendarEventDateTime.m */,
+				AFC4A191056FA3E15DA24ADB3D518808 /* GTLCalendarEventReminder.h */,
+				B5E12851D4A860FF5583964D0A68D61D /* GTLCalendarEventReminder.m */,
+				B5FE5E09035282ACE9FF130058D699AC /* GTLCalendarEvents.h */,
+				C2F016BB1CACF60937C1C5A259FDDF82 /* GTLCalendarEvents.m */,
+				9706898756E8B838FF1CDB040383E7B0 /* GTLCalendarFreeBusyCalendar.h */,
+				05EB0254F7325D5CD1C28C2EA44938FC /* GTLCalendarFreeBusyCalendar.m */,
+				854F7C34669BD8DC2DAFF0411C7BDB0B /* GTLCalendarFreeBusyGroup.h */,
+				5FA5D712A960BF4C40EAC3ADAB284E26 /* GTLCalendarFreeBusyGroup.m */,
+				E69DC6E3C7AE50E8F9DB1553904BF847 /* GTLCalendarFreeBusyRequestItem.h */,
+				FA737EFC3BB8A3B39CF84B6BCD361752 /* GTLCalendarFreeBusyRequestItem.m */,
+				E6D2406084F1610DFB7CC313121036BA /* GTLCalendarFreeBusyResponse.h */,
+				15A2A22F42B8046C3D5565B81093FDBC /* GTLCalendarFreeBusyResponse.m */,
+				B2433E953BD2BB9AFC195CC961834534 /* GTLCalendarNotification.h */,
+				1E378EE3953B8916DFAD082205460BE5 /* GTLCalendarNotification.m */,
+				F4CEE35002771EE7CBE1CE626597515F /* GTLCalendarSetting.h */,
+				E07E66643328C42AF31076017830FF71 /* GTLCalendarSetting.m */,
+				516E85B6815F9AFF1F12448BD18FBD98 /* GTLCalendarSettings.h */,
+				345CF192A5E09279435F1FBC8BE63DB8 /* GTLCalendarSettings.m */,
+				932CC4D39B791DE5E609A45EDFA17E7E /* GTLCalendarTimePeriod.h */,
+				0E231CC400D91E2FB78A3279C1923151 /* GTLCalendarTimePeriod.m */,
+				2C94844EB5CE8DCA3826551A7BBF9E03 /* GTLQueryCalendar.h */,
+				3AC2D9643A11BEEEC3981ED199545355 /* GTLQueryCalendar.m */,
+				1B869DD0DB7F183D8DC15995D37CD79A /* GTLServiceCalendar.h */,
+				D52F32E98AA894122A0CF20BE2A92986 /* GTLServiceCalendar.m */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		16A2C67FC94F880382634FE4D6BF7893 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EDBA901FD8CB78C6C37E378F00C3AEF /* GoogleAPIClient.modulemap */,
+				076EA159AF837952CCF52970B729D799 /* GoogleAPIClient.xcconfig */,
+				B5D51E93001307FE63216DB5257F25B5 /* GoogleAPIClient-dummy.m */,
+				2BD60CC5326F61C99858C36F707C2B27 /* GoogleAPIClient-prefix.pch */,
+				B3CE1F929BA8800F0116CF5CAE0F0BA8 /* GoogleAPIClient-umbrella.h */,
+				448F22817F342740DDA6FEB399CE7A8F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleAPIClient";
+			sourceTree = "<group>";
+		};
+		55188E6FC9A60EC41A8DB2EA6F46BFFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FD861FE3831D7CCFFDF0752EB7A937C /* GoogleAPIClient */,
+				B5688A07A647889C558F9C0B12956FBA /* GTMOAuth2 */,
+				62097E1A87330C2D2EEBE92D3E20353E /* GTMSessionFetcher */,
+				E27804177F50F55ED815F0098A26B80E /* SideMenu */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6139AD2A3B1702A32298B3F55914EA43 /* SideMenu */ = {
+		62097E1A87330C2D2EEBE92D3E20353E /* GTMSessionFetcher */ = {
 			isa = PBXGroup;
 			children = (
-				0049F4BA49D06E8F4C1A0DF192A1FB11 /* SideMenuManager.swift */,
-				A9DB323BB3B2B0A52D555C01DBCD0305 /* SideMenuTransition.swift */,
-				EA4F5E4E267C03BAC23C64C2DEC825B6 /* UISideMenuNavigationController.swift */,
-				38FF13F0BB1AB42B2F1C6A72A59BD82F /* UITableViewVibrantCell.swift */,
-				F9853A6F97D22D33E240344F832559E2 /* Support Files */,
+				7513EEB7305F7CC05ECDF639F65DC5DA /* Core */,
+				7D33A75976FCC1634DB3CE486DF68B79 /* Full */,
+				D483CC88028B74A27C0E458C4807F0A9 /* Support Files */,
 			);
-			name = SideMenu;
-			path = SideMenu;
+			name = GTMSessionFetcher;
+			path = GTMSessionFetcher;
 			sourceTree = "<group>";
 		};
 		72C4BD9D956F70EA15A5631F9922161F /* Pods-Fenway Garden Society */ = {
@@ -159,23 +554,68 @@
 			path = "Target Support Files/Pods-Fenway Garden Society";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		7513EEB7305F7CC05ECDF639F65DC5DA /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				CF0B03A344A7665B986564975D9F3372 /* GTMSessionFetcher.h */,
+				CAD280D244243337CCF698A5DB635110 /* GTMSessionFetcher.m */,
+				1B93CAAF52AFC0A805EB57127C50380B /* GTMSessionFetcherLogging.h */,
+				7EE696652174BDF9AE9F2271310325A8 /* GTMSessionFetcherLogging.m */,
+				2E9D251EB28D12DAE2D7B10A88A1DDE2 /* GTMSessionFetcherService.h */,
+				9CCFFDB0E3D84BDB5C7A77A444466F5D /* GTMSessionFetcherService.m */,
+				6839FC1FACA68FDEE5458B624564C91A /* GTMSessionUploadFetcher.h */,
+				B9962642C7B3A88077F8BC76C77272D6 /* GTMSessionUploadFetcher.m */,
 			);
-			name = iOS;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7B390008DDCDF0708816FB43BEDAB98C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7E73800F3B849BD93B01D6C894B2A7E /* Info.plist */,
+				A98170285D4417E20C71CAA8CC427C35 /* SideMenu.modulemap */,
+				66230E5FB9FAA0DFDC734FFAED4C4BDB /* SideMenu.xcconfig */,
+				2D59260FB618350191A573A360F9F904 /* SideMenu-dummy.m */,
+				22E238C02ED1C12C938C2D4548CC4186 /* SideMenu-prefix.pch */,
+				CD9FF49BDD21BCEDA67B58D734E5EBCE /* SideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+		7D33A75976FCC1634DB3CE486DF68B79 /* Full */ = {
+			isa = PBXGroup;
+			children = (
+				8850498E6DE9057FBA0E0FC72DD1DDFE /* GTMGatherInputStream.h */,
+				0C045D37A68A84C2E0575E94DDCB136C /* GTMGatherInputStream.m */,
+				BF816FB289903EEF317718F39E8FC486 /* GTMMIMEDocument.h */,
+				BB03CDE16E46B0F1EAE304810E848272 /* GTMMIMEDocument.m */,
+				394CA3758D5E65CB905E4F180A377CA5 /* GTMReadMonitorInputStream.h */,
+				A72767DBC113A1D16438BAE2F87BB4B0 /* GTMReadMonitorInputStream.m */,
+			);
+			name = Full;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4C7DECB9505A3661801AB8D77F9249EF /* Pods */,
-				A12D52E63A257AECEE1728118560BE5C /* Products */,
+				F2A875A48A4D36B979C042CC40252657 /* Frameworks */,
+				55188E6FC9A60EC41A8DB2EA6F46BFFC /* Pods */,
+				07E93A74607F4F7D3052EB0D91CFC90C /* Products */,
 				9AAB29ED233AA4F8AA288543678E2D67 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7FD861FE3831D7CCFFDF0752EB7A937C /* GoogleAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				106DF349D8B1932FFA3D29835434777C /* Calendar */,
+				A4BB57D2AD2E18010BC0F8070884BEB9 /* Core */,
+				16A2C67FC94F880382634FE4D6BF7893 /* Support Files */,
+			);
+			name = GoogleAPIClient;
+			path = GoogleAPIClient;
 			sourceTree = "<group>";
 		};
 		9AAB29ED233AA4F8AA288543678E2D67 /* Targets Support Files */ = {
@@ -188,21 +628,121 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A12D52E63A257AECEE1728118560BE5C /* Products */ = {
+		A4BB57D2AD2E18010BC0F8070884BEB9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				4CB9D3D24E1C1DC5E9497E119B333D75 /* Pods_Fenway_Garden_Society.framework */,
-				34060C5762583F7D61BF9DC5C4A76154 /* Pods_Fenway_Garden_SocietyTests.framework */,
-				A77C5E846542EA6926C72990E7AFADF3 /* Pods_Fenway_Garden_SocietyUITests.framework */,
-				BC033AC4767C71DAF0622DAAC5962B72 /* SideMenu.framework */,
+				11A87C668ED3BB4BD5B954F5C8B4A059 /* GTLBase64.h */,
+				B4611D1D13E997D2D30F64AD31B7C7A6 /* GTLBase64.m */,
+				B345ADF9EECC1C74CD10A4B4567582DA /* GTLBatchQuery.h */,
+				A4204280AD8093886E96AB6E2C051095 /* GTLBatchQuery.m */,
+				F080B4E39F02FBD51FF63C73E9695838 /* GTLBatchResult.h */,
+				D79F58333706AC407B6E9BC826B45532 /* GTLBatchResult.m */,
+				EA2E1CF1C0AC0166B384AEA2DE80C762 /* GTLDateTime.h */,
+				400578485E57CF936A547E0D12B06B06 /* GTLDateTime.m */,
+				386330820B084452F00BC771D6093724 /* GTLDefines.h */,
+				D2A24F80AB60CB7D3171ECBD09B94420 /* GTLErrorObject.h */,
+				37FA0C2AB04DEDC9F04BED429C556145 /* GTLErrorObject.m */,
+				CC40D4797049B1BD46FFE68361B9DC93 /* GTLFramework.h */,
+				CBBA659A66B3976AFB3F7629DADD4956 /* GTLFramework.m */,
+				5F12EE5EA626CE3D38536171717BE305 /* GTLJSONParser.h */,
+				48501E2C8EC338306B9FAB949D0E2004 /* GTLJSONParser.m */,
+				97E7101833F1E57D4186AA4FF0B1675C /* GTLObject.h */,
+				FB9F2DB8A7B6C0DCB598F646E81CCB70 /* GTLObject.m */,
+				6473163BA1F2695633DAE14932A635A3 /* GTLQuery.h */,
+				27E2F8A585F94DABCFDD065DF1CAE6D5 /* GTLQuery.m */,
+				00ED168DF90B31995CE617E14CBB7CA1 /* GTLRuntimeCommon.h */,
+				DCEB8673CE9BAB4CDCBB09620485F952 /* GTLRuntimeCommon.m */,
+				7CB4928EF51785015CAA5D816C682525 /* GTLService.h */,
+				7D0A18ED71A9E2595C6C1CE3396D351D /* GTLService.m */,
+				B68546DA0D4842224111B5A40724E94B /* GTLTargetNamespace.h */,
+				1EDC3D82DE0EA97E9DFC6AC9796E1C15 /* GTLUploadParameters.h */,
+				BDD739F4674CA4CF84F298567A851E32 /* GTLUploadParameters.m */,
+				7E36FB2CD1B67317E8E24936029F3CA8 /* GTLUtilities.h */,
+				59EC1DAF50AD02CD1CB618274EB6339A /* GTLUtilities.m */,
 			);
-			name = Products;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		B5688A07A647889C558F9C0B12956FBA /* GTMOAuth2 */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				E773517E352E30934BBBD4F8F6A69374 /* GTMOAuth2Authentication.h */,
+				FF7CB92D494795FF01716EF2CF65D085 /* GTMOAuth2Authentication.m */,
+				5106A69782196ECFC12401A3BCCC925A /* GTMOAuth2SignIn.h */,
+				5922E034F0B71CDC273A0BBDB8F5B1CF /* GTMOAuth2SignIn.m */,
+				89BCA56E88BF238A34640509C4289F9A /* GTMOAuth2ViewControllerTouch.h */,
+				B66680321890600FC725BBF01DB56118 /* GTMOAuth2ViewControllerTouch.m */,
+				D887A0DB7548E525252EE0C0B529771C /* Resources */,
+				EB1DC6B7E665858E666C0E28DCD47B04 /* Support Files */,
+			);
+			name = GTMOAuth2;
+			path = GTMOAuth2;
+			sourceTree = "<group>";
+		};
+		C2A1DFD2909F0673B37DA28277C78728 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0949102B7EF80E79E4CBA5CF7CB62D13 /* Foundation.framework */,
+				7198B1FF4F9F7E14584A3EFA3030C657 /* Security.framework */,
+				3F6BC1BDB2A22C6FAEC41A08340EE715 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D483CC88028B74A27C0E458C4807F0A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87964F39DCE47E882B4A495CC42C2C47 /* GTMSessionFetcher.modulemap */,
+				49D7F85C743977108ECDD2DF9FD1D301 /* GTMSessionFetcher.xcconfig */,
+				59AB2640F8245C8AB186D8FC61021341 /* GTMSessionFetcher-dummy.m */,
+				52441288EF307AC53232406DD152A87D /* GTMSessionFetcher-prefix.pch */,
+				DB866A4B9BEFAFB1598D6470A53DDAAC /* GTMSessionFetcher-umbrella.h */,
+				E889F5659226D2E1821366BFC5F009EE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTMSessionFetcher";
+			sourceTree = "<group>";
+		};
+		D887A0DB7548E525252EE0C0B529771C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC90CCE02553294B93D2BF8F490081B6 /* GTMOAuth2ViewTouch.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E27804177F50F55ED815F0098A26B80E /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				05E76E2DE65A0AA8C9F1EA65994B6C91 /* SideMenuManager.swift */,
+				4E66DCCAF49F09A8C4D6C6AD4899E219 /* SideMenuTransition.swift */,
+				804CB26555FDD2581B4A78C11068D79A /* UISideMenuNavigationController.swift */,
+				878E742B0D735E0A0E991A5C642A156D /* UITableViewVibrantCell.swift */,
+				7B390008DDCDF0708816FB43BEDAB98C /* Support Files */,
+			);
+			name = SideMenu;
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		EB1DC6B7E665858E666C0E28DCD47B04 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAAA635DD719BB414F046FD0BD23AAC1 /* GTMOAuth2.modulemap */,
+				334D01B0E1C0D17D53E9567D8BF1FEA7 /* GTMOAuth2.xcconfig */,
+				D0E7FD3BF1499F377378D7DA5A35B75D /* GTMOAuth2-dummy.m */,
+				D31608631BEB36EF2119A9D7054F36F9 /* GTMOAuth2-prefix.pch */,
+				D866956FC91D65D070E7F76E306D6416 /* GTMOAuth2-umbrella.h */,
+				96B95ABA89A1CCB3C21333871B06CFC2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTMOAuth2";
+			sourceTree = "<group>";
+		};
+		F2A875A48A4D36B979C042CC40252657 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3414CF46D8D5C228D0749BFA5433D8D9 /* GTMSessionFetcher.framework */,
+				C2A1DFD2909F0673B37DA28277C78728 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,20 +763,6 @@
 			);
 			name = "Pods-Fenway Garden SocietyUITests";
 			path = "Target Support Files/Pods-Fenway Garden SocietyUITests";
-			sourceTree = "<group>";
-		};
-		F9853A6F97D22D33E240344F832559E2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC0BD2A3E45C40B9C9716812311BF563 /* Info.plist */,
-				995DC884942ED5E9B85C72A343F9AB5D /* SideMenu.modulemap */,
-				FBB886EBE499ADAF32629979A36A3169 /* SideMenu.xcconfig */,
-				35093DD994A172D53932151A6DBAEBC3 /* SideMenu-dummy.m */,
-				6CF81980B2B851D5ED4718BC47020609 /* SideMenu-prefix.pch */,
-				E72E3ED37D9B76098CC2B9BB49D386DF /* SideMenu-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SideMenu";
 			sourceTree = "<group>";
 		};
 		FE3141C5AF5C4F0A5EE930C731B7EE58 /* Pods-Fenway Garden SocietyTests */ = {
@@ -260,11 +786,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		125D0904D480A7F4C0A2876A2C0E36CB /* Headers */ = {
+		0739C5796C7E0354469039BB1E4A01F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61478118E5DF941E46E9D630F0FF740C /* SideMenu-umbrella.h in Headers */,
+				4BA262A5B0E51523B71A926AB5B2333F /* GTMOAuth2-umbrella.h in Headers */,
+				5B1AF8B6D07FA01316058C49151CF53A /* GTMOAuth2Authentication.h in Headers */,
+				333726D18E7D4FC18D95792999A41B80 /* GTMOAuth2SignIn.h in Headers */,
+				3EA5EB74DECDECA27E6505BD395A6BB9 /* GTMOAuth2ViewControllerTouch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +805,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E8E0B835D03D688397121E92A631340 /* Headers */ = {
+		697D93C0FD3A5BC261440A8C3B172835 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F367B1BA3E927CE25DB4CE904974F1E7 /* Pods-Fenway Garden Society-umbrella.h in Headers */,
+				3837CC4201B5AE6743A26FF524016916 /* GTMGatherInputStream.h in Headers */,
+				6AED36D064B9E559BFFD7A0A7B0C3969 /* GTMMIMEDocument.h in Headers */,
+				0CE1893C64400DE4063D02C587AE9E1D /* GTMReadMonitorInputStream.h in Headers */,
+				5D86AA2D603FBB50AED88D88B2C2D5B9 /* GTMSessionFetcher-umbrella.h in Headers */,
+				6BCE9802080CAE732A479FAF31F0D92E /* GTMSessionFetcher.h in Headers */,
+				751242161D0780B5FD0173D4F484F7A3 /* GTMSessionFetcherLogging.h in Headers */,
+				19DB9DFFC15BA51C4948F3145174A85D /* GTMSessionFetcherService.h in Headers */,
+				D080F430C60C9E9701AD44EDC8595B7C /* GTMSessionUploadFetcher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,16 +828,99 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92C772D078CE58E61A5400504BCB9319 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				508519EB00AF57E65F87551D07D1CAA6 /* GoogleAPIClient-umbrella.h in Headers */,
+				273D9921AB19FA582B63771DF0BD65CE /* GTLBase64.h in Headers */,
+				163C0EF81EC1E897BB1DF2D603A546C8 /* GTLBatchQuery.h in Headers */,
+				649652D9A1F02AFB17209D5ED9ABB360 /* GTLBatchResult.h in Headers */,
+				A054470DCC45CD1B099BB7BB158F1EB5 /* GTLCalendar.h in Headers */,
+				1D9C169218A6CB825A61A6D1E25DE618 /* GTLCalendarAcl.h in Headers */,
+				A5E7073B1D9A7F0D46B78F208025A3C5 /* GTLCalendarAclRule.h in Headers */,
+				1B9024AF78C2E73D446ABC2FFDAD103B /* GTLCalendarCalendar.h in Headers */,
+				ED12452DD8F2A6CC5A226C592C35AF7F /* GTLCalendarCalendarList.h in Headers */,
+				52EB7F2237393D9F18F148A85B9844AA /* GTLCalendarCalendarListEntry.h in Headers */,
+				69F2D1FBB8F8E27CD5400276D3FA38FF /* GTLCalendarChannel.h in Headers */,
+				F04D2DA276E4B7C6C2DFBE35121095FC /* GTLCalendarColorDefinition.h in Headers */,
+				EBA813C235FB9F33654E1687B7CBE38D /* GTLCalendarColors.h in Headers */,
+				42809C46E0F55790D4CCBE3D960121B1 /* GTLCalendarConstants.h in Headers */,
+				C5F5F4CE7DA5DC97F304CFC39D4DCF8C /* GTLCalendarError.h in Headers */,
+				702F17AE1DA87A7F21EA719B387994B3 /* GTLCalendarEvent.h in Headers */,
+				5866D8BB1018AE92CED4AC88B3D55A46 /* GTLCalendarEventAttachment.h in Headers */,
+				A8FAEBB261806DC980C45917B14CEBD9 /* GTLCalendarEventAttendee.h in Headers */,
+				09FE89AF2489893ECEEB548B22E044FA /* GTLCalendarEventDateTime.h in Headers */,
+				EFB97C3A5D75903C7306193A457D3D08 /* GTLCalendarEventReminder.h in Headers */,
+				569A4D18677A0D7F70357F4B92266AB6 /* GTLCalendarEvents.h in Headers */,
+				56F2B5B1FF2B92C592B98F7BE5AD5F45 /* GTLCalendarFreeBusyCalendar.h in Headers */,
+				18AEB6F01302E06C0593A2200ED2FA7F /* GTLCalendarFreeBusyGroup.h in Headers */,
+				1702F5233505B436AB26F61D9078E363 /* GTLCalendarFreeBusyRequestItem.h in Headers */,
+				CAFCDD9848EA88A0A2852C8AFEC16203 /* GTLCalendarFreeBusyResponse.h in Headers */,
+				8904FDC2498CBFE9085CD49463EB770C /* GTLCalendarNotification.h in Headers */,
+				A5F9D486D46FDA1D8FDF22E085FC8622 /* GTLCalendarSetting.h in Headers */,
+				609E7F886B8765AE9675589D93E15867 /* GTLCalendarSettings.h in Headers */,
+				3196F9F6FB61968AE545D21489869C56 /* GTLCalendarTimePeriod.h in Headers */,
+				6FDB86B36BC42559870F9C2542EEDDB0 /* GTLDateTime.h in Headers */,
+				7EB35F3D1A034DE5293759F8EAFB18D8 /* GTLDefines.h in Headers */,
+				3AD3CA3683E666E5A41E5BE81664863E /* GTLErrorObject.h in Headers */,
+				A3F64B91ABDE74DC6E44075BA168E1FA /* GTLFramework.h in Headers */,
+				FDA12608A5372030D47125E98C80DFE4 /* GTLJSONParser.h in Headers */,
+				605F805A15DDD757C8B8F7B4A15A1BCC /* GTLObject.h in Headers */,
+				519B71AF94C65AD1E29E59B4535B7F85 /* GTLQuery.h in Headers */,
+				6D6F933DC9237DB1AA36846823FAF8DF /* GTLQueryCalendar.h in Headers */,
+				3ECDCB84E23B801890112FEE397D259C /* GTLRuntimeCommon.h in Headers */,
+				07019630D9D56FE8729EA29004DEB562 /* GTLService.h in Headers */,
+				44D31C80E31BEEC0D5E7926AAF0885EE /* GTLServiceCalendar.h in Headers */,
+				E1D44AA8128820F4FB05E157C180C325 /* GTLTargetNamespace.h in Headers */,
+				D6855F74E4866446B37327DB76C3591D /* GTLUploadParameters.h in Headers */,
+				33D711B4B32C5251EAB79C1D9C1F6A48 /* GTLUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976EEFF3269DADF82BA4320DEF44EAC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BC0D2F4CC032A117FE93DE8FE9F907 /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1142F07F2FCCCF41B776E2DE64092D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E575125A04EFDD5ED352FCF8A57C9A /* Pods-Fenway Garden Society-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3E8DFA80AB9552C3F8FC220AA9BDDC3D /* SideMenu */ = {
+		20C101155E9F5E994103381E67EB0313 /* GTMSessionFetcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAA04B8DB2C13389421837D0E3FA24B3 /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildConfigurationList = DD0D8D917145162B72462141FE4C16A9 /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */;
 			buildPhases = (
-				40A6CD35B1E661493A69BB27499E6486 /* Sources */,
-				41D16E5738F2D611D90655F900F2731D /* Frameworks */,
-				125D0904D480A7F4C0A2876A2C0E36CB /* Headers */,
+				C043527884FBC19B6B86580E814BAA98 /* Sources */,
+				1D06D270CAAC80D0979D3DDCEB0A5C6C /* Frameworks */,
+				697D93C0FD3A5BC261440A8C3B172835 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTMSessionFetcher;
+			productName = GTMSessionFetcher;
+			productReference = F47E29C608F9AF4CD4FCD2FE6981C7A1 /* GTMSessionFetcher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2C19E36FCB7B0E63C5EA40B6A64DB2DA /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070134D60BF4CD05411927F75CEA7EE5 /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				A97E4E9D1179B952C06746700A82B04F /* Sources */,
+				CB6230E2346C588391DA9FB4CD39A51E /* Frameworks */,
+				976EEFF3269DADF82BA4320DEF44EAC0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -309,7 +928,7 @@
 			);
 			name = SideMenu;
 			productName = SideMenu;
-			productReference = BC033AC4767C71DAF0622DAAC5962B72 /* SideMenu.framework */;
+			productReference = 7289FA0EDB3E2483AB10512C91EFBA1A /* SideMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8EBF9A48B98AB3405E056FA6DE194F84 /* Pods-Fenway Garden SocietyTests */ = {
@@ -326,25 +945,65 @@
 			);
 			name = "Pods-Fenway Garden SocietyTests";
 			productName = "Pods-Fenway Garden SocietyTests";
-			productReference = 34060C5762583F7D61BF9DC5C4A76154 /* Pods_Fenway_Garden_SocietyTests.framework */;
+			productReference = 68FF21D5BF3F70286FD34E2013F35136 /* Pods_Fenway_Garden_SocietyTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A91CAF5BD0F8F80C34440D2995A406A2 /* Pods-Fenway Garden Society */ = {
+		B1C4AAFAF49036C7007633DAA3C806AD /* GTMOAuth2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49949198DF704ED5005BE62223854B7D /* Build configuration list for PBXNativeTarget "Pods-Fenway Garden Society" */;
+			buildConfigurationList = FB158E1F36AA30684612A296A5755DC7 /* Build configuration list for PBXNativeTarget "GTMOAuth2" */;
 			buildPhases = (
-				608BE7C14B36A473A6B16EC05AB6C59D /* Sources */,
-				7FED47463F6F445BB43AD9AEB5367C19 /* Frameworks */,
-				2E8E0B835D03D688397121E92A631340 /* Headers */,
+				048652B2CDB8D351E86B2CBBABBFB98D /* Sources */,
+				76119BFC3F7D28885FDCC80458A5B292 /* Frameworks */,
+				0739C5796C7E0354469039BB1E4A01F3 /* Headers */,
+				E22DB137D55176346F8380E16536A19E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E97695596DE04627A43F92B46EA008A0 /* PBXTargetDependency */,
+				3685CC549B13D25F9B663361874E198F /* PBXTargetDependency */,
+			);
+			name = GTMOAuth2;
+			productName = GTMOAuth2;
+			productReference = 52D5080AE117CB5189AEF7F4F9B078D3 /* GTMOAuth2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9C01ACED2978423B67BA2FAC5CC4A99 /* GoogleAPIClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108ED37C3E999C80C83621D9FCBC289F /* Build configuration list for PBXNativeTarget "GoogleAPIClient" */;
+			buildPhases = (
+				FDBFFD385ED035A4CEEF5557C273A5F1 /* Sources */,
+				1D20E1650D915D8A88BB1415617C1E1B /* Frameworks */,
+				92C772D078CE58E61A5400504BCB9319 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11C7B113D1000577FA85E1D9573CA0E0 /* PBXTargetDependency */,
+			);
+			name = GoogleAPIClient;
+			productName = GoogleAPIClient;
+			productReference = C55AE452D94B73A90C359E273DD8BF40 /* GoogleAPIClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE038807FE9B605852148B9E8BEB2064 /* Pods-Fenway Garden Society */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD369D205A6752702283F01FB2F4A5F /* Build configuration list for PBXNativeTarget "Pods-Fenway Garden Society" */;
+			buildPhases = (
+				931621B1C98D92FE851964B96079E83F /* Sources */,
+				5D5ED5B7CB95DC4BCDBED4664F1A7D5B /* Frameworks */,
+				F1142F07F2FCCCF41B776E2DE64092D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9A5ED02DF6A5AA96197718582EE31B /* PBXTargetDependency */,
+				1977DF2D95B535F2068BD8634257E450 /* PBXTargetDependency */,
+				3F11EB0ACC7CA142EC15919BECFCE30F /* PBXTargetDependency */,
+				1E6EA5B5F058C16DCFE4D5FE1331E9E1 /* PBXTargetDependency */,
 			);
 			name = "Pods-Fenway Garden Society";
 			productName = "Pods-Fenway Garden Society";
-			productReference = 4CB9D3D24E1C1DC5E9497E119B333D75 /* Pods_Fenway_Garden_Society.framework */;
+			productReference = 5A6E83FFDD14D563B368A197F5F9D4AB /* Pods_Fenway_Garden_Society.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F4D48521C2CC37413D12D5602C90F529 /* Pods-Fenway Garden SocietyUITests */ = {
@@ -361,7 +1020,7 @@
 			);
 			name = "Pods-Fenway Garden SocietyUITests";
 			productName = "Pods-Fenway Garden SocietyUITests";
-			productReference = A77C5E846542EA6926C72990E7AFADF3 /* Pods_Fenway_Garden_SocietyUITests.framework */;
+			productReference = A78FC14A65A5DAE09B4F6D8B270C64E1 /* Pods_Fenway_Garden_SocietyUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -381,19 +1040,44 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A12D52E63A257AECEE1728118560BE5C /* Products */;
+			productRefGroup = 07E93A74607F4F7D3052EB0D91CFC90C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A91CAF5BD0F8F80C34440D2995A406A2 /* Pods-Fenway Garden Society */,
+				C9C01ACED2978423B67BA2FAC5CC4A99 /* GoogleAPIClient */,
+				B1C4AAFAF49036C7007633DAA3C806AD /* GTMOAuth2 */,
+				20C101155E9F5E994103381E67EB0313 /* GTMSessionFetcher */,
+				DE038807FE9B605852148B9E8BEB2064 /* Pods-Fenway Garden Society */,
 				8EBF9A48B98AB3405E056FA6DE194F84 /* Pods-Fenway Garden SocietyTests */,
 				F4D48521C2CC37413D12D5602C90F529 /* Pods-Fenway Garden SocietyUITests */,
-				3E8DFA80AB9552C3F8FC220AA9BDDC3D /* SideMenu */,
+				2C19E36FCB7B0E63C5EA40B6A64DB2DA /* SideMenu */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		E22DB137D55176346F8380E16536A19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5531F9DDD1D852322A97C682A5AFC15 /* GTMOAuth2ViewTouch.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		048652B2CDB8D351E86B2CBBABBFB98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD02EFF91211DCC1DE607F885831F891 /* GTMOAuth2-dummy.m in Sources */,
+				31A17D8E7663090166267CB950E5DB45 /* GTMOAuth2Authentication.m in Sources */,
+				1351C79BE5DA3A3D43D42036A647C262 /* GTMOAuth2SignIn.m in Sources */,
+				96ACDA4D360DF9B9C30420A889E4416C /* GTMOAuth2ViewControllerTouch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		316CB6F673C39FF55497BF3953436DD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,23 +1086,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40A6CD35B1E661493A69BB27499E6486 /* Sources */ = {
+		931621B1C98D92FE851964B96079E83F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B152B3FC562BE9F428A0EA98636CDFF5 /* SideMenu-dummy.m in Sources */,
-				6B8A66AE31A8845315571CE63EF7FC3E /* SideMenuManager.swift in Sources */,
-				E06794AC0D90C4F96E3D9778246E957D /* SideMenuTransition.swift in Sources */,
-				275709CE13224C9C818D9265B0379D9E /* UISideMenuNavigationController.swift in Sources */,
-				691BE20CA265E5503B55D03691ED2476 /* UITableViewVibrantCell.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		608BE7C14B36A473A6B16EC05AB6C59D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E2432B6A2A29E0A98945DD8147A6B34 /* Pods-Fenway Garden Society-dummy.m in Sources */,
+				5E292EB27B32D8C4E226DACC00210757 /* Pods-Fenway Garden Society-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,14 +1102,118 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A97E4E9D1179B952C06746700A82B04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B86B3B308C6BFE700969BC201C4A19 /* SideMenu-dummy.m in Sources */,
+				2D50DF613B7655DCD2327EEB23C00DDC /* SideMenuManager.swift in Sources */,
+				5FE23FAFE62428F53D74FDF857C94329 /* SideMenuTransition.swift in Sources */,
+				C882DBA620C0DA1E326E0E2F0861ADC3 /* UISideMenuNavigationController.swift in Sources */,
+				F3D2E2DE4A84C5F64CC158581E33586B /* UITableViewVibrantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C043527884FBC19B6B86580E814BAA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA2589D9BF930953D01FCF684B0EAF /* GTMGatherInputStream.m in Sources */,
+				0D2CE228AD40EB876E3DA8C9952A78A5 /* GTMMIMEDocument.m in Sources */,
+				96C540D0518ECBED4A368BD22679649C /* GTMReadMonitorInputStream.m in Sources */,
+				8996811E94D5B51670D162EFDFE44573 /* GTMSessionFetcher-dummy.m in Sources */,
+				EC03AC492E8E76F5424F01C5CF609A58 /* GTMSessionFetcher.m in Sources */,
+				3754FFEC766A3281EC44472E99037ACE /* GTMSessionFetcherLogging.m in Sources */,
+				F2CB8E7BCA95A334174AE4416442F476 /* GTMSessionFetcherService.m in Sources */,
+				FB51501A3C7C464A4C7C094D612F5685 /* GTMSessionUploadFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBFFD385ED035A4CEEF5557C273A5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E689AD880E764311AFFC44E35B6A8A /* GoogleAPIClient-dummy.m in Sources */,
+				4AD435DD4D7A3CFB15C5B25CC1250841 /* GTLBase64.m in Sources */,
+				27FC403577150B55B7B71D22CF6BD10B /* GTLBatchQuery.m in Sources */,
+				E2950525D28A03EDC151445A6289330A /* GTLBatchResult.m in Sources */,
+				909AE50D05D014F330B8C3E8E59C9D94 /* GTLCalendarAcl.m in Sources */,
+				B2F7322FF62032D39232EEEE557B84BD /* GTLCalendarAclRule.m in Sources */,
+				BB106E530723B56FC949518BFDC8B6C1 /* GTLCalendarCalendar.m in Sources */,
+				93126C36B76BA73DB8AB5D1486113F93 /* GTLCalendarCalendarList.m in Sources */,
+				F5FC7F628ACDBCC28E52AD9A1B7F0CC4 /* GTLCalendarCalendarListEntry.m in Sources */,
+				0C5AB624EEC8AE64A37F21A873D8E820 /* GTLCalendarChannel.m in Sources */,
+				5F1F7F896BCAC46BC7F0B3520F365DDB /* GTLCalendarColorDefinition.m in Sources */,
+				F1C81B38FACF0A2377BAF19506DCD243 /* GTLCalendarColors.m in Sources */,
+				1C29FCE92C3D451E1AE6128E1CB4D9DC /* GTLCalendarConstants.m in Sources */,
+				DDB53555189A464A411ADC0206B2BB3B /* GTLCalendarError.m in Sources */,
+				CEE799CFD958BF9197BB152419112B66 /* GTLCalendarEvent.m in Sources */,
+				180FD9D0506B94B2729776BB604C57A8 /* GTLCalendarEventAttachment.m in Sources */,
+				4FAEBEF65A34C50E0CBD2366EE5EE140 /* GTLCalendarEventAttendee.m in Sources */,
+				24E7045FE00566A3B8E7F56BC5EC3F0B /* GTLCalendarEventDateTime.m in Sources */,
+				2B92FD7EE192DEFC0CE59AA0F255665A /* GTLCalendarEventReminder.m in Sources */,
+				67400DBF0C2D0B58A9AF84954E48FDD0 /* GTLCalendarEvents.m in Sources */,
+				266EE6DC55074B9E275222CB5FE75EDD /* GTLCalendarFreeBusyCalendar.m in Sources */,
+				CB0EA7F608139F2072E77758E0C52E8F /* GTLCalendarFreeBusyGroup.m in Sources */,
+				3AF723DB61315404273562ED7ADBF6DE /* GTLCalendarFreeBusyRequestItem.m in Sources */,
+				CF1EB136F4A1090A4F47695DA3F64AF1 /* GTLCalendarFreeBusyResponse.m in Sources */,
+				E251CB4C07E615F0CA5E2F838313BC04 /* GTLCalendarNotification.m in Sources */,
+				E474FA0CD3CBE84656B16433808F15AB /* GTLCalendarSetting.m in Sources */,
+				A61DAA78C771D3702E98C3A3D7084BD0 /* GTLCalendarSettings.m in Sources */,
+				8F6D66800C81931396DAFE392721BCB2 /* GTLCalendarTimePeriod.m in Sources */,
+				6C98D0083AE2CE92315D9E4FC90AAFC2 /* GTLDateTime.m in Sources */,
+				7552CA0F55DE408542E2FEA43E601B5A /* GTLErrorObject.m in Sources */,
+				06C8A31C5D353429570AD1E2ABD8389F /* GTLFramework.m in Sources */,
+				522140CFDE060877C110C7C872F3C332 /* GTLJSONParser.m in Sources */,
+				02FA31F96FCC6391C2BCAA5FF422F1CB /* GTLObject.m in Sources */,
+				C1B197883F6C6835B9CB0F1E874D1E40 /* GTLQuery.m in Sources */,
+				B4C04EB3392C09EF9270261648F7D0B5 /* GTLQueryCalendar.m in Sources */,
+				12FBEE8067A61F5B7DB057D14912A5B0 /* GTLRuntimeCommon.m in Sources */,
+				D46D5440CB4A191D69D652F29DB95039 /* GTLService.m in Sources */,
+				697B556D4CF4B571370FC97A5D821A47 /* GTLServiceCalendar.m in Sources */,
+				FA0E99DD52A86CA3847661DB29621EAB /* GTLUploadParameters.m in Sources */,
+				46148308E02825C7F5D8C026E6EEBE0A /* GTLUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E97695596DE04627A43F92B46EA008A0 /* PBXTargetDependency */ = {
+		11C7B113D1000577FA85E1D9573CA0E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = 20C101155E9F5E994103381E67EB0313 /* GTMSessionFetcher */;
+			targetProxy = 55C9BFC5CB082CF5DD26115A44D5CE2D /* PBXContainerItemProxy */;
+		};
+		1977DF2D95B535F2068BD8634257E450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = 20C101155E9F5E994103381E67EB0313 /* GTMSessionFetcher */;
+			targetProxy = 86DE91287515407B603A901198AA209D /* PBXContainerItemProxy */;
+		};
+		1E6EA5B5F058C16DCFE4D5FE1331E9E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SideMenu;
-			target = 3E8DFA80AB9552C3F8FC220AA9BDDC3D /* SideMenu */;
-			targetProxy = A499D3CD681247C6C76ED3030F6C49F7 /* PBXContainerItemProxy */;
+			target = 2C19E36FCB7B0E63C5EA40B6A64DB2DA /* SideMenu */;
+			targetProxy = B8A7A88467914A23BFF66D874735A5E5 /* PBXContainerItemProxy */;
+		};
+		3685CC549B13D25F9B663361874E198F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = 20C101155E9F5E994103381E67EB0313 /* GTMSessionFetcher */;
+			targetProxy = 170F5BE3B9815D61BA81BCBD97BCE075 /* PBXContainerItemProxy */;
+		};
+		3F11EB0ACC7CA142EC15919BECFCE30F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleAPIClient;
+			target = C9C01ACED2978423B67BA2FAC5CC4A99 /* GoogleAPIClient */;
+			targetProxy = BFD0D6D45EAA52FCDB16FC80577D3D45 /* PBXContainerItemProxy */;
+		};
+		CE9A5ED02DF6A5AA96197718582EE31B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMOAuth2;
+			target = B1C4AAFAF49036C7007633DAA3C806AD /* GTMOAuth2 */;
+			targetProxy = 1BA4A7FF56473660C67198D3391E1B77 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -477,38 +1253,69 @@
 			};
 			name = Debug;
 		};
-		113436E7A2ADC95FFD9B8AF213AE8B6C /* Debug */ = {
+		183460AFCF2036D187FA59E5ED8ADADA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBB886EBE499ADAF32629979A36A3169 /* SideMenu.xcconfig */;
+			baseConfigurationReference = 334D01B0E1C0D17D53E9567D8BF1FEA7 /* GTMOAuth2.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMOAuth2/GTMOAuth2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMOAuth2/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SideMenu;
+				MODULEMAP_FILE = "Target Support Files/GTMOAuth2/GTMOAuth2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GTMOAuth2;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		207348A474B56D69C7298479B90FD082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D7F85C743977108ECDD2DF9FD1D301 /* GTMSessionFetcher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GTMSessionFetcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		3E59DCC772F4AA97E79BEDFCB34A8B50 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -545,9 +1352,9 @@
 			};
 			name = Release;
 		};
-		4512CE2E6F69E2A3ADD9C1A70868392A /* Release */ = {
+		44589993C1B718DF6B2044C94C05420F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBB886EBE499ADAF32629979A36A3169 /* SideMenu.xcconfig */;
+			baseConfigurationReference = 66230E5FB9FAA0DFDC734FFAED4C4BDB /* SideMenu.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -611,6 +1418,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		55EAEA243FF9ADFBABCE1D2DCA5056F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E230BDDDE7B3CF0DF3678C6C0AE7092F /* Pods-Fenway Garden Society.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Fenway Garden Society/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fenway Garden Society/Pods-Fenway Garden Society.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Fenway_Garden_Society;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -691,6 +1534,167 @@
 			};
 			name = Debug;
 		};
+		73E10C4B801E46BC555268B1BEDC4184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334D01B0E1C0D17D53E9567D8BF1FEA7 /* GTMOAuth2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GTMOAuth2/GTMOAuth2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMOAuth2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMOAuth2/GTMOAuth2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GTMOAuth2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85208D5E0FD23C410C5C6A5FBC440F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66230E5FB9FAA0DFDC734FFAED4C4BDB /* SideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C9A5CEEB367F8E992E9F75BECB9F6F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076EA159AF837952CCF52970B729D799 /* GoogleAPIClient.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleAPIClient/GoogleAPIClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleAPIClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleAPIClient/GoogleAPIClient.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleAPIClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA92D6360B92D2C6E0B80FE058966081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076EA159AF837952CCF52970B729D799 /* GoogleAPIClient.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleAPIClient/GoogleAPIClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleAPIClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleAPIClient/GoogleAPIClient.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleAPIClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4D8414B317F5A007B0EC013BD6807C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D7F85C743977108ECDD2DF9FD1D301 /* GTMSessionFetcher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMSessionFetcher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GTMSessionFetcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -731,43 +1735,7 @@
 			};
 			name = Release;
 		};
-		BF2A38CABCA07C4756A1F39DF0C67CE3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E230BDDDE7B3CF0DF3678C6C0AE7092F /* Pods-Fenway Garden Society.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Fenway Garden Society/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Fenway Garden Society/Pods-Fenway Garden Society.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Fenway_Garden_Society;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DBD7E2D64E7F1AFC75B047A8F74468BB /* Release */ = {
+		C5A0467C893C67953A4C3A23D96E9447 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9576C3D1EC9485881E94CD5867D1977D /* Pods-Fenway Garden Society.release.xcconfig */;
 			buildSettings = {
@@ -805,11 +1773,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		070134D60BF4CD05411927F75CEA7EE5 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85208D5E0FD23C410C5C6A5FBC440F28 /* Debug */,
+				44589993C1B718DF6B2044C94C05420F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		085D6C13CB645E0499E10E2854618099 /* Build configuration list for PBXNativeTarget "Pods-Fenway Garden SocietyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04C384CD1D10D855244E73C9B9B10629 /* Debug */,
 				3E59DCC772F4AA97E79BEDFCB34A8B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108ED37C3E999C80C83621D9FCBC289F /* Build configuration list for PBXNativeTarget "GoogleAPIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9A5CEEB367F8E992E9F75BECB9F6F2 /* Debug */,
+				AA92D6360B92D2C6E0B80FE058966081 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -823,20 +1809,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49949198DF704ED5005BE62223854B7D /* Build configuration list for PBXNativeTarget "Pods-Fenway Garden Society" */ = {
+		BCD369D205A6752702283F01FB2F4A5F /* Build configuration list for PBXNativeTarget "Pods-Fenway Garden Society" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF2A38CABCA07C4756A1F39DF0C67CE3 /* Debug */,
-				DBD7E2D64E7F1AFC75B047A8F74468BB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AAA04B8DB2C13389421837D0E3FA24B3 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				113436E7A2ADC95FFD9B8AF213AE8B6C /* Debug */,
-				4512CE2E6F69E2A3ADD9C1A70868392A /* Release */,
+				55EAEA243FF9ADFBABCE1D2DCA5056F0 /* Debug */,
+				C5A0467C893C67953A4C3A23D96E9447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -846,6 +1823,24 @@
 			buildConfigurations = (
 				6F951F11245E63105260F2E7D8A625CE /* Debug */,
 				5337F2858F2B1AC9ABE5499B4B1C059E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0D8D917145162B72462141FE4C16A9 /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D8414B317F5A007B0EC013BD6807C7 /* Debug */,
+				207348A474B56D69C7298479B90FD082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB158E1F36AA30684612A296A5755DC7 /* Build configuration list for PBXNativeTarget "GTMOAuth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E10C4B801E46BC555268B1BEDC4184 /* Debug */,
+				183460AFCF2036D187FA59E5ED8ADADA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
