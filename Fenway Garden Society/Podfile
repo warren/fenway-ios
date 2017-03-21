@@ -7,6 +7,7 @@ target 'Fenway Garden Society' do
   pod 'SideMenu', '~> 2.1.4'
   pod 'GoogleAPIClient/Calendar', '~> 1.0.2'
   pod 'GTMOAuth2', '~> 1.1.0'
+  pod 'FSCalendar', '~> 2.7.4'
 
   # Pods for Fenway Garden Society
 

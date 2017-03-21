@@ -1,4 +1,5 @@
 PODS:
+  - FSCalendar (2.7.4)
   - GoogleAPIClient/Calendar (1.0.5):
     - GoogleAPIClient/Core
     - GTMSessionFetcher (~> 1.1)
@@ -14,16 +15,18 @@ PODS:
   - SideMenu (2.1.4)
 
 DEPENDENCIES:
+  - FSCalendar (~> 2.7.4)
   - GoogleAPIClient/Calendar (~> 1.0.2)
   - GTMOAuth2 (~> 1.1.0)
   - SideMenu (~> 2.1.4)
 
 SPEC CHECKSUMS:
+  FSCalendar: e95995a746acae531c4a7dd636b8393233125ec5
   GoogleAPIClient: 4a6b0b807de8b1115a2835180b25dd93dc60f1ea
   GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
   GTMSessionFetcher: a1f8ed39e4fe21c68957daed472c7afbcdf29166
   SideMenu: 74b93b251064668fc7523aae897157b767733f04
 
-PODFILE CHECKSUM: aa8f4c2d3924f8a979eb3653823e01fb3f6e962c
+PODFILE CHECKSUM: f802fd1f6c45e48489232ab54b7cadf789aa1abd
 
 COCOAPODS: 1.1.1
