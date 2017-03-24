@@ -5,6 +5,9 @@ target 'Fenway Garden Society' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   pod 'SideMenu', '~> 2.1.4'
+  pod 'GoogleAPIClient/Calendar', '~> 1.0.2'
+  pod 'GTMOAuth2', '~> 1.1.0'
+  pod 'FSCalendar', '~> 2.7.4'
 
   # Pods for Fenway Garden Society
 
@@ -17,5 +20,6 @@ target 'Fenway Garden Society' do
     inherit! :search_paths
     # Pods for testing
   end
+
 
 end
