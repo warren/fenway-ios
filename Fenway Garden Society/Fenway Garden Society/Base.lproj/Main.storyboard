@@ -63,7 +63,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dV0-ig-FLE" id="QgR-fn-QRh">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6x-GJ-W2E">
@@ -81,7 +81,7 @@
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Xi-pe-0gW" id="WxM-hR-pkn">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1l-Du-7hU">
@@ -99,13 +99,13 @@
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iVb-Br-Gt5" id="l0R-7q-4MI">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bui-DS-vnU">
                                                     <rect key="frame" x="0.0" y="6" width="375" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="History of the Gardens"/>
+                                                    <state key="normal" title="Gardener Biography"/>
                                                     <connections>
                                                         <segue destination="UMG-0x-cNk" kind="presentation" id="jOz-Rk-h9O"/>
                                                     </connections>
@@ -117,16 +117,13 @@
                                         <rect key="frame" x="0.0" y="132" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="56Y-JB-sKv" id="AbY-z1-1Jk">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3M-Ps-Izn">
                                                     <rect key="frame" x="0.0" y="6" width="375" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="How to Donate"/>
-                                                    <connections>
-                                                        <segue destination="pT8-ep-cnU" kind="presentation" id="fEh-m5-Hz2"/>
-                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -135,7 +132,7 @@
                                         <rect key="frame" x="0.0" y="176" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CrK-D9-7hS" id="49h-UU-gQF">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zLV-P0-CUr">
@@ -153,7 +150,7 @@
                                         <rect key="frame" x="0.0" y="220" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="P40-SZ-CRJ" id="wsd-t4-bTO">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9M-Cz-FfD">
@@ -235,28 +232,28 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gardener Q + A / About Us " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZ8-aw-47Q">
-                                <rect key="frame" x="76" y="147" width="210" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lMK-0X-npc">
                                 <rect key="frame" x="82" y="386" width="198" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Continue To See Biographies"/>
                                 <connections>
-                                    <segue destination="dOw-mu-WdB" kind="presentation" id="nJ4-RL-sd0"/>
+                                    <segue destination="dOw-mu-WdB" kind="show" id="uFD-Xk-e9S"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gardener Q + A  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZ8-aw-47Q">
+                                <rect key="frame" x="123" y="145" width="128" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pfy-RW-bFD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4728.8000000000002" y="190.25487256371815"/>
+            <point key="canvasLocation" x="4633" y="191"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="C2h-5J-m1f">
@@ -288,10 +285,14 @@
                                 <rect key="frame" x="16" y="214" width="343" height="317"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
                                 <string key="text">"The biggest change has been that the average age of the gardener has gone way down, which is great. The objective of the gardeners has also changed quite a bit. I’m old school: I’m into the beauty of flowers. I don’t grow vegetables, I don’t like vegetables, I like meat—sorry. I’m old school, I’m into the beauty of flowers. When I came here that’s what the predominant theme with most of the gardeners was: a flower garden, someplace you could come and sit down and enjoy nature and beauty and stuff like that. But the biggest change is that in the past ten years or so the average age of the gardener has gone down, and they’re coming in here wanting to grow food. Wanting to grow tomatoes, zucchinis, whatever. I would say that would be the biggest change in the objectives of most of the people who garden." 
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="K1r-BW-eWs" appends="YES" id="D0Z-2p-aPw"/>
+                                </connections>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 1:What are the things that have changed over the years?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0V-wP-LSc">
                                 <rect key="frame" x="16" y="161" width="699" height="57"/>
@@ -323,6 +324,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="acZ-KG-84W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="K1r-BW-eWs"/>
             </objects>
             <point key="canvasLocation" x="5357.6000000000004" y="191.1544227886057"/>
         </scene>
@@ -374,9 +376,13 @@
                                 <rect key="frame" x="16" y="211" width="332" height="320"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
                                 <string key="text">It’s recreation, it’s also...my life. One of the things that my life is about is beauty. And so it’s very satisfying for me to be able to make something beautiful whether it’s a garden or a drawing or a beautiful meal, something like that. A beautiful perfect cup of tea. For me it’s recreation, for me it’s also satisfying to make something beautiful. It’s also physical work, which is an important component of being out here. I’m hardly ever doing what I’m doing now, I’m never sitting here doing nothing. That’s just not me. It’s immaculate, yeah, but that didn’t happen all by itself. Whenever I’m here, I’m a blur. I’m weeding, I’m watering, I’m pruning, I’m doing this that and the other. Enjoy the roses along the way, but it’s also the physical work that attracts me to gardening. And being outside, communion with nature, seeing birds and bees. There are lots of reason why I’m a gardener.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hVj-h3-nKp" appends="YES" id="42L-ph-E3R"/>
+                                </connections>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpZ-ky-RJV">
                                 <rect key="frame" x="102" y="577" width="138" height="30"/>
@@ -391,6 +397,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ffi-y7-5bl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="hVj-h3-nKp"/>
             </objects>
             <point key="canvasLocation" x="6008.8000000000002" y="190.25487256371815"/>
         </scene>
@@ -421,10 +428,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="299" height="297"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <gestureRecognizers/>
                                         <string key="text">I’m Mexican-American. One of the themes of my garden is that most of the stuff in here is native to Mexico. This is dahlia, it’s a Mexican species, now of course it’s been hybridized into a garden queen, but the original dahlia are from Mexico. Marigolds, you can see the marigolds there, that’s also Mexican, a Mexican native. And zinnia, way in the front. One of the themes that I have going on in here is plants that are native to Mexico, as that’s my ethnic origin. Other than that practically everything in here I have grown from seed in my laboratory. I’m a chemistry professor at BU [Boston University] and I’m very lucky that I have some south-facing windows with a really awesome ledge. So I put my seed trays there and starting around January or February I plant many, many seedlings and then I bring them out here. So this is not going to Home Depot and buying stuff and planting it here. I’m with them every step of the way from the seed to when they end up being tossed in the garbage dump. Most of the stuff comes from seeds that I’ve sown. The lavender and this verbena are plants from friends.
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="wbe-MA-1sq" appends="YES" id="BPE-gY-CAO"/>
+                                        </connections>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 5: Describe the architecture of the garden" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q5Z-vW-jsq">
                                         <rect key="frame" x="8" y="253" width="346" height="21"/>
@@ -439,10 +450,14 @@
                                 <rect key="frame" x="25" y="411" width="299" height="210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
                                 <string key="text">The structure of the [Victory] Gardens is kind of stratified by class: maybe you didn’t pick that up, but this Hollywood, this is the beautiful gardens of the committed gardeners, the long-term people. The soil here is also very well-drained, which most plants like; but the closer you get down to the river, now you’re in the “hood,” you know what I’m saying? You dig a hole and five minutes later it fills up with water, it’s shady down there, much shadier down there. It’s much more challenging down there, so the turnover rate is higher...
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="EOI-16-Prp" appends="YES" id="lV2-Xh-GSd"/>
+                                </connections>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDG-OB-KeJ">
                                 <rect key="frame" x="90" y="567" width="168" height="30"/>
@@ -467,6 +482,8 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nhg-bj-qUn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="wbe-MA-1sq"/>
+                <pinchGestureRecognizer id="EOI-16-Prp"/>
             </objects>
             <point key="canvasLocation" x="6621.6000000000004" y="187.55622188905548"/>
         </scene>
@@ -507,9 +524,13 @@
                                 <rect key="frame" x="16" y="198" width="350" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
                                 <string key="text">I’ve been a gardener since I started here since I started here, which was in 1987. I believe...yeah ‘87 I got this garden. For a couple of years I used to walk by and would think “What foolish people! Why are they here? Why are you living in the city if you want to do this, what did you leave the suburbs for?” I had only recently left the suburbs. I would have to do suburban childhood yard chores. Mow the lawn. Take a machine and make the bushes into round balls. And I really knew nothing more than that?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hwD-ta-7ac" appends="YES" id="2UL-ye-EfR"/>
+                                </connections>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0C-jT-FiS">
                                 <rect key="frame" x="160" y="386" width="0.0" height="0.0"/>
@@ -529,9 +550,13 @@
                                 <rect key="frame" x="16" y="361" width="343" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text"> Some of these plants were from jobs. They had too many or the spore grew in the ground, and I dug it up, and it rooted in so I dug it out. Or they were going to throw it away and I took it. There are stumps where I had things where I just chopped them down, because they had either gotten out of size to the garden or out of favor with me. Some of them I really loved but as the trees in the park—who would know I would live long enough to actually see big trees get bigger—got even bigger, the plants I planted for sun were getting too much shade. The difference between working for yourself and working for somebody else is, if you want to chop a tree down, there’s no consultation, you just go and chop that tree down. [feigns a high-pitched voice] “Oh, don’t chop it down, it’s beautiful, I love it, my son planted that, I can’t chop that down!” But I can chop it down, so I do. I just chop it down. This used to be a tree hydrangea, and I chopped that out. I loved it, but it was a mess of a tree. It was a dirty tree, filthy underneath. Everybody had one. They’ve all moved and taken them with them. No one has that tree.</mutableString>
+                                <gestureRecognizers/>
+                                <string key="text"> Some of these plants were from jobs. They had too many or the spore grew in the ground, and I dug it up, and it rooted in so I dug it out. Or they were going to throw it away and I took it. There are stumps where I had things where I just chopped them down, because they had either gotten out of size to the garden or out of favor with me. Some of them I really loved but as the trees in the park—who would know I would live long enough to actually see big trees get bigger—got even bigger, the plants I planted for sun were getting too much shade. The difference between working for yourself and working for somebody else is, if you want to chop a tree down, there’s no consultation, you just go and chop that tree down. [feigns a high-pitched voice] “Oh, don’t chop it down, it’s beautiful, I love it, my son planted that, I can’t chop that down!” But I can chop it down, so I do. I just chop it down. This used to be a tree hydrangea, and I chopped that out. I loved it, but it was a mess of a tree. It was a dirty tree, filthy underneath. Everybody had one. They’ve all moved and taken them with them. No one has that tree.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Cqi-eE-Zt3" appends="YES" id="yi5-G8-XNu"/>
+                                </connections>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZe-G4-KcE">
                                 <rect key="frame" x="121" y="582" width="152" height="30"/>
@@ -550,6 +575,8 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F8K-Qd-K85" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="hwD-ta-7ac"/>
+                <pinchGestureRecognizer id="Cqi-eE-Zt3"/>
             </objects>
             <point key="canvasLocation" x="7236" y="183.95802098950526"/>
         </scene>
@@ -571,20 +598,99 @@
             <objects>
                 <viewController id="pxU-Kb-MTB" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="tFR-Eq-Hw3"/>
-                        <viewControllerLayoutGuide type="bottom" id="MBe-ba-rcX"/>
+                        <viewControllerLayoutGuide type="top" id="iLg-hP-cfY"/>
+                        <viewControllerLayoutGuide type="bottom" id="fI2-ZT-qO9"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="g09-WW-UBd">
+                    <view key="view" contentMode="scaleToFill" id="SB7-j0-3eJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I will be an about us page seomday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKY-o8-sVh">
-                                <rect key="frame" x="53" y="323" width="268" height="21"/>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fgslogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="T2I-to-yNw">
+                                <rect key="frame" x="0.0" y="102" width="375" height="198"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.10000000000000001" width="1" height="1"/>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="leR-co-ghh">
+                                <rect key="frame" x="-16" y="322" width="391" height="325"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBP-aM-blx">
+                                <rect key="frame" x="145" y="337" width="84" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Useful Links">
+                                    <color key="titleColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YkD-qV-m9c" kind="presentation" id="GMK-s2-2TH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Information Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRS-bX-eqm">
+                                <rect key="frame" x="97" y="50" width="181" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home Page: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0M-al-xIL">
+                                <rect key="frame" x="138" y="375" width="98" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKT-P4-3Z0">
+                                <rect key="frame" x="75" y="394" width="225" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="http://fenwayvictorygardens.org/"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="History Page:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIG-Tg-7Ws">
+                                <rect key="frame" x="133" y="432" width="103" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BfQ-sA-CMo">
+                                <rect key="frame" x="30" y="461" width="315" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="http://fenwayvictorygardens.org/learn/history/"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Garden Post:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOz-ei-CHv">
+                                <rect key="frame" x="129" y="491" width="100" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ahC-is-cbd">
+                                <rect key="frame" x="11" y="511" width="334" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="http://fenwayvictorygardens.org/learn/fenway-garden-post"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Member Resources:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbB-Vy-Srv">
+                                <rect key="frame" x="108" y="541" width="153" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nc-fX-EKs">
+                                <rect key="frame" x="3" y="570" width="372" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="http://fenwayvictorygardens.org/get-involved/member-resources/"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="noC-yQ-kG2">
+                                <rect key="frame" x="133" y="284" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="About Us Page">
+                                    <color key="titleColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YkD-qV-m9c" kind="presentation" id="qjH-a2-yRa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -592,33 +698,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XOW-dq-uni" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3176.8000000000002" y="1306.5967016491754"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Uvy-KA-fHK">
-            <objects>
-                <viewController id="pT8-ep-cnU" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zvv-0w-Bgl"/>
-                        <viewControllerLayoutGuide type="bottom" id="zJH-AV-Vqw"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="rBJ-Sy-4zR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I will be a donation page someday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyM-kV-Qbp">
-                                <rect key="frame" x="58" y="323" width="258" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KuH-Zu-Llg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4232.8000000000002" y="957.57121439280365"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xdq-k8-QvU">
@@ -666,13 +745,214 @@
             </objects>
             <point key="canvasLocation" x="1051" y="135"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="I88-rW-zES">
+            <objects>
+                <viewController id="juL-po-mlY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vEj-rx-Dvw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DZG-16-BlX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jdl-hf-AWd">
+            <objects>
+                <viewController id="ELr-Ek-KAP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RCp-IH-fDV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mZ-jy-rpX">
+                                <rect key="frame" x="135" y="36" width="88" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Useful Links:">
+                                    <color key="titleColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="os4-gv-mFY">
+                                <rect key="frame" x="0.0" y="70" width="375" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="clF-QL-Fo9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="H3c-5I-vKj">
+            <objects>
+                <viewController id="YkD-qV-m9c" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AEF-Po-IrB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us (1/3)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgx-8j-beT">
+                                <rect key="frame" x="147" y="20" width="117" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6WX-75-stT">
+                                <rect key="frame" x="12" y="49" width="350" height="477"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">The Fenway Victory Gardens are the only remaining, continuously operating World War II Victory Gardens in the United States. Founded in 1942 by the Roosevelt Administration, it was one of over 20 million victory gardens responsible for nearly half of all the vegetable produce during the war. Located in Fredrick Law Olmsted’s famed Emerald Necklace, over 500 gardens spanning 7.5 acres are tended by a community of more than 350 members from every neighborhood in Boston, reflecting the diversity of our city and its rich history and culture.       </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9l-hS-jkR">
+                                <rect key="frame" x="135" y="485" width="104" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Next Page">
+                                    <color key="titleColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCf-RP-uCz">
+                                <rect key="frame" x="49" y="549" width="243" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Back to Information Page">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="pxU-Kb-MTB" kind="presentation" id="E1Q-z5-MPx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pvc-V2-CPs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3680.8000000000002" y="865.81709145427294"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Unn-yW-9O4">
+            <objects>
+                <viewController id="8NP-bp-b0b" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X9l-Hv-8tw"/>
+                        <viewControllerLayoutGuide type="bottom" id="5xR-e8-JTg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kxF-J2-e04">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us (2/3)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPn-Ky-aB7">
+                                <rect key="frame" x="110" y="20" width="113" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vyd-VB-4dv">
+                                <rect key="frame" x="16" y="59" width="352" height="494"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">The Fenway Victory Gardens were established in Boston in the spring of 1942 when it became clear that the nation’s food production would be unable to supply both the armed forces overseas and the general public on the homefront. Across the nation, “victory gardens” sprang up in city lots and backyards in order to combat nationwide food shortages and wartime rationing. The Boston Victory Garden Committee secured 49 areas for cultivation, including a large plot of land bordered by the Muddy River, Boylston Street, and Park Drive, an area that would come to be known as the Fenway Victory Gardens.
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YkV-3F-PbN">
+                                <rect key="frame" x="131" y="505" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Next Page">
+                                    <color key="titleColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKu-IH-DuB">
+                                <rect key="frame" x="123" y="555" width="137" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Previous Page">
+                                    <color key="titleColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YkD-qV-m9c" kind="presentation" id="jco-vM-fkY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lum-iL-Ywx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4301.6000000000004" y="865.81709145427294"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="19b-Io-umI">
+            <objects>
+                <viewController id="SH7-7A-6gY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MVk-Gz-Ml8"/>
+                        <viewControllerLayoutGuide type="bottom" id="DHC-OU-9kA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tAu-tm-YpW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us (3/3)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Okm-dw-Z9h">
+                                <rect key="frame" x="130" y="20" width="114" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QUH-pE-eCC">
+                                <rect key="frame" x="16" y="69" width="343" height="449"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">The Fenway Garden Society was formally established in 1944 by those who wished to continue their urban gardening as the war was drawing to a close and victory gardens were no longer needed. Richard D. Parker, for whom the Fenway Victory Gardens are now named, was one member of this group of gardeners, and he remained an influential leader in the Fenway Garden Society until his death in 1975. The Fenway Victory Gardens were initially supervised by the Boston Parks Department, but in 1949 the Fenway Garden Society gained full responsibility of the administration, maintenance, and appearance of the garden parkland.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9P-Io-qeg">
+                                <rect key="frame" x="130" y="497" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNg-gB-TsV">
+                                <rect key="frame" x="97" y="505" width="180" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Previous Page">
+                                    <color key="titleColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8NP-bp-b0b" kind="presentation" id="HR2-4c-1Qr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5TO-tX-R5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4920.8000000000002" y="864.91754122938539"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="fgslogo.png" width="400" height="400"/>
         <image name="potted_plant.jpg" width="550" height="596"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="jOz-Rk-h9O"/>
         <segue reference="sF1-TS-Xyq"/>
-        <segue reference="mSt-HV-iv2"/>
-        <segue reference="jeL-JI-f7k"/>
+        <segue reference="DXa-j0-bPN"/>
+        <segue reference="E1Q-z5-MPx"/>
+        <segue reference="qjH-a2-yRa"/>
     </inferredMetricsTieBreakers>
 </document>
