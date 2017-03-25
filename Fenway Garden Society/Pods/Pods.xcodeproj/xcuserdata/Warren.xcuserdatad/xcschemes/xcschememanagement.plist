@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AppAuth.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FSCalendar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GTMAppAuth.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,17 +62,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>53F6FDC13F620DEF25DC511D8B05C851</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5791D8F52E49C3AD933B58D8A32CD397</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8EBF9A48B98AB3405E056FA6DE194F84</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B1C4AAFAF49036C7007633DAA3C806AD</key>
+		<key>998731B0C21D3DB32F5A1AECC0AC2721</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C4372A5F83E13C47BFD60501BFD24EDD</key>
+		<key>B1C4AAFAF49036C7007633DAA3C806AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,7 +97,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DA34E301931F2B366220457AB05C0D66</key>
+		<key>DE0C4310F0FE84B1A8E21B2D4A0B8AB7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
