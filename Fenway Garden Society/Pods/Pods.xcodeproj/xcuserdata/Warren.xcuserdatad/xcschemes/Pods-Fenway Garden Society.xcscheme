@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D1D8588DAF1FED7DA581C6E5699E267E'
+               BlueprintIdentifier = 'C4372A5F83E13C47BFD60501BFD24EDD'
                BlueprintName = 'Pods-Fenway Garden Society'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-Fenway Garden Society.framework'>
