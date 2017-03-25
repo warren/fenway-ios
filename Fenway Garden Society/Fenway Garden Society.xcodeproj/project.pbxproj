@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		398409D41E8726FC0057DE6B /* fenway_mapimageviewlabel1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 398409D31E8726FC0057DE6B /* fenway_mapimageviewlabel1.jpg */; };
+		398409D61E8728090057DE6B /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398409D51E8728090057DE6B /* MapController.swift */; };
 		5C70821F0B6B119F201D5665 /* Pods_Fenway_Garden_SocietyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AAFF8E45E938E08CD5B84D /* Pods_Fenway_Garden_SocietyUITests.framework */; };
 		8001B3D41DE4EF0A00DFC6AF /* potted_plant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8001B3D31DE4EF0A00DFC6AF /* potted_plant.jpg */; };
 		8092A3071DE0C11D00A51954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092A3061DE0C11D00A51954 /* AppDelegate.swift */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		12623BF1E46FF3171ADA1BF3 /* Pods-Fenway Garden Society.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden Society.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden Society/Pods-Fenway Garden Society.debug.xcconfig"; sourceTree = "<group>"; };
 		1C28F01A33AE169EBA965704 /* Pods-Fenway Garden SocietyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyUITests/Pods-Fenway Garden SocietyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		398409D31E8726FC0057DE6B /* fenway_mapimageviewlabel1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fenway_mapimageviewlabel1.jpg; path = ../../../Downloads/fenway_mapimageviewlabel1.jpg; sourceTree = "<group>"; };
+		398409D51E8728090057DE6B /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		5C526E7C57F9FADB03D966E7 /* Pods_Fenway_Garden_SocietyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fenway_Garden_SocietyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AAFF8E45E938E08CD5B84D /* Pods_Fenway_Garden_SocietyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fenway_Garden_SocietyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		768ACB380813AD10D3148E1C /* Pods-Fenway Garden SocietyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyUITests/Pods-Fenway Garden SocietyUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 			children = (
 				8092A3061DE0C11D00A51954 /* AppDelegate.swift */,
 				8092A3081DE0C11D00A51954 /* ViewController.swift */,
+				398409D51E8728090057DE6B /* MapController.swift */,
 				80980C7F1DED04D70040957D /* TableViewCell.swift */,
 				80E592F81E25916400ADFE38 /* HamburgerTableViewController.swift */,
 				8092A30A1DE0C11D00A51954 /* Main.storyboard */,
@@ -139,6 +144,7 @@
 				8092A30D1DE0C11D00A51954 /* Assets.xcassets */,
 				8092A30F1DE0C11D00A51954 /* LaunchScreen.storyboard */,
 				8092A3121DE0C11D00A51954 /* Info.plist */,
+				398409D31E8726FC0057DE6B /* fenway_mapimageviewlabel1.jpg */,
 				8001B3D21DE4EEF400DFC6AF /* Resources */,
 			);
 			path = "Fenway Garden Society";
@@ -304,6 +310,7 @@
 				8092A3111DE0C11D00A51954 /* LaunchScreen.storyboard in Resources */,
 				8001B3D41DE4EF0A00DFC6AF /* potted_plant.jpg in Resources */,
 				8092A30E1DE0C11D00A51954 /* Assets.xcassets in Resources */,
+				398409D41E8726FC0057DE6B /* fenway_mapimageviewlabel1.jpg in Resources */,
 				8092A30C1DE0C11D00A51954 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +478,7 @@
 				80E592F91E25916400ADFE38 /* HamburgerTableViewController.swift in Sources */,
 				857B59161E4018E30074A735 /* Contact.swift in Sources */,
 				8092A3091DE0C11D00A51954 /* ViewController.swift in Sources */,
+				398409D61E8728090057DE6B /* MapController.swift in Sources */,
 				8092A3071DE0C11D00A51954 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
