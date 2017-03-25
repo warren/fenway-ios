@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '84E71E1B6FAE85F93D115EB3F3A763B1'
-               BlueprintName = 'SideMenu'
+               BlueprintIdentifier = 'D754D048A59EE2C949DB4030D58270DC'
+               BlueprintName = 'GoogleAPIClientForREST'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SideMenu.framework'>
+               BuildableName = 'GoogleAPIClientForREST.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

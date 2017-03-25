@@ -34,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>GoogleAPIClientForREST.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Fenway Garden Society.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -67,7 +72,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5791D8F52E49C3AD933B58D8A32CD397</key>
+		<key>7D18C285536BA8D7CA41803D9BA1188C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84E71E1B6FAE85F93D115EB3F3A763B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,7 +107,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DE0C4310F0FE84B1A8E21B2D4A0B8AB7</key>
+		<key>D754D048A59EE2C949DB4030D58270DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
