@@ -13,6 +13,9 @@ import GTMAppAuth
 import AppAuth
 import GoogleAPIClient
 import GoogleAPIClientForREST
+import Siesta
+import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController {
     
@@ -32,10 +35,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var fileListView: UIPickerView!
     
 
-    let appDelegate = (UIApplication.shared.delegate! as! AppDelegate)
+    /*let appDelegate = (UIApplication.shared.delegate! as! AppDelegate)
     var authorization: GTMAppAuthFetcherAuthorization?
     var kExampleAuthorizerKey = "authorization"
-    let userDefaults = UserDefaults.standard
+    let userDefaults = UserDefaults.standard */
     
     
     // When the view loads, create necessary subviews
@@ -44,8 +47,24 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        auth() // Utilize dark forbidden API witchcraft
+        Alamofire.request("https://www.googleapis.com/calendar/v3/calendars/info%40fenwayvictorygardens.org/events?key=AIzaSyByz6zzKDLD966LSS2tPucaQPwfezihMA8").responseJSON { response in
+            //print(response.request)  // original URL request
+            //print(response.response) // HTTP URL response
+            //print(response.data)     // server data
+            //print(response.result)   // result of response serialization
+            
+            /*if let JSON = response.result.value {
+                print("JSON: \(JSON)")
+            }*/
+            
+            // Initializes SwiftyJSON stuff
+            let json = JSON(response.result.value)
+            
+            print(json["items"])
+        }
+        
     }
+    
     
     
     // CALENDAR When the view appears, ensure that the Google Calendar API service is authorized
@@ -64,7 +83,7 @@ class ViewController: UIViewController {
     }*/
     
     
-    @IBAction func authorize(_ sender: Any)
+    /*@IBAction func authorize(_ sender: Any)
     {
         auth()
     }
@@ -81,9 +100,9 @@ class ViewController: UIViewController {
             userDefaults.removeObject(forKey: kExampleAuthorizerKey)
         }
     }
+    */
     
-    
-    func auth()
+    /*func auth()
     {
         //need this potatoe
         let issuer = URL(string: kIssuer)!
@@ -115,10 +134,10 @@ class ViewController: UIViewController {
                 }
             })
         })
-    }
+    }*/
     
     
-    func loadAuth()
+    /*func loadAuth()
     {
         if let _ = userDefaults.object(forKey: kExampleAuthorizerKey)
         {
@@ -127,7 +146,7 @@ class ViewController: UIViewController {
             authorization = testAuth
             service.authorizer = authorization
         }
-    }
+    }*/
 
     // aW5mb0BmZW53YXl2aWN0b3J5Z2FyZGVucy5vcmc
     

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7D18C285536BA8D7CA41803D9BA1188C"
+               BlueprintIdentifier = "857E60E6E8DA960B96AA0F13B3280017"
                BuildableName = "Pods_Fenway_Garden_Society.framework"
                BlueprintName = "Pods-Fenway Garden Society"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7D18C285536BA8D7CA41803D9BA1188C"
+            BlueprintIdentifier = "857E60E6E8DA960B96AA0F13B3280017"
             BuildableName = "Pods_Fenway_Garden_Society.framework"
             BlueprintName = "Pods-Fenway Garden Society"
             ReferencedContainer = "container:Pods.xcodeproj">
