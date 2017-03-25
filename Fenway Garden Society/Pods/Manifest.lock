@@ -13,12 +13,14 @@ PODS:
   - GTMSessionFetcher/Full (1.1.9):
     - GTMSessionFetcher/Core (= 1.1.9)
   - SideMenu (2.1.5)
+  - TNImageSliderViewController (1.0.4)
 
 DEPENDENCIES:
   - FSCalendar (~> 2.7.4)
   - GoogleAPIClient/Calendar (~> 1.0.2)
   - GTMOAuth2 (~> 1.1.0)
   - SideMenu (~> 2.1.4)
+  - TNImageSliderViewController (~> 1.0.4)
 
 SPEC CHECKSUMS:
   FSCalendar: e95995a746acae531c4a7dd636b8393233125ec5
@@ -26,7 +28,8 @@ SPEC CHECKSUMS:
   GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
   GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
   SideMenu: bcd2d7b7d4395af088e213cebd11c3ac7d958f5a
+  TNImageSliderViewController: 2517ca7b658e2cfd35f12e02c3cacac7056e0010
 
-PODFILE CHECKSUM: f802fd1f6c45e48489232ab54b7cadf789aa1abd
+PODFILE CHECKSUM: 2b48a47bcd3704d8805dd738eac92e53ed71a4cd
 
 COCOAPODS: 1.1.1

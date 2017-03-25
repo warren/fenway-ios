@@ -1,0 +1,6 @@
+framework module TNImageSliderViewController {
+  umbrella header "TNImageSliderViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

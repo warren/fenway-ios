@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '80661F9A0A1E167906D3F21B4A8ABC6B'
-               BlueprintName = 'SideMenu'
+               BlueprintIdentifier = 'D656FF7155AEEEBD2EBDF3A9D2DBB946'
+               BlueprintName = 'TNImageSliderViewController'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SideMenu.framework'>
+               BuildableName = 'TNImageSliderViewController.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
