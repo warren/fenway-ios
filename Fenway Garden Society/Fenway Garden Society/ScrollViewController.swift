@@ -6,7 +6,7 @@
 //  Copyright © 2017 BU Global App Initiative. All rights reserved.
 
 // Collaboration: 
-// GAI 2017 Appathon
+// GAI 2017 Appathon2
 // Stephen Parish 
 // Sanam Patel
 

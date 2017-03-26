@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EhR-YO-F9a">
+>>>>>>> 2015465d75f464ec0732c4b324dc76b83f38fd17
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -21,14 +25,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUX-HL-3vQ">
-                                <rect key="frame" x="318" y="20" width="44" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="MENU"/>
-                                <connections>
-                                    <segue destination="M2r-7Q-vY6" kind="presentation" id="LT1-UG-wlg"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="potted_plant.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fsh-eh-XcA">
                                 <rect key="frame" x="10" y="104" width="349" height="563"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -40,13 +36,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUX-HL-3vQ">
+                                <rect key="frame" x="315" y="72" width="44" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="MENU"/>
+                                <connections>
+                                    <segue destination="M2r-7Q-vY6" kind="presentation" id="LT1-UG-wlg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="nAu-Q4-Ii5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+            <point key="canvasLocation" x="1076" y="138.98050974512745"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="UDu-75-raN">
@@ -71,7 +76,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Interactive Map"/>
                                                     <connections>
-                                                        <segue destination="ih5-Yi-D4B" kind="presentation" id="TQB-M9-QiS"/>
+                                                        <segue destination="ih5-Yi-D4B" kind="show" id="t4q-aW-T0Q"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -89,7 +94,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Upcoming Events"/>
                                                     <connections>
-                                                        <segue destination="awm-a2-whN" kind="presentation" id="iWH-f2-JPs"/>
+                                                        <segue destination="awm-a2-whN" kind="show" id="str-l5-xtu"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -107,7 +112,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Gardener Biography"/>
                                                     <connections>
-                                                        <segue destination="UMG-0x-cNk" kind="presentation" id="jOz-Rk-h9O"/>
+                                                        <segue destination="UMG-0x-cNk" kind="show" id="1Fz-ne-eqH"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -124,6 +129,12 @@
                                                     <rect key="frame" x="0.0" y="6" width="375" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="How to Donate"/>
+<<<<<<< HEAD
+=======
+                                                    <connections>
+                                                        <segue destination="pT8-ep-cnU" kind="show" id="ggo-BS-dKF"/>
+                                                    </connections>
+>>>>>>> 2015465d75f464ec0732c4b324dc76b83f38fd17
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -140,12 +151,13 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="About Us"/>
                                                     <connections>
-                                                        <segue destination="pxU-Kb-MTB" kind="presentation" id="c1Y-3A-qVQ"/>
+                                                        <segue destination="pxU-Kb-MTB" kind="show" id="w0q-vD-3Qi"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+<<<<<<< HEAD
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="P40-SZ-CRJ">
                                         <rect key="frame" x="0.0" y="220" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
@@ -167,6 +179,8 @@
                                             <segue destination="BYZ-38-t0r" kind="presentation" id="9Us-UP-Dqm"/>
                                         </connections>
                                     </tableViewCell>
+=======
+>>>>>>> 2015465d75f464ec0732c4b324dc76b83f38fd17
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -179,7 +193,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SSz-Wh-tsF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2000.8" y="134.48275862068968"/>
+            <point key="canvasLocation" x="2940" y="134.48275862068968"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yoA-49-hXG">
@@ -485,6 +499,7 @@
                 <pinchGestureRecognizer id="wbe-MA-1sq"/>
                 <pinchGestureRecognizer id="EOI-16-Prp"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="6621.6000000000004" y="187.55622188905548"/>
         </scene>
         <!--View Controller-->
@@ -592,6 +607,9 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0XG-BC-RXZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3951" y="-205"/>
+=======
+            <point key="canvasLocation" x="5668" y="190.25487256371815"/>
+>>>>>>> 2015465d75f464ec0732c4b324dc76b83f38fd17
         </scene>
         <!--View Controller-->
         <scene sceneID="pdl-zw-eT6">
@@ -743,7 +761,25 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="36h-5C-Vdh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1051" y="135"/>
+            <point key="canvasLocation" x="1989.5999999999999" y="134.48275862068968"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="d3V-UF-5hn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EhR-YO-F9a" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="S7I-dd-Cgc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QKa-PK-Hqb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T2V-dn-Zpn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="I88-rW-zES">
