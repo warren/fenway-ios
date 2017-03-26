@@ -9,12 +9,26 @@
 /* Begin PBXBuildFile section */
 		398409D41E8726FC0057DE6B /* fenway_mapimageviewlabel1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 398409D31E8726FC0057DE6B /* fenway_mapimageviewlabel1.jpg */; };
 		398409D61E8728090057DE6B /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398409D51E8728090057DE6B /* MapController.swift */; };
+		39B5198D1E87425600C9A534 /* Basket of Cherry Tomatos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B5197E1E87425600C9A534 /* Basket of Cherry Tomatos.jpg */; };
+		39B5198E1E87425600C9A534 /* bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B5197F1E87425600C9A534 /* bridge.jpg */; };
+		39B5198F1E87425600C9A534 /* Caden with Zuccini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B519801E87425600C9A534 /* Caden with Zuccini.jpg */; };
+		39B519901E87425600C9A534 /* CocoaPods.app-1.1.1.tar.bz2 in Resources */ = {isa = PBXBuildFile; fileRef = 39B519811E87425600C9A534 /* CocoaPods.app-1.1.1.tar.bz2 */; };
+		39B519911E87425600C9A534 /* Courtney Allender_DSC_0233.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B519821E87425600C9A534 /* Courtney Allender_DSC_0233.jpg */; };
+		39B519921E87425600C9A534 /* DJI_0003.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 39B519831E87425600C9A534 /* DJI_0003.JPG */; };
+		39B519931E87425600C9A534 /* DJI_0007.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 39B519841E87425600C9A534 /* DJI_0007.JPG */; };
+		39B519941E87425600C9A534 /* dragon fly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B519851E87425600C9A534 /* dragon fly.jpg */; };
+		39B519951E87425600C9A534 /* FGS2016_Women's Lunch Place Donation - Image #1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B519861E87425600C9A534 /* FGS2016_Women's Lunch Place Donation - Image #1.jpg */; };
+		39B519961E87425600C9A534 /* IMG_0269.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 39B519871E87425600C9A534 /* IMG_0269.JPG */; };
+		39B519971E87425600C9A534 /* IMG_3020.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B519881E87425600C9A534 /* IMG_3020.jpg */; };
+		39B519981E87425600C9A534 /* IMG_6194 copy.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 39B519891E87425600C9A534 /* IMG_6194 copy.JPG */; };
+		39B519991E87425600C9A534 /* IMG_6194.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 39B5198A1E87425600C9A534 /* IMG_6194.JPG */; };
+		39B5199A1E87425600C9A534 /* overhead victory 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B5198B1E87425600C9A534 /* overhead victory 2.jpg */; };
+		39B5199B1E87425600C9A534 /* pexels-photo-186716.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39B5198C1E87425600C9A534 /* pexels-photo-186716.jpeg */; };
 		5C70821F0B6B119F201D5665 /* Pods_Fenway_Garden_SocietyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AAFF8E45E938E08CD5B84D /* Pods_Fenway_Garden_SocietyUITests.framework */; };
 		8001B3D41DE4EF0A00DFC6AF /* potted_plant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8001B3D31DE4EF0A00DFC6AF /* potted_plant.jpg */; };
 		8092A3071DE0C11D00A51954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092A3061DE0C11D00A51954 /* AppDelegate.swift */; };
 		8092A3091DE0C11D00A51954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092A3081DE0C11D00A51954 /* ViewController.swift */; };
 		8092A30C1DE0C11D00A51954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8092A30A1DE0C11D00A51954 /* Main.storyboard */; };
-		8092A30E1DE0C11D00A51954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8092A30D1DE0C11D00A51954 /* Assets.xcassets */; };
 		8092A3111DE0C11D00A51954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8092A30F1DE0C11D00A51954 /* LaunchScreen.storyboard */; };
 		8092A31C1DE0C11D00A51954 /* Fenway_Garden_SocietyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092A31B1DE0C11D00A51954 /* Fenway_Garden_SocietyTests.swift */; };
 		8092A3271DE0C11D00A51954 /* Fenway_Garden_SocietyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092A3261DE0C11D00A51954 /* Fenway_Garden_SocietyUITests.swift */; };
@@ -47,6 +61,21 @@
 		1C28F01A33AE169EBA965704 /* Pods-Fenway Garden SocietyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyUITests/Pods-Fenway Garden SocietyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		398409D31E8726FC0057DE6B /* fenway_mapimageviewlabel1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fenway_mapimageviewlabel1.jpg; path = ../../../Downloads/fenway_mapimageviewlabel1.jpg; sourceTree = "<group>"; };
 		398409D51E8728090057DE6B /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		39B5197E1E87425600C9A534 /* Basket of Cherry Tomatos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Basket of Cherry Tomatos.jpg"; path = "../../../Downloads/Basket of Cherry Tomatos.jpg"; sourceTree = "<group>"; };
+		39B5197F1E87425600C9A534 /* bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bridge.jpg; path = ../../../Downloads/bridge.jpg; sourceTree = "<group>"; };
+		39B519801E87425600C9A534 /* Caden with Zuccini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Caden with Zuccini.jpg"; path = "../../../Downloads/Caden with Zuccini.jpg"; sourceTree = "<group>"; };
+		39B519811E87425600C9A534 /* CocoaPods.app-1.1.1.tar.bz2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CocoaPods.app-1.1.1.tar.bz2"; path = "../../../Downloads/CocoaPods.app-1.1.1.tar.bz2"; sourceTree = "<group>"; };
+		39B519821E87425600C9A534 /* Courtney Allender_DSC_0233.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Courtney Allender_DSC_0233.jpg"; path = "../../../Downloads/Courtney Allender_DSC_0233.jpg"; sourceTree = "<group>"; };
+		39B519831E87425600C9A534 /* DJI_0003.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DJI_0003.JPG; path = ../../../Downloads/DJI_0003.JPG; sourceTree = "<group>"; };
+		39B519841E87425600C9A534 /* DJI_0007.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DJI_0007.JPG; path = ../../../Downloads/DJI_0007.JPG; sourceTree = "<group>"; };
+		39B519851E87425600C9A534 /* dragon fly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dragon fly.jpg"; path = "../../../Downloads/dragon fly.jpg"; sourceTree = "<group>"; };
+		39B519861E87425600C9A534 /* FGS2016_Women's Lunch Place Donation - Image #1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "FGS2016_Women's Lunch Place Donation - Image #1.jpg"; path = "../../../Downloads/FGS2016_Women's Lunch Place Donation - Image #1.jpg"; sourceTree = "<group>"; };
+		39B519871E87425600C9A534 /* IMG_0269.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0269.JPG; path = ../../../Downloads/IMG_0269.JPG; sourceTree = "<group>"; };
+		39B519881E87425600C9A534 /* IMG_3020.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_3020.jpg; path = ../../../Downloads/IMG_3020.jpg; sourceTree = "<group>"; };
+		39B519891E87425600C9A534 /* IMG_6194 copy.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "IMG_6194 copy.JPG"; path = "../../../Downloads/IMG_6194 copy.JPG"; sourceTree = "<group>"; };
+		39B5198A1E87425600C9A534 /* IMG_6194.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_6194.JPG; path = ../../../Downloads/IMG_6194.JPG; sourceTree = "<group>"; };
+		39B5198B1E87425600C9A534 /* overhead victory 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "overhead victory 2.jpg"; path = "../../../Downloads/overhead victory 2.jpg"; sourceTree = "<group>"; };
+		39B5198C1E87425600C9A534 /* pexels-photo-186716.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pexels-photo-186716.jpeg"; path = "../../../Downloads/pexels-photo-186716.jpeg"; sourceTree = "<group>"; };
 		5C526E7C57F9FADB03D966E7 /* Pods_Fenway_Garden_SocietyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fenway_Garden_SocietyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62AAFF8E45E938E08CD5B84D /* Pods_Fenway_Garden_SocietyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fenway_Garden_SocietyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		768ACB380813AD10D3148E1C /* Pods-Fenway Garden SocietyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyUITests/Pods-Fenway Garden SocietyUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,7 +84,6 @@
 		8092A3061DE0C11D00A51954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8092A3081DE0C11D00A51954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8092A30B1DE0C11D00A51954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8092A30D1DE0C11D00A51954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8092A3101DE0C11D00A51954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8092A3121DE0C11D00A51954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8092A3171DE0C11D00A51954 /* Fenway Garden SocietyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fenway Garden SocietyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +133,21 @@
 			isa = PBXGroup;
 			children = (
 				8001B3D31DE4EF0A00DFC6AF /* potted_plant.jpg */,
+				39B5197E1E87425600C9A534 /* Basket of Cherry Tomatos.jpg */,
+				39B5197F1E87425600C9A534 /* bridge.jpg */,
+				39B519801E87425600C9A534 /* Caden with Zuccini.jpg */,
+				39B519811E87425600C9A534 /* CocoaPods.app-1.1.1.tar.bz2 */,
+				39B519821E87425600C9A534 /* Courtney Allender_DSC_0233.jpg */,
+				39B519831E87425600C9A534 /* DJI_0003.JPG */,
+				39B519841E87425600C9A534 /* DJI_0007.JPG */,
+				39B519851E87425600C9A534 /* dragon fly.jpg */,
+				39B519861E87425600C9A534 /* FGS2016_Women's Lunch Place Donation - Image #1.jpg */,
+				39B519871E87425600C9A534 /* IMG_0269.JPG */,
+				39B519881E87425600C9A534 /* IMG_3020.jpg */,
+				39B519891E87425600C9A534 /* IMG_6194 copy.JPG */,
+				39B5198A1E87425600C9A534 /* IMG_6194.JPG */,
+				39B5198B1E87425600C9A534 /* overhead victory 2.jpg */,
+				39B5198C1E87425600C9A534 /* pexels-photo-186716.jpeg */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -141,7 +184,6 @@
 				80E592F81E25916400ADFE38 /* HamburgerTableViewController.swift */,
 				8092A30A1DE0C11D00A51954 /* Main.storyboard */,
 				857B59151E4018E30074A735 /* Contact.swift */,
-				8092A30D1DE0C11D00A51954 /* Assets.xcassets */,
 				8092A30F1DE0C11D00A51954 /* LaunchScreen.storyboard */,
 				8092A3121DE0C11D00A51954 /* Info.plist */,
 				398409D31E8726FC0057DE6B /* fenway_mapimageviewlabel1.jpg */,
@@ -307,11 +349,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39B519971E87425600C9A534 /* IMG_3020.jpg in Resources */,
+				39B519931E87425600C9A534 /* DJI_0007.JPG in Resources */,
+				39B5198E1E87425600C9A534 /* bridge.jpg in Resources */,
 				8092A3111DE0C11D00A51954 /* LaunchScreen.storyboard in Resources */,
+				39B519901E87425600C9A534 /* CocoaPods.app-1.1.1.tar.bz2 in Resources */,
 				8001B3D41DE4EF0A00DFC6AF /* potted_plant.jpg in Resources */,
-				8092A30E1DE0C11D00A51954 /* Assets.xcassets in Resources */,
 				398409D41E8726FC0057DE6B /* fenway_mapimageviewlabel1.jpg in Resources */,
+				39B519991E87425600C9A534 /* IMG_6194.JPG in Resources */,
 				8092A30C1DE0C11D00A51954 /* Main.storyboard in Resources */,
+				39B519941E87425600C9A534 /* dragon fly.jpg in Resources */,
+				39B519921E87425600C9A534 /* DJI_0003.JPG in Resources */,
+				39B5198D1E87425600C9A534 /* Basket of Cherry Tomatos.jpg in Resources */,
+				39B519981E87425600C9A534 /* IMG_6194 copy.JPG in Resources */,
+				39B519911E87425600C9A534 /* Courtney Allender_DSC_0233.jpg in Resources */,
+				39B5198F1E87425600C9A534 /* Caden with Zuccini.jpg in Resources */,
+				39B519961E87425600C9A534 /* IMG_0269.JPG in Resources */,
+				39B5199B1E87425600C9A534 /* pexels-photo-186716.jpeg in Resources */,
+				39B519951E87425600C9A534 /* FGS2016_Women's Lunch Place Donation - Image #1.jpg in Resources */,
+				39B5199A1E87425600C9A534 /* overhead victory 2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

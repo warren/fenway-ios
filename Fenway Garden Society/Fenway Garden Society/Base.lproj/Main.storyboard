@@ -21,12 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="potted_plant.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fsh-eh-XcA">
-                                <rect key="frame" x="10" y="104" width="349" height="563"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the Fenway Gardens Society!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3q-et-Mfi">
-                                <rect key="frame" x="-20" y="87" width="408" height="79"/>
+                                <rect key="frame" x="-17" y="93" width="408" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <nil key="textColor"/>
@@ -40,6 +36,10 @@
                                     <segue destination="M2r-7Q-vY6" kind="presentation" id="LT1-UG-wlg"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="overhead victory 2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lI6-vl-ASi">
+                                <rect key="frame" x="16" y="237" width="343" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -273,13 +273,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I will be a donation page someday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyM-kV-Qbp">
-                                <rect key="frame" x="58" y="323" width="258" height="21"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ya2-qx-SCb">
+                                <rect key="frame" x="0.0" y="110" width="375" height="549"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gkb-T5-4BI">
+                                        <rect key="frame" x="16" y="17" width="343" height="607"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <mutableString key="text">Join us as we celebrate Fenway Victory Gardens’ 75th birthday all year long!
+
+Become a member of the 75th Club with a gift of $75 or more. Please consider a contribution to the Fenway Gardens Endowment Fund so the garden will celebrate its 100th and 150th birthday, too. 
+
+We appreciate all gifts, and there are many ways to make one:
+
+Online: http://fenwayvictorygardens.org/support-us/donate-online/By Mail
+Honorary and Memorial Gifts
+In-Kind Donations
+Stock Transfers
+Sponsor a program or event
+Include the Fenway Victory Gardens in your will
+Employer Matching Programs (ex. Benevity)
+Corporate Partnerships
+**Please check with your employer for matching gifts and double your impact.**
+
+Giving Levels:
+
+$75 and under – Supporter of the Fenway Victory Gardens
+$75 Patron of the Fenway Victory Gardens
+$150 Friend of the Fenway Victory Gardens
+$225 Partner of the Fenway Victory Gardens
+$300 Steward of the Fenway Victory Gardens
+Everyone who gives a gift over $75 becomes a member of the 75th Club!
+
+Questions about donations Have a question about donating?
+Contact us or call 857.244.0262.
+Donating by mail Checks can be made out to the
+Fenway Garden Society, Inc. and mailed to:
+
+The Fenway Garden Society
+P.O. Box 230038
+Astor Station
+Boston, MA 02123                
+Tax Exempt Organization The Fenway Garden Society, Inc., is a public charity under Section 501(c)(3) of the Internal Revenue Code. Your donation is tax-deductible in the United States as allowed by law.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Support Us" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nWN-zz-JK4">
+                                <rect key="frame" x="139" y="72" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -732,9 +780,9 @@
     </scenes>
     <resources>
         <image name="fenway_mapimageviewlabel1.jpg" width="1314" height="1800"/>
-        <image name="potted_plant.jpg" width="550" height="596"/>
+        <image name="overhead victory 2.jpg" width="3000" height="2250"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="c1U-fD-WUI"/>
+        <segue reference="t4q-aW-T0Q"/>
     </inferredMetricsTieBreakers>
 </document>
