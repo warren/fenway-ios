@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FGS.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 		<key>Fenway Garden Society.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,21 +23,6 @@
 			<true/>
 		</dict>
 		<key>8092A3211DE0C11D00A51954</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>85E749821E87392A00764184</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>85E749951E87392A00764184</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>85E749A01E87392B00764184</key>
 		<dict>
 			<key>primary</key>
 			<true/>

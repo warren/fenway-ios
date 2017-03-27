@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,13 +21,6 @@
 		8546F6891E87104D000BFB03 /* fgslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8546F6881E87104D000BFB03 /* fgslogo.png */; };
 		8546F68B1E8716F7000BFB03 /* fgsview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8546F68A1E8716F7000BFB03 /* fgsview.jpg */; };
 		857B59161E4018E30074A735 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B59151E4018E30074A735 /* ScrollViewController.swift */; };
-		85E749861E87392A00764184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E749851E87392A00764184 /* AppDelegate.swift */; };
-		85E749881E87392A00764184 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E749871E87392A00764184 /* ViewController.swift */; };
-		85E7498B1E87392A00764184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E749891E87392A00764184 /* Main.storyboard */; };
-		85E7498D1E87392A00764184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E7498C1E87392A00764184 /* Assets.xcassets */; };
-		85E749901E87392A00764184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E7498E1E87392A00764184 /* LaunchScreen.storyboard */; };
-		85E7499B1E87392A00764184 /* FGSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7499A1E87392A00764184 /* FGSTests.swift */; };
-		85E749A61E87392B00764184 /* FGSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E749A51E87392B00764184 /* FGSUITests.swift */; };
 		D060E801B5FA74F31120BA8B /* Pods_Fenway_Garden_Society.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC012F996C247DA2260EFC4 /* Pods_Fenway_Garden_Society.framework */; };
 		EC53D376F8F3243B4DCC47ED /* Pods_Fenway_Garden_SocietyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C526E7C57F9FADB03D966E7 /* Pods_Fenway_Garden_SocietyTests.framework */; };
 /* End PBXBuildFile section */
@@ -46,20 +39,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8092A3021DE0C11C00A51954;
 			remoteInfo = "Fenway Garden Society";
-		};
-		85E749971E87392A00764184 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8092A2FB1DE0C11C00A51954 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 85E749821E87392A00764184;
-			remoteInfo = FGS;
-		};
-		85E749A21E87392B00764184 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8092A2FB1DE0C11C00A51954 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 85E749821E87392A00764184;
-			remoteInfo = FGS;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -89,19 +68,6 @@
 		8546F6881E87104D000BFB03 /* fgslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fgslogo.png; sourceTree = "<group>"; };
 		8546F68A1E8716F7000BFB03 /* fgsview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fgsview.jpg; sourceTree = "<group>"; };
 		857B59151E4018E30074A735 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
-		85E749831E87392A00764184 /* FGS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FGS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85E749851E87392A00764184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85E749871E87392A00764184 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		85E7498A1E87392A00764184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		85E7498C1E87392A00764184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		85E7498F1E87392A00764184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85E749911E87392A00764184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85E749961E87392A00764184 /* FGSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85E7499A1E87392A00764184 /* FGSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGSTests.swift; sourceTree = "<group>"; };
-		85E7499C1E87392A00764184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85E749A11E87392B00764184 /* FGSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85E749A51E87392B00764184 /* FGSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGSUITests.swift; sourceTree = "<group>"; };
-		85E749A71E87392B00764184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCC012F996C247DA2260EFC4 /* Pods_Fenway_Garden_Society.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fenway_Garden_Society.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8420C726B9EE98DAE897CB5 /* Pods-Fenway Garden SocietyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyTests/Pods-Fenway Garden SocietyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC0D200232FE4BF98A603914 /* Pods-Fenway Garden SocietyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyTests/Pods-Fenway Garden SocietyTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,27 +98,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85E749801E87392A00764184 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		85E749931E87392A00764184 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		85E7499E1E87392B00764184 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -170,9 +115,6 @@
 				8092A3051DE0C11D00A51954 /* Fenway Garden Society */,
 				8092A31A1DE0C11D00A51954 /* Fenway Garden SocietyTests */,
 				8092A3251DE0C11D00A51954 /* Fenway Garden SocietyUITests */,
-				85E749841E87392A00764184 /* FGS */,
-				85E749991E87392A00764184 /* FGSTests */,
-				85E749A41E87392B00764184 /* FGSUITests */,
 				8092A3041DE0C11D00A51954 /* Products */,
 				9B55F605244644BD3AF33726 /* Pods */,
 				C879584E152160CD306D7C27 /* Frameworks */,
@@ -185,9 +127,6 @@
 				8092A3031DE0C11D00A51954 /* Fenway Garden Society.app */,
 				8092A3171DE0C11D00A51954 /* Fenway Garden SocietyTests.xctest */,
 				8092A3221DE0C11D00A51954 /* Fenway Garden SocietyUITests.xctest */,
-				85E749831E87392A00764184 /* FGS.app */,
-				85E749961E87392A00764184 /* FGSTests.xctest */,
-				85E749A11E87392B00764184 /* FGSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,37 +166,6 @@
 				8092A3281DE0C11D00A51954 /* Info.plist */,
 			);
 			path = "Fenway Garden SocietyUITests";
-			sourceTree = "<group>";
-		};
-		85E749841E87392A00764184 /* FGS */ = {
-			isa = PBXGroup;
-			children = (
-				85E749851E87392A00764184 /* AppDelegate.swift */,
-				85E749871E87392A00764184 /* ViewController.swift */,
-				85E749891E87392A00764184 /* Main.storyboard */,
-				85E7498C1E87392A00764184 /* Assets.xcassets */,
-				85E7498E1E87392A00764184 /* LaunchScreen.storyboard */,
-				85E749911E87392A00764184 /* Info.plist */,
-			);
-			path = FGS;
-			sourceTree = "<group>";
-		};
-		85E749991E87392A00764184 /* FGSTests */ = {
-			isa = PBXGroup;
-			children = (
-				85E7499A1E87392A00764184 /* FGSTests.swift */,
-				85E7499C1E87392A00764184 /* Info.plist */,
-			);
-			path = FGSTests;
-			sourceTree = "<group>";
-		};
-		85E749A41E87392B00764184 /* FGSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				85E749A51E87392B00764184 /* FGSUITests.swift */,
-				85E749A71E87392B00764184 /* Info.plist */,
-			);
-			path = FGSUITests;
 			sourceTree = "<group>";
 		};
 		9B55F605244644BD3AF33726 /* Pods */ = {
@@ -348,66 +256,13 @@
 			productReference = 8092A3221DE0C11D00A51954 /* Fenway Garden SocietyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		85E749821E87392A00764184 /* FGS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 85E749A81E87392B00764184 /* Build configuration list for PBXNativeTarget "FGS" */;
-			buildPhases = (
-				85E7497F1E87392A00764184 /* Sources */,
-				85E749801E87392A00764184 /* Frameworks */,
-				85E749811E87392A00764184 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FGS;
-			productName = FGS;
-			productReference = 85E749831E87392A00764184 /* FGS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		85E749951E87392A00764184 /* FGSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 85E749AB1E87392B00764184 /* Build configuration list for PBXNativeTarget "FGSTests" */;
-			buildPhases = (
-				85E749921E87392A00764184 /* Sources */,
-				85E749931E87392A00764184 /* Frameworks */,
-				85E749941E87392A00764184 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				85E749981E87392A00764184 /* PBXTargetDependency */,
-			);
-			name = FGSTests;
-			productName = FGSTests;
-			productReference = 85E749961E87392A00764184 /* FGSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		85E749A01E87392B00764184 /* FGSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 85E749AE1E87392B00764184 /* Build configuration list for PBXNativeTarget "FGSUITests" */;
-			buildPhases = (
-				85E7499D1E87392B00764184 /* Sources */,
-				85E7499E1E87392B00764184 /* Frameworks */,
-				85E7499F1E87392B00764184 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				85E749A31E87392B00764184 /* PBXTargetDependency */,
-			);
-			name = FGSUITests;
-			productName = FGSUITests;
-			productReference = 85E749A11E87392B00764184 /* FGSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		8092A2FB1DE0C11C00A51954 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "BU Global App Initiative";
 				TargetAttributes = {
@@ -425,24 +280,10 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8092A3021DE0C11C00A51954;
 					};
-					85E749821E87392A00764184 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-					};
-					85E749951E87392A00764184 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 85E749821E87392A00764184;
-					};
-					85E749A01E87392B00764184 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 85E749821E87392A00764184;
-					};
 				};
 			};
 			buildConfigurationList = 8092A2FE1DE0C11C00A51954 /* Build configuration list for PBXProject "Fenway Garden Society" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -457,9 +298,6 @@
 				8092A3021DE0C11C00A51954 /* Fenway Garden Society */,
 				8092A3161DE0C11D00A51954 /* Fenway Garden SocietyTests */,
 				8092A3211DE0C11D00A51954 /* Fenway Garden SocietyUITests */,
-				85E749821E87392A00764184 /* FGS */,
-				85E749951E87392A00764184 /* FGSTests */,
-				85E749A01E87392B00764184 /* FGSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -486,30 +324,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8092A3201DE0C11D00A51954 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		85E749811E87392A00764184 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				85E749901E87392A00764184 /* LaunchScreen.storyboard in Resources */,
-				85E7498D1E87392A00764184 /* Assets.xcassets in Resources */,
-				85E7498B1E87392A00764184 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		85E749941E87392A00764184 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		85E7499F1E87392B00764184 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -685,31 +499,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85E7497F1E87392A00764184 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				85E749881E87392A00764184 /* ViewController.swift in Sources */,
-				85E749861E87392A00764184 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		85E749921E87392A00764184 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				85E7499B1E87392A00764184 /* FGSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		85E7499D1E87392B00764184 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				85E749A61E87392B00764184 /* FGSUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -722,16 +511,6 @@
 			isa = PBXTargetDependency;
 			target = 8092A3021DE0C11C00A51954 /* Fenway Garden Society */;
 			targetProxy = 8092A3231DE0C11D00A51954 /* PBXContainerItemProxy */;
-		};
-		85E749981E87392A00764184 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 85E749821E87392A00764184 /* FGS */;
-			targetProxy = 85E749971E87392A00764184 /* PBXContainerItemProxy */;
-		};
-		85E749A31E87392B00764184 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 85E749821E87392A00764184 /* FGS */;
-			targetProxy = 85E749A21E87392B00764184 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -748,22 +527,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				8092A3101DE0C11D00A51954 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		85E749891E87392A00764184 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85E7498A1E87392A00764184 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		85E7498E1E87392A00764184 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85E7498F1E87392A00764184 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -872,10 +635,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Fenway Garden Society/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BU-GAI.Fenway-Garden-Society";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -889,10 +649,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Fenway Garden Society/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BU-GAI.Fenway-Garden-Society";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -958,96 +715,6 @@
 			};
 			name = Release;
 		};
-		85E749A91E87392B00764184 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VZRJR929HJ;
-				INFOPLIST_FILE = FGS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GAI.FGS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		85E749AA1E87392B00764184 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VZRJR929HJ;
-				INFOPLIST_FILE = FGS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GAI.FGS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		85E749AC1E87392B00764184 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = VZRJR929HJ;
-				INFOPLIST_FILE = FGSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GAI.FGSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FGS.app/FGS";
-			};
-			name = Debug;
-		};
-		85E749AD1E87392B00764184 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = VZRJR929HJ;
-				INFOPLIST_FILE = FGSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GAI.FGSTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FGS.app/FGS";
-			};
-			name = Release;
-		};
-		85E749AF1E87392B00764184 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = VZRJR929HJ;
-				INFOPLIST_FILE = FGSUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GAI.FGSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = FGS;
-			};
-			name = Debug;
-		};
-		85E749B01E87392B00764184 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = VZRJR929HJ;
-				INFOPLIST_FILE = FGSUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GAI.FGSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = FGS;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1086,30 +753,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		85E749A81E87392B00764184 /* Build configuration list for PBXNativeTarget "FGS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				85E749A91E87392B00764184 /* Debug */,
-				85E749AA1E87392B00764184 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		85E749AB1E87392B00764184 /* Build configuration list for PBXNativeTarget "FGSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				85E749AC1E87392B00764184 /* Debug */,
-				85E749AD1E87392B00764184 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		85E749AE1E87392B00764184 /* Build configuration list for PBXNativeTarget "FGSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				85E749AF1E87392B00764184 /* Debug */,
-				85E749B01E87392B00764184 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
