@@ -10,6 +10,19 @@
 		398409D61E8728090057DE6B /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398409D51E8728090057DE6B /* MapController.swift */; };
 		5C70821F0B6B119F201D5665 /* Pods_Fenway_Garden_SocietyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AAFF8E45E938E08CD5B84D /* Pods_Fenway_Garden_SocietyUITests.framework */; };
 		8001B3D41DE4EF0A00DFC6AF /* potted_plant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8001B3D31DE4EF0A00DFC6AF /* potted_plant.jpg */; };
+		8019C7311E89DE2F00F8F384 /* Basket of Cherry Tomatos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8019C72B1E89DE2F00F8F384 /* Basket of Cherry Tomatos.jpg */; };
+		8019C7321E89DE2F00F8F384 /* bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8019C72C1E89DE2F00F8F384 /* bridge.jpg */; };
+		8019C7331E89DE2F00F8F384 /* Caden with Zuccini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8019C72D1E89DE2F00F8F384 /* Caden with Zuccini.jpg */; };
+		8019C7341E89DE2F00F8F384 /* DJI_0003.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8019C72E1E89DE2F00F8F384 /* DJI_0003.JPG */; };
+		8019C7351E89DE2F00F8F384 /* DJI_0007.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8019C72F1E89DE2F00F8F384 /* DJI_0007.JPG */; };
+		8019C7361E89DE2F00F8F384 /* dragon fly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8019C7301E89DE2F00F8F384 /* dragon fly.jpg */; };
+		8019C73E1E89DE3D00F8F384 /* FGS2016_Women's Lunch Place Donation - Image #1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8019C7371E89DE3D00F8F384 /* FGS2016_Women's Lunch Place Donation - Image #1.jpg */; };
+		8019C73F1E89DE3D00F8F384 /* IMG_0269.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8019C7381E89DE3D00F8F384 /* IMG_0269.JPG */; };
+		8019C7401E89DE3D00F8F384 /* IMG_3020.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8019C7391E89DE3D00F8F384 /* IMG_3020.jpg */; };
+		8019C7411E89DE3D00F8F384 /* IMG_6194 copy.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8019C73A1E89DE3D00F8F384 /* IMG_6194 copy.JPG */; };
+		8019C7421E89DE3D00F8F384 /* IMG_6194.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8019C73B1E89DE3D00F8F384 /* IMG_6194.JPG */; };
+		8019C7431E89DE3D00F8F384 /* overhead victory 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8019C73C1E89DE3D00F8F384 /* overhead victory 2.jpg */; };
+		8019C7441E89DE3D00F8F384 /* pexels-photo-186716.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8019C73D1E89DE3D00F8F384 /* pexels-photo-186716.jpeg */; };
 		8092A3071DE0C11D00A51954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092A3061DE0C11D00A51954 /* AppDelegate.swift */; };
 		8092A3091DE0C11D00A51954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092A3081DE0C11D00A51954 /* ViewController.swift */; };
 		8092A30C1DE0C11D00A51954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8092A30A1DE0C11D00A51954 /* Main.storyboard */; };
@@ -50,6 +63,19 @@
 		62AAFF8E45E938E08CD5B84D /* Pods_Fenway_Garden_SocietyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fenway_Garden_SocietyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		768ACB380813AD10D3148E1C /* Pods-Fenway Garden SocietyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden SocietyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden SocietyUITests/Pods-Fenway Garden SocietyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8001B3D31DE4EF0A00DFC6AF /* potted_plant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potted_plant.jpg; sourceTree = "<group>"; };
+		8019C72B1E89DE2F00F8F384 /* Basket of Cherry Tomatos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Basket of Cherry Tomatos.jpg"; sourceTree = "<group>"; };
+		8019C72C1E89DE2F00F8F384 /* bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bridge.jpg; sourceTree = "<group>"; };
+		8019C72D1E89DE2F00F8F384 /* Caden with Zuccini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Caden with Zuccini.jpg"; sourceTree = "<group>"; };
+		8019C72E1E89DE2F00F8F384 /* DJI_0003.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DJI_0003.JPG; sourceTree = "<group>"; };
+		8019C72F1E89DE2F00F8F384 /* DJI_0007.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DJI_0007.JPG; sourceTree = "<group>"; };
+		8019C7301E89DE2F00F8F384 /* dragon fly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dragon fly.jpg"; sourceTree = "<group>"; };
+		8019C7371E89DE3D00F8F384 /* FGS2016_Women's Lunch Place Donation - Image #1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "FGS2016_Women's Lunch Place Donation - Image #1.jpg"; sourceTree = "<group>"; };
+		8019C7381E89DE3D00F8F384 /* IMG_0269.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0269.JPG; sourceTree = "<group>"; };
+		8019C7391E89DE3D00F8F384 /* IMG_3020.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3020.jpg; sourceTree = "<group>"; };
+		8019C73A1E89DE3D00F8F384 /* IMG_6194 copy.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_6194 copy.JPG"; sourceTree = "<group>"; };
+		8019C73B1E89DE3D00F8F384 /* IMG_6194.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_6194.JPG; sourceTree = "<group>"; };
+		8019C73C1E89DE3D00F8F384 /* overhead victory 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "overhead victory 2.jpg"; sourceTree = "<group>"; };
+		8019C73D1E89DE3D00F8F384 /* pexels-photo-186716.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pexels-photo-186716.jpeg"; sourceTree = "<group>"; };
 		8092A3031DE0C11D00A51954 /* Fenway Garden Society.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fenway Garden Society.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8092A3061DE0C11D00A51954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8092A3081DE0C11D00A51954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,10 +130,31 @@
 		8001B3D21DE4EEF400DFC6AF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8019C72A1E89DDF800F8F384 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8019C72A1E89DDF800F8F384 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8019C7371E89DE3D00F8F384 /* FGS2016_Women's Lunch Place Donation - Image #1.jpg */,
+				8019C7381E89DE3D00F8F384 /* IMG_0269.JPG */,
+				8019C7391E89DE3D00F8F384 /* IMG_3020.jpg */,
+				8019C73A1E89DE3D00F8F384 /* IMG_6194 copy.JPG */,
+				8019C73B1E89DE3D00F8F384 /* IMG_6194.JPG */,
+				8019C73C1E89DE3D00F8F384 /* overhead victory 2.jpg */,
+				8019C73D1E89DE3D00F8F384 /* pexels-photo-186716.jpeg */,
+				8019C72B1E89DE2F00F8F384 /* Basket of Cherry Tomatos.jpg */,
+				8019C72C1E89DE2F00F8F384 /* bridge.jpg */,
+				8019C72D1E89DE2F00F8F384 /* Caden with Zuccini.jpg */,
+				8019C72E1E89DE2F00F8F384 /* DJI_0003.JPG */,
+				8019C72F1E89DE2F00F8F384 /* DJI_0007.JPG */,
+				8019C7301E89DE2F00F8F384 /* dragon fly.jpg */,
 				80A86D6B1E89D4430081508C /* fenway_mapimageviewlabel1.jpg */,
 				8001B3D31DE4EF0A00DFC6AF /* potted_plant.jpg */,
 			);
-			name = Resources;
+			name = Images;
 			sourceTree = "<group>";
 		};
 		8092A2FA1DE0C11C00A51954 = {
@@ -308,10 +355,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				8092A3111DE0C11D00A51954 /* LaunchScreen.storyboard in Resources */,
+				8019C73E1E89DE3D00F8F384 /* FGS2016_Women's Lunch Place Donation - Image #1.jpg in Resources */,
+				8019C7331E89DE2F00F8F384 /* Caden with Zuccini.jpg in Resources */,
+				8019C73F1E89DE3D00F8F384 /* IMG_0269.JPG in Resources */,
+				8019C7441E89DE3D00F8F384 /* pexels-photo-186716.jpeg in Resources */,
 				8001B3D41DE4EF0A00DFC6AF /* potted_plant.jpg in Resources */,
+				8019C7431E89DE3D00F8F384 /* overhead victory 2.jpg in Resources */,
+				8019C7411E89DE3D00F8F384 /* IMG_6194 copy.JPG in Resources */,
 				8092A30E1DE0C11D00A51954 /* Assets.xcassets in Resources */,
+				8019C7361E89DE2F00F8F384 /* dragon fly.jpg in Resources */,
 				80A86D6C1E89D4430081508C /* fenway_mapimageviewlabel1.jpg in Resources */,
+				8019C7311E89DE2F00F8F384 /* Basket of Cherry Tomatos.jpg in Resources */,
+				8019C7351E89DE2F00F8F384 /* DJI_0007.JPG in Resources */,
+				8019C7421E89DE3D00F8F384 /* IMG_6194.JPG in Resources */,
 				8092A30C1DE0C11D00A51954 /* Main.storyboard in Resources */,
+				8019C7321E89DE2F00F8F384 /* bridge.jpg in Resources */,
+				8019C7401E89DE3D00F8F384 /* IMG_3020.jpg in Resources */,
+				8019C7341E89DE2F00F8F384 /* DJI_0003.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
