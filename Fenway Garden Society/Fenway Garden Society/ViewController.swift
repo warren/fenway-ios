@@ -7,13 +7,12 @@
 //
 
 import UIKit
-import GoogleAPIClient
-// import GTMOAuth2 THIS IS DEPRECATED ACCORDING TO A GOOGLE POST ON GITHUB
-import GTMAppAuth
-import AppAuth
-import GoogleAPIClient
-import GoogleAPIClientForREST
-import Siesta
+//import GoogleAPIClient
+// import GTMOAuth2 TO A FUTURE READER: DO NOT USE THIS. IT IS DEPRECATED ACCORDING TO A GOOGLE POST ON GITHUB
+//import GTMAppAuth
+//import AppAuth
+//import GoogleAPIClient
+//import GoogleAPIClientForREST
 import Alamofire
 import SwiftyJSON
 
@@ -26,6 +25,7 @@ class ViewController: UIViewController {
     
     // If modifying these scopes, delete your previously saved credentials by
     // resetting the iOS simulator or uninstall the app.
+    /*
     private let scopes = [kGTLAuthScopeCalendarReadonly]
     
     private let service = GTLServiceCalendar()
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     
     var authState: OIDAuthState?
     @IBOutlet weak var fileListView: UIPickerView!
-    
+    */
     
     /*let appDelegate = (UIApplication.shared.delegate! as! AppDelegate)
      var authorization: GTMAppAuthFetcherAuthorization?
