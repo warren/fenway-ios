@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "f8744b4e065e9a9fe2e8ead998a671a6"
+build_time: [543975341, 451985000]
+inputs:
+  "/Users/jasonlu/Desktop/fenway-ios/Fenway Garden Society/Fenway Garden Society/TableViewCell.swift": [538871441, 0]
+  "/Users/jasonlu/Desktop/fenway-ios/Fenway Garden Society/Fenway Garden Society/HamburgerTableViewController.swift": [538871441, 0]
+  "/Users/jasonlu/Desktop/fenway-ios/Fenway Garden Society/Fenway Garden Society/ScrollViewController.swift": [543973224, 0]
+  "/Users/jasonlu/Desktop/fenway-ios/Fenway Garden Society/Fenway Garden Society/ViewController.swift": [538532925, 0]
+  "/Users/jasonlu/Desktop/fenway-ios/Fenway Garden Society/Fenway Garden Society/AppDelegate.swift": [538532925, 0]

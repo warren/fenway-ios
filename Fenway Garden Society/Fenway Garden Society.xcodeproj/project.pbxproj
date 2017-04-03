@@ -21,7 +21,7 @@
 		8546F6891E87104D000BFB03 /* fgslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8546F6881E87104D000BFB03 /* fgslogo.png */; };
 		8546F68B1E8716F7000BFB03 /* fgsview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8546F68A1E8716F7000BFB03 /* fgsview.jpg */; };
 		857B59161E4018E30074A735 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B59151E4018E30074A735 /* ScrollViewController.swift */; };
-		D060E801B5FA74F31120BA8B /* Pods_Fenway_Garden_Society.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC012F996C247DA2260EFC4 /* Pods_Fenway_Garden_Society.framework */; };
+		D060E801B5FA74F31120BA8B /* Pods_Fenway_Garden_Society.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC012F996C247DA2260EFC4 /* Pods_Fenway_Garden_Society.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		EC53D376F8F3243B4DCC47ED /* Pods_Fenway_Garden_SocietyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C526E7C57F9FADB03D966E7 /* Pods_Fenway_Garden_SocietyTests.framework */; };
 /* End PBXBuildFile section */
 

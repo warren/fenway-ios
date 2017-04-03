@@ -569,6 +569,9 @@
                                 <state key="normal" title="Back to Previous Gardener">
                                     <color key="titleColor" red="0.91845220329999999" green="0.26168999079999999" blue="0.86408317089999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ZFh-nP-7dD" kind="presentation" id="7vj-eo-WiG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -749,6 +752,10 @@
         <scene sceneID="I88-rW-zES">
             <objects>
                 <viewController id="juL-po-mlY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8Fl-Be-Lc5"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q0x-Q0-elu"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vEj-rx-Dvw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -759,35 +766,13 @@
             </objects>
         </scene>
         <!--View Controller-->
-        <scene sceneID="Jdl-hf-AWd">
-            <objects>
-                <viewController id="ELr-Ek-KAP" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="RCp-IH-fDV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mZ-jy-rpX">
-                                <rect key="frame" x="135" y="36" width="88" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Useful Links:">
-                                    <color key="titleColor" red="0.99817675352096558" green="0.00022655144857708365" blue="0.96839076280593872" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="os4-gv-mFY">
-                                <rect key="frame" x="0.0" y="70" width="375" height="216"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </pickerView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="clF-QL-Fo9" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="H3c-5I-vKj">
             <objects>
                 <viewController id="YkD-qV-m9c" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ywf-Zf-rab"/>
+                        <viewControllerLayoutGuide type="bottom" id="10T-de-Vx9"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="AEF-Po-IrB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -803,7 +788,7 @@
                                 <rect key="frame" x="12" y="49" width="350" height="477"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">The Fenway Victory Gardens are the only remaining, continuously operating World War II Victory Gardens in the United States. Founded in 1942 by the Roosevelt Administration, it was one of over 20 million victory gardens responsible for nearly half of all the vegetable produce during the war. Located in Fredrick Law Olmsted’s famed Emerald Necklace, over 500 gardens spanning 7.5 acres are tended by a community of more than 350 members from every neighborhood in Boston, reflecting the diversity of our city and its rich history and culture.       </mutableString>
+                                <string key="text">The Fenway Victory Gardens are the only remaining, continuously operating World War II Victory Gardens in the United States. Founded in 1942 by the Roosevelt Administration, it was one of over 20 million victory gardens responsible for nearly half of all the vegetable produce during the war. Located in Fredrick Law Olmsted’s famed Emerald Necklace, over 500 gardens spanning 7.5 acres are tended by a community of more than 350 members from every neighborhood in Boston, reflecting the diversity of our city and its rich history and culture.       </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -857,9 +842,9 @@
                                 <rect key="frame" x="16" y="59" width="352" height="494"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">The Fenway Victory Gardens were established in Boston in the spring of 1942 when it became clear that the nation’s food production would be unable to supply both the armed forces overseas and the general public on the homefront. Across the nation, “victory gardens” sprang up in city lots and backyards in order to combat nationwide food shortages and wartime rationing. The Boston Victory Garden Committee secured 49 areas for cultivation, including a large plot of land bordered by the Muddy River, Boylston Street, and Park Drive, an area that would come to be known as the Fenway Victory Gardens.
+                                <string key="text">The Fenway Victory Gardens were established in Boston in the spring of 1942 when it became clear that the nation’s food production would be unable to supply both the armed forces overseas and the general public on the homefront. Across the nation, “victory gardens” sprang up in city lots and backyards in order to combat nationwide food shortages and wartime rationing. The Boston Victory Garden Committee secured 49 areas for cultivation, including a large plot of land bordered by the Muddy River, Boylston Street, and Park Drive, an area that would come to be known as the Fenway Victory Gardens.
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -913,7 +898,7 @@
                                 <rect key="frame" x="16" y="69" width="343" height="449"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">The Fenway Garden Society was formally established in 1944 by those who wished to continue their urban gardening as the war was drawing to a close and victory gardens were no longer needed. Richard D. Parker, for whom the Fenway Victory Gardens are now named, was one member of this group of gardeners, and he remained an influential leader in the Fenway Garden Society until his death in 1975. The Fenway Victory Gardens were initially supervised by the Boston Parks Department, but in 1949 the Fenway Garden Society gained full responsibility of the administration, maintenance, and appearance of the garden parkland.</mutableString>
+                                <string key="text">The Fenway Garden Society was formally established in 1944 by those who wished to continue their urban gardening as the war was drawing to a close and victory gardens were no longer needed. Richard D. Parker, for whom the Fenway Victory Gardens are now named, was one member of this group of gardeners, and he remained an influential leader in the Fenway Garden Society until his death in 1975. The Fenway Victory Gardens were initially supervised by the Boston Parks Department, but in 1949 the Fenway Garden Society gained full responsibility of the administration, maintenance, and appearance of the garden parkland.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -949,10 +934,11 @@
         <image name="potted_plant.jpg" width="550" height="596"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="E1Q-z5-MPx"/>
+        <segue reference="qjH-a2-yRa"/>
         <segue reference="jOz-Rk-h9O"/>
         <segue reference="sF1-TS-Xyq"/>
         <segue reference="DXa-j0-bPN"/>
-        <segue reference="E1Q-z5-MPx"/>
-        <segue reference="qjH-a2-yRa"/>
+        <segue reference="7vj-eo-WiG"/>
     </inferredMetricsTieBreakers>
 </document>
