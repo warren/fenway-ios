@@ -1,57 +1,21 @@
 PODS:
   - Alamofire (4.4.0)
-  - AppAuth (0.7.1)
   - FSCalendar (2.7.4)
-  - GoogleAPIClient/Calendar (1.0.5):
-    - GoogleAPIClient/Core
-    - GTMSessionFetcher (~> 1.1)
-  - GoogleAPIClient/Core (1.0.5):
-    - GTMSessionFetcher (~> 1.1)
-  - GoogleAPIClientForREST (1.2.1):
-    - GoogleAPIClientForREST/Core (= 1.2.1)
-    - GTMSessionFetcher (>= 1.1.7)
-  - GoogleAPIClientForREST/Core (1.2.1):
-    - GTMSessionFetcher (>= 1.1.7)
-  - GTMAppAuth (0.5.0):
-    - AppAuth (~> 0.7.0)
-    - GTMSessionFetcher (~> 1.1)
-  - GTMOAuth2 (1.1.4):
-    - GTMSessionFetcher (~> 1.1)
-  - GTMSessionFetcher (1.1.9):
-    - GTMSessionFetcher/Full (= 1.1.9)
-  - GTMSessionFetcher/Core (1.1.9)
-  - GTMSessionFetcher/Full (1.1.9):
-    - GTMSessionFetcher/Core (= 1.1.9)
   - SideMenu (2.1.5)
-  - Siesta (1.1.1):
-    - Siesta/Core (= 1.1.1)
-  - Siesta/Core (1.1.1)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - Alamofire (~> 4.4)
   - FSCalendar (~> 2.7.4)
-  - GoogleAPIClient/Calendar (~> 1.0.2)
-  - GoogleAPIClientForREST (~> 1.2.1)
-  - GTMAppAuth (~> 0.5.0)
-  - GTMOAuth2 (~> 1.1.0)
   - SideMenu (~> 2.1.4)
-  - Siesta (~> 1.1.0)
   - SwiftyJSON (~> 3.1.4)
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
-  AppAuth: c56d352b0d50bb34dbb302d7ba50b20aa6b6ae89
   FSCalendar: e95995a746acae531c4a7dd636b8393233125ec5
-  GoogleAPIClient: 4a6b0b807de8b1115a2835180b25dd93dc60f1ea
-  GoogleAPIClientForREST: a8b95a252014ce2e618df6b75dc72eca2c00b4af
-  GTMAppAuth: 4b7bdc1fefdf6a49f3d9fc1aa6123f0c7e9b6660
-  GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
-  GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
   SideMenu: bcd2d7b7d4395af088e213cebd11c3ac7d958f5a
-  Siesta: 920372f09b7cfd798074d85d8f3cf8505529a56e
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: dac8dee99469c0631d190818b8159e75111e9319
+PODFILE CHECKSUM: 4f60aa4fb1cfc84804746e497a9010b92a66e387
 
 COCOAPODS: 1.1.1
