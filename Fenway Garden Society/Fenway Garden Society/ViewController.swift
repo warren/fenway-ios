@@ -58,9 +58,34 @@ class ViewController: UIViewController {
              }*/
             
             // Initializes SwiftyJSON stuff
-            let json = JSON(response.result.value)
+            let jsonresponse = JSON(response.result.value)
+            let jsonItems = jsonresponse["items"]
             
-            print(json["items"])
+            let jsonItemsSize = jsonItems.count
+            
+            var eventTitles = [JSON]()
+            var eventDetails = [JSON]()
+            var eventLocations = [JSON]()
+            var eventStartDates = [JSON]()
+            var eventEndDates = [JSON]()
+            
+            // Fill our info arrays with info. I'm using .insert instead of .append in case one event is missing
+            // one of these values and it doesn't get misindexed
+            for counter in 0 ... (jsonItemsSize - 1) {
+                eventTitles.insert(jsonItems[counter]["summary"], at: counter)
+                eventDetails.insert(jsonItems[counter]["description"], at: counter)
+                eventLocations.insert(jsonItems[counter]["location"], at: counter)
+                eventStartDates.insert(jsonItems[counter]["start"]["dateTime"], at: counter)
+                eventEndDates.insert(jsonItems[counter]["end"]["dateTime"], at: counter)
+            }
+            
+            print(eventTitles)
+            print(eventDetails)
+            print(eventLocations)
+            print(eventStartDates)
+            print(eventEndDates)
+            
+            
         }
         
     }
