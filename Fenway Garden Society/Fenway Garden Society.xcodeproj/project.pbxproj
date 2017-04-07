@@ -32,6 +32,7 @@
 		8092A3271DE0C11D00A51954 /* Fenway_Garden_SocietyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8092A3261DE0C11D00A51954 /* Fenway_Garden_SocietyUITests.swift */; };
 		80980C801DED04D70040957D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80980C7F1DED04D70040957D /* TableViewCell.swift */; };
 		80A86D6C1E89D4430081508C /* fenway_mapimageviewlabel1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80A86D6B1E89D4430081508C /* fenway_mapimageviewlabel1.jpg */; };
+		80D884011E98350F00611193 /* launchscreen_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D884001E98350F00611193 /* launchscreen_logo.png */; };
 		80E592F91E25916400ADFE38 /* HamburgerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E592F81E25916400ADFE38 /* HamburgerTableViewController.swift */; };
 		857B59161E4018E30074A735 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B59151E4018E30074A735 /* Contact.swift */; };
 		D060E801B5FA74F31120BA8B /* Pods_Fenway_Garden_Society.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC012F996C247DA2260EFC4 /* Pods_Fenway_Garden_Society.framework */; };
@@ -91,6 +92,7 @@
 		8092A3281DE0C11D00A51954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80980C7F1DED04D70040957D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		80A86D6B1E89D4430081508C /* fenway_mapimageviewlabel1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fenway_mapimageviewlabel1.jpg; sourceTree = "<group>"; };
+		80D884001E98350F00611193 /* launchscreen_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen_logo.png; sourceTree = "<group>"; };
 		80E592F81E25916400ADFE38 /* HamburgerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerTableViewController.swift; sourceTree = "<group>"; };
 		8346902DA0D038A7709177EA /* Pods-Fenway Garden Society.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fenway Garden Society.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fenway Garden Society/Pods-Fenway Garden Society.release.xcconfig"; sourceTree = "<group>"; };
 		857B59151E4018E30074A735 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		8019C72A1E89DDF800F8F384 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				80D884001E98350F00611193 /* launchscreen_logo.png */,
 				8019C7371E89DE3D00F8F384 /* FGS2016_Women's Lunch Place Donation - Image #1.jpg */,
 				8019C7381E89DE3D00F8F384 /* IMG_0269.JPG */,
 				8019C7391E89DE3D00F8F384 /* IMG_3020.jpg */,
@@ -355,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8092A3111DE0C11D00A51954 /* LaunchScreen.storyboard in Resources */,
+				80D884011E98350F00611193 /* launchscreen_logo.png in Resources */,
 				8019C73E1E89DE3D00F8F384 /* FGS2016_Women's Lunch Place Donation - Image #1.jpg in Resources */,
 				8019C7331E89DE2F00F8F384 /* Caden with Zuccini.jpg in Resources */,
 				8019C73F1E89DE3D00F8F384 /* IMG_0269.JPG in Resources */,
