@@ -21,21 +21,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="potted_plant.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ca1-bo-CRQ">
-                                <rect key="frame" x="34" y="20" width="307" height="354"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreen_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nn1-B1-ofX">
+                                <rect key="frame" x="7" y="102" width="360" height="400"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App is loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2FD-JD-0uv">
-                                <rect key="frame" x="126" y="382" width="122" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.74951958656311035" green="0.22922959923744202" blue="0.46645331382751465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="2FD-JD-0uv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8jX-kH-9kQ"/>
-                            <constraint firstItem="2FD-JD-0uv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="59" id="bfJ-Wh-WkK"/>
+                            <constraint firstItem="Nn1-B1-ofX" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-31.5" id="ksY-Ta-f1Q"/>
+                            <constraint firstItem="Nn1-B1-ofX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="r4U-ME-I7o"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -45,6 +38,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="potted_plant.jpg" width="550" height="596"/>
+        <image name="launchscreen_logo.png" width="360" height="400"/>
     </resources>
 </document>
