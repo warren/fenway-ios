@@ -32,7 +32,9 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUX-HL-3vQ">
                                 <rect key="frame" x="315" y="72" width="44" height="30"/>
-                                <state key="normal" title="MENU"/>
+                                <state key="normal" title="MENU">
+                                    <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="M2r-7Q-vY6" kind="presentation" id="LT1-UG-wlg"/>
                                 </connections>
@@ -75,7 +77,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6x-GJ-W2E">
                                                     <rect key="frame" x="0.0" y="6" width="375" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Interactive Map"/>
+                                                    <state key="normal" title="Interactive Map">
+                                                        <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <segue destination="ih5-Yi-D4B" kind="show" id="t4q-aW-T0Q"/>
                                                     </connections>
@@ -93,7 +97,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1l-Du-7hU">
                                                     <rect key="frame" x="0.0" y="6" width="375" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Upcoming Events"/>
+                                                    <state key="normal" title="Upcoming Events">
+                                                        <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <segue destination="awm-a2-whN" kind="show" id="str-l5-xtu"/>
                                                     </connections>
@@ -111,7 +117,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bui-DS-vnU">
                                                     <rect key="frame" x="0.0" y="6" width="375" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="History of the Gardens"/>
+                                                    <state key="normal" title="History of the Gardens">
+                                                        <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <segue destination="UMG-0x-cNk" kind="show" id="1Fz-ne-eqH"/>
                                                     </connections>
@@ -129,7 +137,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C3M-Ps-Izn">
                                                     <rect key="frame" x="0.0" y="6" width="375" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="How to Donate"/>
+                                                    <state key="normal" title="How to Donate">
+                                                        <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <segue destination="pT8-ep-cnU" kind="show" id="ggo-BS-dKF"/>
                                                     </connections>
@@ -147,7 +157,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zLV-P0-CUr">
                                                     <rect key="frame" x="0.0" y="6" width="375" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="About Us"/>
+                                                    <state key="normal" title="About Us">
+                                                        <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
                                                     <connections>
                                                         <segue destination="pxU-Kb-MTB" kind="show" id="w0q-vD-3Qi"/>
                                                     </connections>
@@ -185,6 +197,18 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="342"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.74901960779999999" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="todayColor">
+                                        <color key="value" red="0.74901960779999999" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="weekdayTextColor">
+                                        <color key="value" red="0.74901960779999999" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="headerTitleColor">
+                                        <color key="value" red="0.74901960779999999" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -222,12 +246,16 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bnh-sx-1FA">
                                 <rect key="frame" x="43" y="401" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Add "/>
+                                <state key="normal" title="Add ">
+                                    <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkS-gl-CuH">
                                 <rect key="frame" x="280" y="401" width="45" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Delete"/>
+                                <state key="normal" title="Delete">
+                                    <color key="titleColor" red="0.74901960784313726" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -320,7 +348,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Hb-vi-2gn">
                                 <rect key="frame" x="123" y="560" width="129" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Return to Map"/>
+                                <state key="normal" title="Return to Map">
+                                    <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="ih5-Yi-D4B" kind="presentation" id="cOQ-Jb-FzO"/>
                                 </connections>
@@ -356,7 +386,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRk-tG-47s">
                                 <rect key="frame" x="108" y="519" width="131" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Return to Map"/>
+                                <state key="normal" title="Return to Map">
+                                    <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="ih5-Yi-D4B" kind="presentation" id="F1V-Aa-pGw"/>
                                 </connections>
@@ -406,7 +438,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Zt-VR-fLi">
                                 <rect key="frame" x="103" y="478" width="140" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Return to Map"/>
+                                <state key="normal" title="Return to Map">
+                                    <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="ih5-Yi-D4B" kind="presentation" id="iUH-qQ-Jd3"/>
                                 </connections>
@@ -449,7 +483,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdg-wL-kP4">
                                 <rect key="frame" x="121" y="522" width="133" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Return to Map"/>
+                                <state key="normal" title="Return to Map">
+                                    <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="ih5-Yi-D4B" kind="presentation" id="Evt-c6-O14"/>
                                 </connections>
@@ -492,7 +528,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXf-wh-1iP">
                                 <rect key="frame" x="130" y="533" width="115" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Return to Map"/>
+                                <state key="normal" title="Return to Map">
+                                    <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="ih5-Yi-D4B" kind="presentation" id="qfi-2c-8MZ"/>
                                 </connections>
@@ -738,6 +776,6 @@
         <image name="potted_plant.jpg" width="550" height="596"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="c1U-fD-WUI"/>
+        <segue reference="cOQ-Jb-FzO"/>
     </inferredMetricsTieBreakers>
 </document>
