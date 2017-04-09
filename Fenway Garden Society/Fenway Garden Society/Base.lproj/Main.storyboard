@@ -81,7 +81,7 @@
                                                         <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="ih5-Yi-D4B" kind="show" id="t4q-aW-T0Q"/>
+                                                        <segue destination="ih5-Yi-D4B" kind="showDetail" action="showViewController:sender:" id="t4q-aW-T0Q"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -573,7 +573,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfM-da-Lbi">
                                 <rect key="frame" x="124" y="514" width="106" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Return to Map"/>
+                                <state key="normal" title="Return to Map">
+                                    <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="ih5-Yi-D4B" kind="presentation" id="c1U-fD-WUI"/>
                                 </connections>
@@ -720,7 +722,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9AL-Lc-YKM">
                                 <rect key="frame" x="152" y="540" width="120" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Return to Map"/>
+                                <state key="normal" title="Return to Map">
+                                    <color key="titleColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="ih5-Yi-D4B" kind="presentation" id="GEA-fg-e8G"/>
                                 </connections>
@@ -776,6 +780,6 @@
         <image name="potted_plant.jpg" width="550" height="596"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cOQ-Jb-FzO"/>
+        <segue reference="t4q-aW-T0Q"/>
     </inferredMetricsTieBreakers>
 </document>
