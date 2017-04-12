@@ -27,8 +27,15 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUX-HL-3vQ">
-                                <rect key="frame" x="315" y="72" width="44" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pretty plant pics go here" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6y-X2-MbC">
+                                <rect key="frame" x="94" y="323" width="187" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUX-HL-3vQ">
+                                <rect key="frame" x="299" y="72" width="60" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="MENU">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -36,12 +43,6 @@
                                     <segue destination="M2r-7Q-vY6" kind="presentation" id="LT1-UG-wlg"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pretty plant pics go here" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6y-X2-MbC">
-                                <rect key="frame" x="94" y="323" width="187" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.74951958659999995" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -615,7 +616,7 @@
                                 </state>
                                 <connections>
                                     <action selector="AccessibleGarden:" destination="ih5-Yi-D4B" eventType="touchUpInside" id="lAH-dc-xNP"/>
-                                    <segue destination="IcK-4P-xp0" kind="presentation" id="8yA-Z6-X0m"/>
+                                    <segue destination="IcK-4P-xp0" kind="presentation" modalTransitionStyle="crossDissolve" id="8yA-Z6-X0m"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBM-Us-1p5">
@@ -626,7 +627,7 @@
                                 </state>
                                 <connections>
                                     <action selector="TeachingApiary:" destination="ih5-Yi-D4B" eventType="touchUpInside" id="6no-8b-ogB"/>
-                                    <segue destination="9zI-to-gcW" kind="presentation" id="Y0U-yQ-NL3"/>
+                                    <segue destination="9zI-to-gcW" kind="presentation" modalTransitionStyle="crossDissolve" id="Y0U-yQ-NL3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGq-6f-c70">
@@ -637,7 +638,7 @@
                                 </state>
                                 <connections>
                                     <action selector="TeachingGarden:" destination="ih5-Yi-D4B" eventType="touchUpInside" id="aFg-eY-x6m"/>
-                                    <segue destination="KYg-3c-Yho" kind="presentation" id="slp-Lf-Z7m"/>
+                                    <segue destination="KYg-3c-Yho" kind="presentation" modalTransitionStyle="crossDissolve" id="slp-Lf-Z7m"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3f-qq-h2y">
@@ -648,7 +649,7 @@
                                 </state>
                                 <connections>
                                     <action selector="WheelbarrowYard:" destination="ih5-Yi-D4B" eventType="touchUpInside" id="RNN-g5-5cy"/>
-                                    <segue destination="hao-pS-YoJ" kind="presentation" id="3ST-ts-vAM"/>
+                                    <segue destination="hao-pS-YoJ" kind="presentation" modalTransitionStyle="crossDissolve" id="3ST-ts-vAM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="psc-Ay-8s6">
@@ -659,7 +660,7 @@
                                 </state>
                                 <connections>
                                     <action selector="CommunityNursery:" destination="ih5-Yi-D4B" eventType="touchUpInside" id="fzD-bK-lhg"/>
-                                    <segue destination="gQP-Gx-w5D" kind="presentation" id="j5H-dn-cPs"/>
+                                    <segue destination="gQP-Gx-w5D" kind="presentation" modalTransitionStyle="crossDissolve" id="j5H-dn-cPs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cj9-Te-5zR">
@@ -670,7 +671,7 @@
                                 </state>
                                 <connections>
                                     <action selector="FlagpoleInfo:" destination="ih5-Yi-D4B" eventType="touchUpInside" id="afl-S9-kzv"/>
-                                    <segue destination="Di2-3k-CI7" kind="presentation" id="4ed-ml-DHE"/>
+                                    <segue destination="Di2-3k-CI7" kind="presentation" modalTransitionStyle="crossDissolve" id="4ed-ml-DHE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89O-LY-6nD">
@@ -681,7 +682,7 @@
                                 </state>
                                 <connections>
                                     <action selector="FlagpoleBoard:" destination="ih5-Yi-D4B" eventType="touchUpInside" id="BNv-KI-UuS"/>
-                                    <segue destination="8Gd-ES-NFG" kind="presentation" id="W2j-IP-g5f"/>
+                                    <segue destination="8Gd-ES-NFG" kind="presentation" modalTransitionStyle="crossDissolve" id="W2j-IP-g5f"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -782,6 +783,6 @@
         <image name="fenway_mapimageviewlabel1.jpg" width="1314" height="1800"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="t4q-aW-T0Q"/>
+        <segue reference="GEA-fg-e8G"/>
     </inferredMetricsTieBreakers>
 </document>
