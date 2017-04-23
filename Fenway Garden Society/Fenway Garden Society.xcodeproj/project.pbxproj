@@ -89,6 +89,8 @@
 		8092A3281DE0C11D00A51954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80980C7F1DED04D70040957D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		80A86D6B1E89D4430081508C /* fenway_mapimageviewlabel1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fenway_mapimageviewlabel1.jpg; sourceTree = "<group>"; };
+		80C1DD901EAD437A0083F70B /* Objc-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objc-Bridge-Header.h"; sourceTree = "<group>"; };
+		80C1DD911EAD43CD0083F70B /* FSCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
 		80D884001E98350F00611193 /* launchscreen_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen_logo.png; sourceTree = "<group>"; };
 		80E099821EA9176B005A1B27 /* FSCalendarScopeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSCalendarScopeViewController.swift; sourceTree = "<group>"; };
 		80E592F81E25916400ADFE38 /* HamburgerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerTableViewController.swift; sourceTree = "<group>"; };
@@ -188,6 +190,8 @@
 				80E099821EA9176B005A1B27 /* FSCalendarScopeViewController.swift */,
 				80E592F81E25916400ADFE38 /* HamburgerTableViewController.swift */,
 				8092A30A1DE0C11D00A51954 /* Main.storyboard */,
+				80C1DD901EAD437A0083F70B /* Objc-Bridge-Header.h */,
+				80C1DD911EAD43CD0083F70B /* FSCalendar.h */,
 				857B59151E4018E30074A735 /* Contact.swift */,
 				8092A30D1DE0C11D00A51954 /* Assets.xcassets */,
 				8092A30F1DE0C11D00A51954 /* LaunchScreen.storyboard */,

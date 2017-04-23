@@ -185,7 +185,7 @@
             </objects>
             <point key="canvasLocation" x="2940" y="134.48275862068968"/>
         </scene>
-        <!--Calendar Scope Example View Controller-->
+        <!--Data Source-->
         <scene sceneID="yoA-49-hXG">
             <objects>
                 <viewController id="awm-a2-whN" customClass="FSCalendarScopeExampleViewController" customModule="Fenway_Garden_Society" customModuleProvider="target" sceneMemberID="viewController">
@@ -196,6 +196,17 @@
                     <view key="view" contentMode="scaleToFill" id="vJo-Iq-dHm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HlL-GG-nRS" customClass="FSCalendar">
+                                <rect key="frame" x="16" y="72" width="343" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="awm-a2-whN" id="Oas-PS-t07"/>
+                                    <outlet property="delegate" destination="awm-a2-whN" id="KVc-i2-woG"/>
+                                </connections>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
