@@ -209,6 +209,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="calendar" destination="HlL-GG-nRS" id="l89-Vp-6hP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tyb-NN-zcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
