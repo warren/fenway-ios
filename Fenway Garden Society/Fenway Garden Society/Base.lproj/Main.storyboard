@@ -185,10 +185,10 @@
             </objects>
             <point key="canvasLocation" x="2940" y="134.48275862068968"/>
         </scene>
-        <!--View Controller-->
+        <!--Data Source-->
         <scene sceneID="yoA-49-hXG">
             <objects>
-                <viewController id="awm-a2-whN" sceneMemberID="viewController">
+                <viewController id="awm-a2-whN" customClass="FSCalendarScopeExampleViewController" customModule="Fenway_Garden_Society" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="alq-6D-gKX"/>
                         <viewControllerLayoutGuide type="bottom" id="T3B-2M-aWe"/>
@@ -197,26 +197,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VYo-uB-ee1" customClass="FSCalendar">
-                                <rect key="frame" x="0.0" y="64" width="375" height="342"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HlL-GG-nRS" customClass="FSCalendar">
+                                <rect key="frame" x="16" y="72" width="343" height="575"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="tintColor" red="0.74901960779999999" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="todayColor">
-                                        <color key="value" red="0.74901960779999999" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="weekdayTextColor">
-                                        <color key="value" red="0.74901960779999999" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="headerTitleColor">
-                                        <color key="value" red="0.74901960779999999" green="0.22922959919999999" blue="0.46645331379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="awm-a2-whN" id="Oas-PS-t07"/>
+                                    <outlet property="delegate" destination="awm-a2-whN" id="KVc-i2-woG"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="calendar" destination="HlL-GG-nRS" id="l89-Vp-6hP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tyb-NN-zcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
