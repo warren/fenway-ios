@@ -185,10 +185,10 @@
             </objects>
             <point key="canvasLocation" x="2940" y="134.48275862068968"/>
         </scene>
-        <!--Data Source-->
+        <!--View Controller-->
         <scene sceneID="yoA-49-hXG">
             <objects>
-                <viewController id="awm-a2-whN" customClass="FSCalendarScopeExampleViewController" customModule="Fenway_Garden_Society" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="awm-a2-whN" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="alq-6D-gKX"/>
                         <viewControllerLayoutGuide type="bottom" id="T3B-2M-aWe"/>
@@ -201,10 +201,6 @@
                                 <rect key="frame" x="16" y="72" width="343" height="275"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="awm-a2-whN" id="Oas-PS-t07"/>
-                                    <outlet property="delegate" destination="awm-a2-whN" id="KVc-i2-woG"/>
-                                </connections>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="URe-DV-px9">
                                 <rect key="frame" x="67" y="415" width="240" height="128"/>
@@ -212,16 +208,13 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7km-9L-7Hi">
-                                <rect key="frame" x="313" y="591" width="46" height="30"/>
+                                <rect key="frame" x="301" y="591" width="58" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Refresh"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="calendar" destination="HlL-GG-nRS" id="l89-Vp-6hP"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tyb-NN-zcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
