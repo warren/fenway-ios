@@ -185,10 +185,10 @@
             </objects>
             <point key="canvasLocation" x="2940" y="134.48275862068968"/>
         </scene>
-        <!--View Controller-->
+        <!--Calendar Scope Example View Controller-->
         <scene sceneID="yoA-49-hXG">
             <objects>
-                <viewController id="awm-a2-whN" sceneMemberID="viewController">
+                <viewController id="awm-a2-whN" customClass="FSCalendarScopeExampleViewController" customModule="Fenway_Garden_Society" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="alq-6D-gKX"/>
                         <viewControllerLayoutGuide type="bottom" id="T3B-2M-aWe"/>
@@ -229,6 +229,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="calendar" destination="HlL-GG-nRS" id="WL5-PA-KrD"/>
+                        <outlet property="tableView" destination="URe-DV-px9" id="A8V-KH-2n2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tyb-NN-zcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
