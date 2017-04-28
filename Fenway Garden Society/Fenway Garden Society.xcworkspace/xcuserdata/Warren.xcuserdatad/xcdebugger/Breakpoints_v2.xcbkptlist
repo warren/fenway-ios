@@ -54,7 +54,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Fenway Garden Society/FSCalendarScopeViewController.swift"
@@ -65,6 +65,68 @@
             endingLineNumber = "24"
             landmarkName = "FSCalendarScopeExampleViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fenway_Garden_Society.FSCalendarScopeExampleViewController.tableView.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITableView&gt;"
+                  moduleName = "Fenway Garden Society"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Warren/fenway-ios/Fenway%20Garden%20Society/Fenway%20Garden%20Society/FSCalendarScopeViewController.swift"
+                  timestampString = "515085787.756358"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fenway_Garden_Society.FSCalendarScopeExampleViewController.tableView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITableView&gt;"
+                  moduleName = "Fenway Garden Society"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Warren/fenway-ios/Fenway%20Garden%20Society/Fenway%20Garden%20Society/FSCalendarScopeViewController.swift"
+                  timestampString = "515085787.768648"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fenway_Garden_Society.FSCalendarScopeExampleViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Fenway_Garden_Society.FSCalendarScopeExampleViewController"
+                  moduleName = "Fenway Garden Society"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Warren/fenway-ios/Fenway%20Garden%20Society/Fenway%20Garden%20Society/FSCalendarScopeViewController.swift"
+                  timestampString = "515085787.772012"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fenway_Garden_Society.FSCalendarScopeExampleViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Fenway_Garden_Society.FSCalendarScopeExampleViewController&gt;"
+                  moduleName = "Fenway Garden Society"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Warren/fenway-ios/Fenway%20Garden%20Society/Fenway%20Garden%20Society/FSCalendarScopeViewController.swift"
+                  timestampString = "515085787.776818"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
